@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="color-scheme" content="dark light">
+
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 7v10"/>
+            <path d="M18 7v10"/>
+            <path d="M3 10v4"/>
+            <path d="M21 10v4"/>
+            <path d="M6 12h12"/>
+          </svg>
+        </span>
+        <span class="brand__name">GymLedger</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/support' | relative_url }}">Support</a>
+        <a href="{{ '/privacy' | relative_url }}">Privacy</a>
+        <a href="{{ '/terms' | relative_url }}">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main {% if page.url == '/' %}is-home{% endif %}">
+    {% if page.url == '/' %}
+      {{ content }}
+    {% else %}
+      <div class="container">
+        <article class="prose">
+          {{ content }}
+        </article>
+      </div>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/>
+          </svg>
+        </span>
+        <span>GymLedger</span>
+      </div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="{{ '/support' | relative_url }}">Support</a>
+        <a href="{{ '/privacy' | relative_url }}">Privacy</a>
+        <a href="{{ '/terms' | relative_url }}">Terms</a>
+        <a href="mailto:rohitabhishek2025@gmail.com">Contact</a>
+      </nav>
+      <p class="site-footer__meta">&copy; {{ site.time | date: '%Y' }} Rohit Saluja · Jaipur, India</p>
+    </div>
+  </footer>
+</body>
+</html>

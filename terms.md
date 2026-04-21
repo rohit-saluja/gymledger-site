@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Use
+description: The agreement between you and GymLedger when you use the app.
 ---
 
 # Terms of Use
@@ -73,4 +74,4 @@ We may update these terms as the app evolves. Continued use of the app after cha
 
 ---
 
-[Back to home](./)
+[← Back to home](/)
