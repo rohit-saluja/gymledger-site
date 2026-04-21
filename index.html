@@ -1,183 +1,225 @@
----
-layout: default
-title: GymLedger — Workout tracker for lifters
-description: Log every lift, own every gain. GymLedger is the logbook serious lifters keep in their pocket.
----
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="color-scheme" content="dark light">
 
-<section class="hero">
-  <div class="container hero__inner">
-    <span class="eyebrow">
-      <span class="eyebrow__dot"></span>
-      Now on the App Store
-    </span>
+  <title>GymLedger — Workout tracker for lifters</title>
+  <meta name="description" content="Log every lift, own every gain. GymLedger is the logbook serious lifters keep in their pocket.">
 
-    <h1 class="hero__title">
-      Log every lift.<br>
-      <em>Own every gain.</em>
-    </h1>
+  <meta property="og:title" content="GymLedger — Workout tracker for lifters">
+  <meta property="og:description" content="Log every lift, own every gain. GymLedger is the logbook serious lifters keep in their pocket.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 
-    <p class="hero__sub">
-      GymLedger is a workout tracker for lifters who'd rather train than tap.
-      Quick to log, ruthless about tracking progress, and dark by default.
-    </p>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="hero__cta">
-      <a class="btn btn--primary" href="https://apps.apple.com/app/gymledger" aria-label="Download GymLedger on the App Store">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z"/>
-        </svg>
-        Download for iOS
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="./" aria-label="GymLedger home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/>
+          </svg>
+        </span>
+        <span class="brand__name">GymLedger</span>
       </a>
-      <a class="btn btn--ghost" href="#features">See features</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="hero__preview" aria-hidden="true">
-      <div class="phone">
-        <span class="phone__notch"></span>
-        <div class="phone__screen">
-          <div class="phone__status">
-            <span>9:41</span>
-            <span>●●● 100%</span>
-          </div>
-          <div class="phone__header">
-            <div class="phone__greeting">Pull Day · Week 6</div>
-            <div class="phone__day">Barbell Row</div>
-            <span class="phone__pr">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
-              New PR · +5 kg
-            </span>
-          </div>
-          <div class="phone__card">
-            <div class="phone__set phone__set--done">
-              <span>Set 1 · 8 reps</span><strong>80 kg</strong>
+  <main id="main" class="site-main is-home">
+    <section class="hero">
+      <div class="container hero__inner">
+        <span class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          Now on the App Store
+        </span>
+
+        <h1 class="hero__title">
+          Log every lift.<br>
+          <em>Own every gain.</em>
+        </h1>
+
+        <p class="hero__sub">
+          GymLedger is a workout tracker for lifters who'd rather train than tap.
+          Quick to log, ruthless about tracking progress, and dark by default.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="https://apps.apple.com/app/gymledger" aria-label="Download GymLedger on the App Store">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z"/>
+            </svg>
+            Download for iOS
+          </a>
+          <a class="btn btn--ghost" href="#features">See features</a>
+        </div>
+
+        <div class="hero__preview" aria-hidden="true">
+          <div class="phone">
+            <span class="phone__notch"></span>
+            <div class="phone__screen">
+              <div class="phone__status">
+                <span>9:41</span>
+                <span>●●● 100%</span>
+              </div>
+              <div class="phone__header">
+                <div class="phone__greeting">Pull Day · Week 6</div>
+                <div class="phone__day">Barbell Row</div>
+                <span class="phone__pr">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  New PR · +5 kg
+                </span>
+              </div>
+              <div class="phone__card">
+                <div class="phone__set phone__set--done">
+                  <span>Set 1 · 8 reps</span><strong>80 kg</strong>
+                </div>
+                <div class="phone__set phone__set--done">
+                  <span>Set 2 · 8 reps</span><strong>80 kg</strong>
+                </div>
+                <div class="phone__set phone__set--active">
+                  <span>Set 3 · 6 reps</span><strong>85 kg</strong>
+                </div>
+                <div class="phone__set">
+                  <span>Set 4 · 6 reps</span><strong>— kg</strong>
+                </div>
+              </div>
+              <div class="phone__timer">
+                <div>
+                  <small>Rest</small>
+                  <span class="phone__timer-val">01:24</span>
+                </div>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
             </div>
-            <div class="phone__set phone__set--done">
-              <span>Set 2 · 8 reps</span><strong>80 kg</strong>
-            </div>
-            <div class="phone__set phone__set--active">
-              <span>Set 3 · 6 reps</span><strong>85 kg</strong>
-            </div>
-            <div class="phone__set">
-              <span>Set 4 · 6 reps</span><strong>— kg</strong>
-            </div>
-          </div>
-          <div class="phone__timer">
-            <div>
-              <small>Rest</small>
-              <span class="phone__timer-val">01:24</span>
-            </div>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Made for the set between the sets</h2>
+          <p class="section__sub">Everything a lifter needs. Nothing a lifter doesn't.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/></svg>
+            </span>
+            <h3 class="card__title">Quick set logging</h3>
+            <p class="card__desc">Tap the weight, tap the reps, move on. No menus, no modals, no friction.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </span>
+            <h3 class="card__title">Rest timer built-in</h3>
+            <p class="card__desc">Auto-starts the moment a set is done. Haptic tap when it's time to lift again.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 4 4 5-5"/></svg>
+            </span>
+            <h3 class="card__title">Progress you can see</h3>
+            <p class="card__desc">Personal bests, volume, and monthly gains — all charted, all at a glance.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+            </span>
+            <h3 class="card__title">Custom splits</h3>
+            <p class="card__desc">Push/pull/legs, upper/lower, full-body — or build your own. The app adapts.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            </span>
+            <h3 class="card__title">PR milestones</h3>
+            <p class="card__desc">Every new personal best is stamped with the date you earned it.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 12h14"/><circle cx="12" cy="12" r="10"/></svg>
+            </span>
+            <h3 class="card__title">kg or lbs. Your call.</h3>
+            <p class="card__desc">Switch units any time. Bodyweight tracking supports both too.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </span>
+            <h3 class="card__title">Dark by default</h3>
+            <p class="card__desc">Designed for gym lighting. Easy on the eyes between sets.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </span>
+            <h3 class="card__title">Private by design</h3>
+            <p class="card__desc">No ads. No trackers. Your workouts are yours — synced only to your account.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <h2 class="cta__title">Start the next session the right way</h2>
+          <p class="cta__sub">Free to download. Sign in with Apple or Google and you're logging in under a minute.</p>
+          <a class="btn btn--primary" href="https://apps.apple.com/app/gymledger">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z"/>
+            </svg>
+            Download GymLedger
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/>
+          </svg>
+        </span>
+        <span>GymLedger</span>
+      </div>
+      <nav class="site-footer__nav" aria-label="Footer">
+        <a href="support/">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms</a>
+        <a href="mailto:salujaprojects@gmail.com">Contact</a>
+      </nav>
+      <p class="site-footer__meta">&copy; 2026 Rohit Saluja · Jaipur, India</p>
     </div>
-  </div>
-</section>
-
-<section class="section" id="features">
-  <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">Made for the set between the sets</h2>
-      <p class="section__sub">
-        Everything a lifter needs. Nothing a lifter doesn't.
-      </p>
-    </div>
-
-    <div class="grid">
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/></svg>
-        </span>
-        <h3 class="card__title">Quick set logging</h3>
-        <p class="card__desc">
-          Tap the weight, tap the reps, move on. No menus, no modals, no friction.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        </span>
-        <h3 class="card__title">Rest timer built-in</h3>
-        <p class="card__desc">
-          Auto-starts the moment a set is done. Haptic tap when it's time to lift again.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 4 4 5-5"/></svg>
-        </span>
-        <h3 class="card__title">Progress you can see</h3>
-        <p class="card__desc">
-          Personal bests, volume, and monthly gains — all charted, all at a glance.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
-        </span>
-        <h3 class="card__title">Custom splits</h3>
-        <p class="card__desc">
-          Push/pull/legs, upper/lower, full-body — or build your own. The app adapts.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-        </span>
-        <h3 class="card__title">PR milestones</h3>
-        <p class="card__desc">
-          Every new personal best is stamped with the date you earned it.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 12h14"/><circle cx="12" cy="12" r="10"/></svg>
-        </span>
-        <h3 class="card__title">kg or lbs. Your call.</h3>
-        <p class="card__desc">
-          Switch units any time. Bodyweight tracking supports both too.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </span>
-        <h3 class="card__title">Dark by default</h3>
-        <p class="card__desc">
-          Designed for gym lighting. Easy on the eyes between sets.
-        </p>
-      </article>
-
-      <article class="card">
-        <span class="card__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </span>
-        <h3 class="card__title">Private by design</h3>
-        <p class="card__desc">
-          No ads. No trackers. Your workouts are yours — synced only to your account.
-        </p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="cta">
-      <h2 class="cta__title">Start the next session the right way</h2>
-      <p class="cta__sub">Free to download. Sign in with Apple or Google and you're logging in under a minute.</p>
-      <a class="btn btn--primary" href="https://apps.apple.com/app/gymledger">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11Z"/>
-        </svg>
-        Download GymLedger
-      </a>
-    </div>
-  </div>
-</section>
+  </footer>
+</body>
+</html>
