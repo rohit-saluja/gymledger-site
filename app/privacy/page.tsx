@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         </p>
 
         <p>
-          GymLedger is operated by <strong>Rohit Saluja</strong>, an independent developer based in Jaipur, Rajasthan, India.
+          GymLedger is operated by <strong>Rohit Saluja</strong>, an independent developer based in India.
         </p>
 
         <p>
@@ -74,7 +74,7 @@ export default function PrivacyPage() {
         <h3>1.2 User identifiers</h3>
         <ul>
           <li><strong>Account identifier</strong> — a unique internal ID assigned when you create your account.</li>
-          <li><strong>Sign-in provider ID</strong> — if you sign in with Google, we receive a Google-issued user ID and your display name.</li>
+          <li><strong>Sign-in provider ID</strong> — if you sign in with Google, we receive a Google-issued user ID and your display name. If you sign in with Apple, we receive an Apple-issued user identifier and, on first sign-in only, your name and email (which may be a private relay address you choose to share via Apple).</li>
         </ul>
 
         <h3>1.3 User content</h3>
@@ -145,6 +145,7 @@ export default function PrivacyPage() {
         <ul>
           <li><strong>Supabase, Inc.</strong> — Hosts our database and manages authentication. Stores your account information and workout data. <a href="https://supabase.com/privacy">Privacy policy</a>.</li>
           <li><strong>Google LLC (Google Sign-In)</strong> — Used only when you choose Google as your sign-in method. Google returns your email address, display name, and a unique user ID. <a href="https://policies.google.com/privacy">Privacy policy</a>.</li>
+          <li><strong>Apple Inc. (Sign in with Apple)</strong> — Used only when you choose Apple as your sign-in method. Apple returns an Apple-issued user identifier and, on first sign-in, your name and email (you may choose to hide your real email behind Apple's Private Relay). <a href="https://www.apple.com/legal/privacy/">Privacy policy</a>.</li>
           <li><strong>RevenueCat, Inc.</strong> — Processes subscription entitlements and receives a user identifier and your App Store purchase events. <a href="https://www.revenuecat.com/privacy">Privacy policy</a>.</li>
           <li><strong>Apple Inc. (App Store)</strong> — Processes all payments and delivers the App. We never receive or store your payment details. <a href="https://www.apple.com/legal/privacy/">Privacy policy</a>.</li>
           <li><strong>Sentry (Functional Software, Inc.)</strong> — Receives anonymized crash reports and diagnostic data used strictly to fix bugs. <a href="https://sentry.io/privacy/">Privacy policy</a>.</li>
@@ -270,7 +271,7 @@ export default function PrivacyPage() {
           <li><strong>Email (general / privacy requests):</strong> <a href="mailto:support@getgymledger.com">support@getgymledger.com</a></li>
           <li><strong>Website:</strong> <a href="https://getgymledger.com">getgymledger.com</a></li>
           <li><strong>Developer:</strong> Rohit Saluja</li>
-          <li><strong>Location:</strong> Jaipur, Rajasthan, India</li>
+          <li><strong>Location:</strong> India</li>
         </ul>
         <p>We aim to respond to all privacy inquiries within 7 business days and to formal rights requests within the timeframes required by applicable law.</p>
       </article>
