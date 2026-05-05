@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Design tokens — light mode (mirrors GymLedger app) */
+    --bg: 0 0% 100%;
+    --bg-subtle: 0 0% 96%;
+    --bg-elevated: 0 0% 93%;
+    --surface: 0 0% 97%;
+    --surface-hover: 0 0% 93%;
+    --surface-active: 0 0% 89%;
+    --border-default: 0 0% 85%;
+    --border-subtle: 0 0% 89%;
+    --border-strong: 0 0% 78%;
+    --fg: 0 0% 4%;
+    --fg-secondary: 0 0% 37%;
+    --fg-muted: 0 0% 55%;
+    --fg-inverse: 0 0% 96%;
+    --brand: 0 65% 48%;
+    --brand-light: 0 67% 62%;
+    --brand-dark: 0 63% 40%;
+    --success: 142 71% 45%;
+    --warning: 38 92% 50%;
+    --info: 217 91% 60%;
+
+    /* shadcn aliases */
+    --background: var(--bg);
+    --foreground: var(--fg);
+    --card: var(--surface);
+    --card-foreground: var(--fg);
+    --popover: var(--surface);
+    --popover-foreground: var(--fg);
+    --primary: var(--brand);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--surface-hover);
+    --secondary-foreground: var(--fg);
+    --muted: var(--surface-hover);
+    --muted-foreground: var(--fg-muted);
+    --accent: var(--surface-active);
+    --accent-foreground: var(--fg);
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: var(--border-default);
+    --input: var(--border-default);
+    --ring: var(--brand);
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    --bg: 0 0% 4%;
+    --bg-subtle: 240 4% 7%;
+    --bg-elevated: 240 3% 9%;
+    --surface: 240 4% 11%;
+    --surface-hover: 240 3% 14%;
+    --surface-active: 240 3% 17%;
+    --border-default: 240 3% 17%;
+    --border-subtle: 240 3% 14%;
+    --border-strong: 240 3% 23%;
+    --fg: 0 0% 96%;
+    --fg-secondary: 240 3% 65%;
+    --fg-muted: 240 2% 43%;
+    --fg-inverse: 0 0% 4%;
+    --brand: 0 65% 55%;
+    --brand-light: 0 67% 65%;
+    --brand-dark: 0 63% 43%;
+    --success: 142 71% 45%;
+    --warning: 38 92% 50%;
+    --info: 217 91% 60%;
+
+    --background: var(--bg);
+    --foreground: var(--fg);
+    --card: var(--surface);
+    --card-foreground: var(--fg);
+    --popover: var(--surface);
+    --popover-foreground: var(--fg);
+    --primary: var(--brand);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--surface-hover);
+    --secondary-foreground: var(--fg);
+    --muted: var(--surface-hover);
+    --muted-foreground: var(--fg-muted);
+    --accent: var(--surface-active);
+    --accent-foreground: var(--fg);
+    --destructive: 0 63% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: var(--border-default);
+    --input: var(--border-default);
+    --ring: var(--brand);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    background: hsl(var(--brand) / 0.25);
+  }
+}
+
+@layer components {
+  .prose-doc {
+    @apply max-w-3xl mx-auto text-fg-secondary leading-relaxed;
+  }
+  .prose-doc h1 {
+    @apply text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mb-6;
+  }
+  .prose-doc h2 {
+    @apply text-2xl font-bold tracking-tight text-foreground mt-12 mb-4;
+  }
+  .prose-doc h3 {
+    @apply text-lg font-semibold text-foreground mt-8 mb-3;
+  }
+  .prose-doc p {
+    @apply my-4;
+  }
+  .prose-doc ul,
+  .prose-doc ol {
+    @apply my-4 pl-6 space-y-2;
+  }
+  .prose-doc ul {
+    @apply list-disc;
+  }
+  .prose-doc ol {
+    @apply list-decimal;
+  }
+  .prose-doc strong {
+    @apply text-foreground font-semibold;
+  }
+  .prose-doc a {
+    @apply text-brand underline-offset-4 hover:underline;
+  }
+  .prose-doc em {
+    @apply text-fg-muted not-italic;
+  }
+}

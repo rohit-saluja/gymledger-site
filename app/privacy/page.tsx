@@ -1,57 +1,38 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#0a0a0a">
-  <meta name="color-scheme" content="dark light">
+import type { Metadata } from "next";
 
-  <title>Privacy Policy · GymLedger</title>
-  <meta name="description" content="GymLedger Privacy Policy — what data we collect, why, how we protect it, and the rights you have over it.">
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "GymLedger Privacy Policy — what data we collect, why, how we protect it, and the rights you have over it.",
+  openGraph: {
+    title: "Privacy Policy · GymLedger",
+    description:
+      "GymLedger Privacy Policy — what data we collect, why, how we protect it, and the rights you have over it.",
+    type: "article",
+  },
+};
 
-  <meta property="og:title" content="Privacy Policy · GymLedger">
-  <meta property="og:description" content="GymLedger Privacy Policy — what data we collect, why, how we protect it, and the rights you have over it.">
-  <meta property="og:type" content="article">
-  <meta name="twitter:card" content="summary">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="site-header">
-    <div class="container site-header__inner">
-      <a class="brand" href="../" aria-label="GymLedger home">
-        <span class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/>
-          </svg>
-        </span>
-        <span class="brand__name">GymLedger</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="../support/">Support</a>
-        <a href="../privacy/">Privacy</a>
-        <a href="../terms/">Terms</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="site-main">
-    <div class="container">
-      <article class="prose">
+export default function PrivacyPage() {
+  return (
+    <div className="container py-16 md:py-20">
+      <article className="prose-doc">
         <h1>Privacy Policy</h1>
 
-        <p><em>Effective date: 21 April 2026 · Last updated: 21 April 2026</em></p>
+        <p>
+          <em>Effective date: 21 April 2026 · Last updated: 21 April 2026</em>
+        </p>
 
-        <p>This Privacy Policy describes how <strong>GymLedger</strong> ("GymLedger", "we", "us", or "our") collects, uses, discloses, and safeguards your information when you use our mobile application (the "App") and related services (together, the "Service").</p>
+        <p>
+          This Privacy Policy describes how <strong>GymLedger</strong> ("GymLedger", "we", "us", or "our") collects, uses, discloses, and safeguards your information when you use our mobile application (the "App") and related services (together, the "Service").
+        </p>
 
-        <p>GymLedger is operated by <strong>Rohit Saluja</strong>, an independent developer based in Jaipur, Rajasthan, India.</p>
+        <p>
+          GymLedger is operated by <strong>Rohit Saluja</strong>, an independent developer based in Jaipur, Rajasthan, India.
+        </p>
 
-        <p>By downloading, accessing, or using the Service, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please do not use the Service.</p>
+        <p>
+          By downloading, accessing, or using the Service, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please do not use the Service.
+        </p>
 
         <h2 id="at-a-glance">At a glance</h2>
         <ul>
@@ -72,7 +53,7 @@
           <li><a href="#data-retention">Data retention</a></li>
           <li><a href="#data-security">Data security</a></li>
           <li><a href="#international-data-transfers">International data transfers</a></li>
-          <li><a href="#your-privacy-rights">Your privacy rights</a></li>
+          <li><a href="#your-privacy-rights">Your privacy rights (incl. in-app account deletion)</a></li>
           <li><a href="#childrens-privacy">Children's privacy</a></li>
           <li><a href="#app-store-privacy-information">App Store privacy information</a></li>
           <li><a href="#tracking-and-do-not-track">Tracking and "Do Not Track"</a></li>
@@ -81,7 +62,9 @@
         </ol>
 
         <h2 id="information-we-collect">1. Information we collect</h2>
-        <p>We limit collection to what is strictly necessary to run the Service. The categories below align with the data-type categories used by Apple in the App Store Privacy Nutrition Labels.</p>
+        <p>
+          We limit collection to what is strictly necessary to run the Service. The categories below align with the data-type categories used by Apple in the App Store Privacy Nutrition Labels.
+        </p>
 
         <h3>1.1 Contact information</h3>
         <ul>
@@ -131,10 +114,14 @@
           <li><strong>Service improvements</strong> — diagnose crashes and performance issues so we can fix bugs.</li>
           <li><strong>Legal compliance</strong> — comply with applicable laws, regulations, legal processes, and enforceable governmental requests.</li>
         </ul>
-        <p>We will not use your personal information for materially different, unrelated, or incompatible purposes without providing you notice.</p>
+        <p>
+          We will not use your personal information for materially different, unrelated, or incompatible purposes without providing you notice.
+        </p>
 
         <h2 id="legal-bases-for-processing">3. Legal bases for processing (EEA / UK)</h2>
-        <p>If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, the legal bases on which we rely to process your personal data are:</p>
+        <p>
+          If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, the legal bases on which we rely to process your personal data are:
+        </p>
         <ul>
           <li><strong>Performance of a contract</strong> — to provide the Service you signed up for.</li>
           <li><strong>Legitimate interests</strong> — to secure, maintain, and improve the Service (balanced against your rights and freedoms).</li>
@@ -143,7 +130,9 @@
         </ul>
 
         <h2 id="how-we-share-your-information">4. How we share your information</h2>
-        <p>We <strong>do not</strong> sell your personal information, and we <strong>do not</strong> share it with third parties for their own marketing purposes. We disclose information only in the limited circumstances below:</p>
+        <p>
+          We <strong>do not</strong> sell your personal information, and we <strong>do not</strong> share it with third parties for their own marketing purposes. We disclose information only in the limited circumstances below:
+        </p>
         <ul>
           <li><strong>Service providers</strong> — the infrastructure vendors listed in Section 5, who process data on our behalf under contractual confidentiality obligations.</li>
           <li><strong>Legal and safety</strong> — when we believe in good faith that disclosure is required by law, court order, or is necessary to protect the rights, property, or safety of GymLedger, our users, or the public.</li>
@@ -177,11 +166,17 @@
           <li>Access controls limiting internal access to personal data on a need-to-know basis.</li>
           <li>Periodic review of our security posture and third-party processors.</li>
         </ul>
-        <p>No method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security. You are responsible for keeping your sign-in credentials confidential.</p>
+        <p>
+          No method of transmission over the Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security. You are responsible for keeping your sign-in credentials confidential.
+        </p>
 
         <h2 id="international-data-transfers">8. International data transfers</h2>
-        <p>GymLedger is operated from India. The providers listed in Section 5 may store and process your information in the United States, the European Union, or other countries where they or their sub-processors operate.</p>
-        <p>Where personal data of EEA, UK, or Swiss residents is transferred outside those regions, we rely on the European Commission's Standard Contractual Clauses or other lawful transfer mechanisms adopted by our providers.</p>
+        <p>
+          GymLedger is operated from India. The providers listed in Section 5 may store and process your information in the United States, the European Union, or other countries where they or their sub-processors operate.
+        </p>
+        <p>
+          Where personal data of EEA, UK, or Swiss residents is transferred outside those regions, we rely on the European Commission's Standard Contractual Clauses or other lawful transfer mechanisms adopted by our providers.
+        </p>
 
         <h2 id="your-privacy-rights">9. Your privacy rights</h2>
         <p>Depending on where you live, you may have the following rights regarding your personal information:</p>
@@ -200,19 +195,69 @@
           <li><strong>California (CCPA / CPRA)</strong> — right to know, delete, correct, and opt out of the "sale" or "sharing" of personal information. We do not sell or share personal information as defined by the CCPA.</li>
           <li><strong>India (DPDP Act, 2023)</strong> — rights to access, correction, erasure, and grievance redressal.</li>
         </ul>
-        <p>To exercise any of these rights, email us at the address in Section 14. We will verify your request and respond within the timeframes required by applicable law (typically within 30 days).</p>
+        <p>
+          To exercise any of these rights, email us at the address in Section 14. We will verify your request and respond within the timeframes required by applicable law (typically within 30 days).
+        </p>
+
+        <h3>9.1 In-app account and data deletion</h3>
+        <p>
+          You can permanently delete your GymLedger account and all associated data directly from inside the App, without contacting us. From the App, go to <strong>Settings → Account → Delete Account</strong> and confirm. Deletion takes effect immediately in the App and is reflected on our servers within 30 days; encrypted backups roll over within 90 days. This complies with App Store Review Guideline 5.1.1(v).
+        </p>
+        <p>
+          If you cannot access the App, you may also email us from the address tied to your account using the subject line <strong>"Delete My Account"</strong> and we will process the request manually.
+        </p>
 
         <h2 id="childrens-privacy">10. Children's privacy</h2>
-        <p>The Service is not directed to, and we do not knowingly collect personal information from, children under the age of 13 (or the minimum age of digital consent in your jurisdiction, whichever is higher). If you are a parent or guardian and believe your child has provided us with personal information, please contact us and we will delete it.</p>
+        <p>
+          GymLedger is rated <strong>4+</strong> on the App Store and is intended for users aged 13 and older (or 16 and older in the European Economic Area, or the minimum age of digital consent in your jurisdiction, whichever is higher). The Service is not directed to children under that age, and we do not knowingly collect personal information from them.
+        </p>
+        <p>
+          If you are a parent or guardian and believe your child has provided us with personal information, please contact us using Section 14 and we will delete it.
+        </p>
 
         <h2 id="app-store-privacy-information">11. App Store privacy information</h2>
-        <p>In addition to this Privacy Policy, Apple requires us to disclose our data-collection practices on the App Store through Privacy Nutrition Labels. The labels shown on GymLedger's App Store page summarize the categories described in Section 1. In case of any inconsistency, this Privacy Policy governs.</p>
+        <p>
+          In addition to this Privacy Policy, Apple requires us to disclose our data-collection practices on the App Store through Privacy Nutrition Labels. The labels shown on GymLedger's App Store page summarize the categories described in Section 1. In case of any inconsistency, this Privacy Policy governs.
+        </p>
+        <p>
+          Our Privacy Nutrition Label declares the following data is collected and <strong>linked to your identity</strong>:
+        </p>
+        <ul>
+          <li>Contact Info — email address (for account and support)</li>
+          <li>Identifiers — account / sign-in provider user ID</li>
+          <li>User Content — workout entries, body-weight entries, notes</li>
+          <li>Purchases — subscription status</li>
+        </ul>
+        <p>
+          The following data is collected but <strong>not linked to your identity</strong>:
+        </p>
+        <ul>
+          <li>Diagnostics — anonymized crash logs and performance data</li>
+        </ul>
+        <p>
+          GymLedger does <strong>not</strong> use any data for tracking purposes as defined by Apple's App Tracking Transparency framework.
+        </p>
+
+        <h3>11.1 Permissions the App may request</h3>
+        <p>
+          GymLedger requests only the system permissions strictly required for features you choose to use:
+        </p>
+        <ul>
+          <li><strong>Notifications</strong> — used solely to deliver rest-timer alerts and optional workout reminders. You may decline at the system prompt or revoke later in iOS <strong>Settings → Notifications → GymLedger</strong>. The App functions without notifications enabled.</li>
+        </ul>
+        <p>
+          GymLedger does <strong>not</strong> request access to camera, microphone, contacts, photos, location, HealthKit, motion, or any tracking-related permission.
+        </p>
 
         <h2 id="tracking-and-do-not-track">12. Tracking and "Do Not Track"</h2>
-        <p>GymLedger does not engage in cross-site or cross-app tracking. We do not integrate advertising SDKs, third-party analytics that fingerprint users, or any feature covered by Apple's App Tracking Transparency (ATT) framework. Because we do not perform tracking, we do not need to prompt you with an ATT permission request.</p>
+        <p>
+          GymLedger does not engage in cross-site or cross-app tracking. We do not integrate advertising SDKs, third-party analytics that fingerprint users, or any feature covered by Apple's App Tracking Transparency (ATT) framework. Because we do not perform tracking, we do not need to prompt you with an ATT permission request.
+        </p>
 
         <h2 id="changes-to-this-privacy-policy">13. Changes to this Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. When we make a material change, we will:</p>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. When we make a material change, we will:
+        </p>
         <ul>
           <li>Update the "Last updated" date at the top of this page.</li>
           <li>Provide prominent notice in the App or by email (if we have your email on file) before the change takes effect.</li>
@@ -222,33 +267,13 @@
         <h2 id="contact-us">14. Contact us</h2>
         <p>If you have any questions, concerns, or requests about this Privacy Policy or our handling of your personal information, please contact us:</p>
         <ul>
-          <li><strong>Email:</strong> <a href="mailto:salujaprojects@gmail.com">salujaprojects@gmail.com</a></li>
+          <li><strong>Email (general / privacy requests):</strong> <a href="mailto:support@getgymledger.com">support@getgymledger.com</a></li>
+          <li><strong>Website:</strong> <a href="https://getgymledger.com">getgymledger.com</a></li>
           <li><strong>Developer:</strong> Rohit Saluja</li>
           <li><strong>Location:</strong> Jaipur, Rajasthan, India</li>
         </ul>
         <p>We aim to respond to all privacy inquiries within 7 business days and to formal rights requests within the timeframes required by applicable law.</p>
       </article>
     </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container site-footer__inner">
-      <div class="site-footer__brand">
-        <span class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 7v10"/><path d="M18 7v10"/><path d="M3 10v4"/><path d="M21 10v4"/><path d="M6 12h12"/>
-          </svg>
-        </span>
-        <span>GymLedger</span>
-      </div>
-      <nav class="site-footer__nav" aria-label="Footer">
-        <a href="../support/">Support</a>
-        <a href="../privacy/">Privacy</a>
-        <a href="../terms/">Terms</a>
-        <a href="mailto:salujaprojects@gmail.com">Contact</a>
-      </nav>
-      <p class="site-footer__meta">&copy; 2026 Rohit Saluja · Jaipur, India</p>
-    </div>
-  </footer>
-</body>
-</html>
+  );
+}
