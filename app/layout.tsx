@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     apple: "/images/app-icon.png",
   },
   itunes: { appId: APP_STORE_ID },
-  verification: { google: "Gb9KsdB3JPk7AwdhvzW7-jA_0uSBAqqa8bRRZfQuheo" },
+  verification: {
+    google: "Gb9KsdB3JPk7AwdhvzW7-jA_0uSBAqqa8bRRZfQuheo",
+    other: { "msvalidate.01": "313ADEA26EE0F1B6AAE3FEEE956A2960" },
+  },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   openGraph: {
     title: "GymLedger: Workout Tracker & Gym Log App for iPhone",
