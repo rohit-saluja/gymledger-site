@@ -5,3 +5,5 @@ out/
 .env*.local
 next-env.d.ts
 .claude/scheduled_tasks.lock
+.vercel
+.env*

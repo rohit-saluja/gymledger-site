@@ -135,7 +135,7 @@ export default function Home() {
             <h1 className="mt-6 text-balance text-5xl font-extrabold tracking-tight text-foreground md:text-7xl">
               Log every lift.
               <br />
-              <em className="not-italic text-brand-light">Own every gain.</em>
+              <em className="not-italic text-brand">Own every gain.</em>
             </h1>
 
             <p className="mx-auto mt-6 max-w-xl text-pretty text-base text-fg-secondary md:text-lg">
