@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { Apple } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { APP_STORE_URL } from "@/lib/site";
 
 export function SiteHeader() {
   return (
@@ -24,6 +26,9 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-1.5 md:gap-4">
           <nav aria-label="Primary" className="hidden items-center gap-5 text-sm md:flex">
+            <Link href="/blog" className="text-fg-secondary transition-colors hover:text-foreground">
+              Blog
+            </Link>
             <Link href="/support" className="text-fg-secondary transition-colors hover:text-foreground">
               Support
             </Link>
@@ -34,7 +39,15 @@ export function SiteHeader() {
               Terms
             </Link>
           </nav>
-          <ThemeToggle />
+          <Link href="/blog" className="px-2 text-sm text-fg-secondary transition-colors hover:text-foreground md:hidden">
+            Blog
+          </Link>
+          <Button asChild size="sm" variant="primary">
+            <a href={APP_STORE_URL}>
+              <Apple className="size-4" />
+              Download
+            </a>
+          </Button>
         </div>
       </div>
     </header>

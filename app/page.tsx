@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   Apple,
@@ -14,6 +15,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { PhoneFrame } from "@/components/phone-frame";
+import { APP_STORE_URL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { getAllPosts } from "@/lib/blog";
+import { JsonLd } from "@/components/blog/json-ld";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const SHOTS = [
   { src: "/screenshots/01.png", alt: "GymLedger home", title: "Home", caption: "Your next session, one tap away." },
@@ -71,11 +79,44 @@ const FEATURES = [
   },
 ];
 
-const APP_STORE_URL = "https://apps.apple.com/app/gymledger";
-
 export default function Home() {
+  const posts = getAllPosts().slice(0, 3);
+
   return (
     <>
+      <JsonLd
+        data={[
+          {
+            "@context": "https://schema.org",
+            "@type": "MobileApplication",
+            name: "GymLedger - Workout Tracker",
+            operatingSystem: "iOS",
+            applicationCategory: "HealthApplication",
+            description:
+              "A fast, private workout tracker for iPhone with custom splits, a Lock Screen rest timer, and progress charts for every lift.",
+            url: SITE_URL,
+            installUrl: APP_STORE_URL,
+            downloadUrl: APP_STORE_URL,
+            image: `${SITE_URL}/images/app-icon.png`,
+            publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: SITE_NAME,
+            url: SITE_URL,
+            logo: `${SITE_URL}/images/app-icon.png`,
+            email: "support@getgymledger.com",
+            sameAs: [APP_STORE_URL],
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: SITE_NAME,
+            url: SITE_URL,
+          },
+        ]}
+      />
       <section className="relative overflow-hidden">
         <div
           aria-hidden
@@ -94,7 +135,7 @@ export default function Home() {
             <h1 className="mt-6 text-balance text-5xl font-extrabold tracking-tight text-foreground md:text-7xl">
               Log every lift.
               <br />
-              <em className="not-italic text-brand">Own every gain.</em>
+              <em className="not-italic text-brand-light">Own every gain.</em>
             </h1>
 
             <p className="mx-auto mt-6 max-w-xl text-pretty text-base text-fg-secondary md:text-lg">
@@ -104,7 +145,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Button asChild size="lg" variant="primary">
-                <a href={APP_STORE_URL} aria-label="Download GymLedger on the App Store">
+                <a href={APP_STORE_URL}>
                   <Apple className="size-4" />
                   Download for iOS
                 </a>
@@ -174,7 +215,7 @@ export default function Home() {
             {FEATURES.map(({ icon: Icon, title, desc }) => (
               <Card key={title} className="hover:bg-surface-hover">
                 <CardHeader>
-                  <span className="inline-grid h-10 w-10 place-items-center rounded-xl border border-border bg-bg-subtle text-brand">
+                  <span className="inline-grid h-10 w-10 place-items-center rounded-xl border border-border bg-bg-subtle text-brand-light">
                     <Icon className="size-5" />
                   </span>
                   <CardTitle className="mt-3">{title}</CardTitle>
@@ -186,6 +227,39 @@ export default function Home() {
         </div>
       </section>
 
+      {posts.length > 0 && (
+        <section aria-labelledby="blog-heading" className="border-t border-border-subtle/60 py-20 md:py-24">
+          <div className="container">
+            <div className="mx-auto flex max-w-5xl flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <div>
+                <h2 id="blog-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
+                  Guides for lifters
+                </h2>
+                <p className="mt-3 text-fg-secondary">Progressive overload, splits, rest times and more.</p>
+              </div>
+              <Link href="/blog" className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-light">
+                All guides
+                <ArrowRight className="size-4" />
+              </Link>
+            </div>
+            <ul className="mx-auto mt-10 grid max-w-5xl gap-5 md:grid-cols-3">
+              {posts.map((post) => (
+                <li key={post.slug}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="flex h-full flex-col rounded-2xl border border-border bg-surface p-6 transition-colors hover:border-border-strong hover:bg-surface-hover"
+                  >
+                    <p className="text-xs font-semibold uppercase tracking-widest text-brand-light">{post.category}</p>
+                    <h3 className="mt-3 font-bold leading-snug text-foreground">{post.h1}</h3>
+                    <p className="mt-auto pt-4 text-xs text-fg-muted">{post.readingMinutes} min read</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       <section className="border-t border-border-subtle/60 py-20 md:py-24">
         <div className="container">
           <div className="mx-auto max-w-2xl rounded-3xl border border-border bg-bg-subtle/60 p-8 text-center md:p-12">
@@ -193,7 +267,7 @@ export default function Home() {
               Start the next session the right way
             </h2>
             <p className="mt-3 text-fg-secondary">
-              Free to download. Sign in with Apple or Google and you're logging in under a minute.
+              Try it free for 7 days on the monthly plan, or buy once for life. Sign in with Apple or Google and you're logging in under a minute.
             </p>
             <div className="mt-7 flex justify-center">
               <Button asChild size="lg" variant="primary">

@@ -27,6 +27,7 @@ export function PhoneFrame({ src, alt, priority = false, className }: PhoneFrame
           fill
           sizes="(max-width: 768px) 70vw, 280px"
           priority={priority}
+          fetchPriority={priority ? "high" : undefined}
           className="object-cover"
         />
       </div>

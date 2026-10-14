@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
+  alternates: { canonical: "/privacy" },
   description:
     "GymLedger Privacy Policy — what data we collect, why, how we protect it, and the rights you have over it.",
   openGraph: {

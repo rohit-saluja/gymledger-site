@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Support",
+  alternates: { canonical: "/support" },
   description: "Get help with GymLedger. Common questions, account help, and how to reach us.",
   openGraph: {
     title: "Support · GymLedger",

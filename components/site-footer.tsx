@@ -13,6 +13,7 @@ export function SiteFooter() {
         </div>
 
         <nav aria-label="Footer" className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          <Link href="/blog" className="hover:text-foreground transition-colors">Blog</Link>
           <Link href="/support" className="hover:text-foreground transition-colors">Support</Link>
           <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
           <Link href="/terms" className="hover:text-foreground transition-colors">Terms</Link>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
+  alternates: { canonical: "/terms" },
   description: "The agreement between you and GymLedger when you use the app.",
   openGraph: {
     title: "Terms of Use · GymLedger",
