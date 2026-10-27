@@ -11,7 +11,7 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-2.5" aria-label="GymLedger home">
           <span className="grid h-8 w-8 place-items-center overflow-hidden rounded-lg bg-surface ring-1 ring-border">
             <Image
-              src="/images/app-icon.png"
+              src="/images/app-icon-128.webp"
               alt=""
               width={32}
               height={32}

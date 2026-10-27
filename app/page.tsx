@@ -24,16 +24,16 @@ export const metadata: Metadata = {
 };
 
 const SHOTS = [
-  { src: "/screenshots/01.png", alt: "GymLedger home", title: "Home", caption: "Your next session, one tap away." },
-  { src: "/screenshots/02.png", alt: "Workout logging", title: "Log a set", caption: "Weight, reps, done." },
-  { src: "/screenshots/03.png", alt: "Exercise list", title: "Your split", caption: "Every lift, in order." },
-  { src: "/screenshots/04.png", alt: "Session complete", title: "Finish strong", caption: "Close the session, keep the streak." },
-  { src: "/screenshots/05.png", alt: "Progress chart", title: "Progress", caption: "Watch the numbers climb." },
-  { src: "/screenshots/06.png", alt: "PR milestones", title: "Milestones", caption: "Every PR, stamped with a date." },
-  { src: "/screenshots/07.png", alt: "Weekly schedule", title: "Weekly plan", caption: "Show up ready." },
-  { src: "/screenshots/08.png", alt: "Exercise detail", title: "Exercise", caption: "History and notes, all in one place." },
-  { src: "/screenshots/09.png", alt: "Settings", title: "Preferences", caption: "kg · lbs · your rules." },
-  { src: "/screenshots/10.png", alt: "Body weight log", title: "Body log", caption: "Track weight, not macros." },
+  { src: "/screenshots/01.webp", alt: "GymLedger home", title: "Home", caption: "Your next session, one tap away." },
+  { src: "/screenshots/02.webp", alt: "Workout logging", title: "Log a set", caption: "Weight, reps, done." },
+  { src: "/screenshots/03.webp", alt: "Exercise list", title: "Your split", caption: "Every lift, in order." },
+  { src: "/screenshots/04.webp", alt: "Session complete", title: "Finish strong", caption: "Close the session, keep the streak." },
+  { src: "/screenshots/05.webp", alt: "Progress chart", title: "Progress", caption: "Watch the numbers climb." },
+  { src: "/screenshots/06.webp", alt: "PR milestones", title: "Milestones", caption: "Every PR, stamped with a date." },
+  { src: "/screenshots/07.webp", alt: "Weekly schedule", title: "Weekly plan", caption: "Show up ready." },
+  { src: "/screenshots/08.webp", alt: "Exercise detail", title: "Exercise", caption: "History and notes, all in one place." },
+  { src: "/screenshots/09.webp", alt: "Settings", title: "Preferences", caption: "kg · lbs · your rules." },
+  { src: "/screenshots/10.webp", alt: "Body weight log", title: "Body log", caption: "Track weight, not macros." },
 ];
 
 const FEATURES = [
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
 
           <div className="relative mx-auto mt-14 max-w-md md:mt-20">
-            <PhoneFrame src="/screenshots/01.png" alt="GymLedger home screen" priority />
+            <PhoneFrame src="/screenshots/01.webp" alt="GymLedger home screen" priority />
           </div>
         </div>
       </section>

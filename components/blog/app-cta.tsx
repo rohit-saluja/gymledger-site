@@ -10,7 +10,7 @@ export function AppCta({ heading = "Log every set. Watch the numbers climb." }: 
       className="not-prose my-12 flex flex-col items-center gap-5 rounded-3xl border border-border bg-bg-subtle/70 p-6 text-center sm:flex-row sm:p-8 sm:text-left"
     >
       <Image
-        src="/images/app-icon.png"
+        src="/images/app-icon-128.webp"
         alt=""
         width={64}
         height={64}

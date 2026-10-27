@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container flex flex-col items-center gap-6 py-10 text-sm text-fg-secondary md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-2.5">
           <span className="grid h-7 w-7 place-items-center overflow-hidden rounded-md bg-surface ring-1 ring-border">
-            <Image src="/images/app-icon.png" alt="" width={28} height={28} className="h-6 w-6 object-cover" />
+            <Image src="/images/app-icon-128.webp" alt="" width={28} height={28} className="h-6 w-6 object-cover" />
           </span>
           <span className="font-medium text-foreground">GymLedger</span>
         </div>
