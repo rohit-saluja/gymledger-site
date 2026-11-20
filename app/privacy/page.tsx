@@ -20,7 +20,7 @@ export default function PrivacyPage() {
         <h1>Privacy Policy</h1>
 
         <p>
-          <em>Effective date: 21 April 2026 · Last updated: 21 April 2026</em>
+          <em>Effective date: 21 April 2026 · Last updated: 20 November 2026</em>
         </p>
 
         <p>
@@ -37,7 +37,8 @@ export default function PrivacyPage() {
 
         <h2 id="at-a-glance">At a glance</h2>
         <ul>
-          <li>We collect only what the App needs to function — your account, your workouts, and your subscription status.</li>
+          <li>We collect only what the App needs to function — your account, your workouts, the meals you choose to log, and your subscription status.</li>
+          <li>If you turn on AI meal estimates, the text you type about a meal is sent to <strong>OpenAI</strong> to estimate its nutrition — nothing else about you is sent, and you can turn it off at any time.</li>
           <li>We <strong>do not</strong> sell your personal information.</li>
           <li>We <strong>do not</strong> use your data for advertising and we <strong>do not</strong> track you across other apps or websites.</li>
           <li>You can request a copy of your data, correct it, or delete your account at any time.</li>
@@ -82,6 +83,7 @@ export default function PrivacyPage() {
         <ul>
           <li><strong>Workout data</strong> — exercises, sets, reps, weights, notes, and workout templates you create.</li>
           <li><strong>Body metrics</strong> — body-weight entries and, where you choose to log them, related measurements.</li>
+          <li><strong>Meal logs</strong> — the meal descriptions you type in the Diet tab (for example "2 eggs and toast") and the calorie, protein, carbohydrate and fat estimates returned for them.</li>
         </ul>
 
         <h3>1.4 Purchases</h3>
@@ -110,6 +112,7 @@ export default function PrivacyPage() {
         <ul>
           <li><strong>Provide the Service</strong> — create and authenticate your account, sync your workouts across devices, and deliver app functionality.</li>
           <li><strong>Subscription management</strong> — verify your entitlement to GymLedger Pro features.</li>
+          <li><strong>AI meal estimates</strong> — if you allow it, estimate the calories and macronutrients of the meals you describe (see Section 5.1).</li>
           <li><strong>Customer support</strong> — respond to questions, feedback, and reported issues.</li>
           <li><strong>Security and fraud prevention</strong> — detect, investigate, and prevent unauthorized access, abuse, or misuse of the Service.</li>
           <li><strong>Service improvements</strong> — diagnose crashes and performance issues so we can fix bugs.</li>
@@ -150,6 +153,18 @@ export default function PrivacyPage() {
           <li><strong>RevenueCat, Inc.</strong> — Processes subscription entitlements and receives a user identifier and your App Store purchase events. <a href="https://www.revenuecat.com/privacy">Privacy policy</a>.</li>
           <li><strong>Apple Inc. (App Store)</strong> — Processes all payments and delivers the App. We never receive or store your payment details. <a href="https://www.apple.com/legal/privacy/">Privacy policy</a>.</li>
           <li><strong>Sentry (Functional Software, Inc.)</strong> — Receives anonymized crash reports and diagnostic data used strictly to fix bugs. <a href="https://sentry.io/privacy/">Privacy policy</a>.</li>
+          <li><strong>OpenAI, L.L.C.</strong> — Used only if you allow AI meal estimates. Receives the meal text you type, to return a nutrition estimate (see Section 5.1). <a href="https://openai.com/policies/privacy-policy/">Privacy policy</a>.</li>
+        </ul>
+
+        <h3 id="ai-meal-estimates">5.1 AI meal estimates (OpenAI)</h3>
+        <p>
+          The Diet tab can estimate the calories, protein, carbohydrates and fat of a meal you describe in your own words. This feature uses OpenAI's API:
+        </p>
+        <ul>
+          <li><strong>What is sent</strong> — only the text you type about the meal. It is sent from our server, never with your name, email address, account ID or any other personal information.</li>
+          <li><strong>Your permission</strong> — nothing is sent until you tap <strong>Allow</strong> on the card the App shows the first time you open the Diet tab. You can turn AI meal estimates off at any time in <strong>Settings → AI meal estimates</strong>; after that nothing more is sent unless you allow it again.</li>
+          <li><strong>How OpenAI handles it</strong> — under OpenAI's API data usage policies, data sent through the API is not used to train OpenAI's models and may be retained by OpenAI for up to 30 days for abuse monitoring before it is deleted.</li>
+          <li><strong>What we store</strong> — your meal text and the returned estimate are saved to your account so you can see your meal history. They are deleted with your account.</li>
         </ul>
 
         <h2 id="data-retention">6. Data retention</h2>
@@ -211,7 +226,7 @@ export default function PrivacyPage() {
 
         <h2 id="childrens-privacy">10. Children's privacy</h2>
         <p>
-          GymLedger is rated <strong>4+</strong> on the App Store and is intended for users aged 13 and older (or 16 and older in the European Economic Area, or the minimum age of digital consent in your jurisdiction, whichever is higher). The Service is not directed to children under that age, and we do not knowingly collect personal information from them.
+          GymLedger is intended for users aged 13 and older (or 16 and older in the European Economic Area, or the minimum age of digital consent in your jurisdiction, whichever is higher). The Service is not directed to children under that age, and we do not knowingly collect personal information from them.
         </p>
         <p>
           If you are a parent or guardian and believe your child has provided us with personal information, please contact us using Section 14 and we will delete it.
@@ -227,7 +242,7 @@ export default function PrivacyPage() {
         <ul>
           <li>Contact Info — email address (for account and support)</li>
           <li>Identifiers — account / sign-in provider user ID</li>
-          <li>User Content — workout entries, body-weight entries, notes</li>
+          <li>User Content — workout entries, body-weight entries, notes, meal descriptions</li>
           <li>Purchases — subscription status</li>
         </ul>
         <p>
