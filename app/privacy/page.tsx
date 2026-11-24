@@ -20,7 +20,7 @@ export default function PrivacyPage() {
         <h1>Privacy Policy</h1>
 
         <p>
-          <em>Effective date: 21 April 2026 · Last updated: 20 November 2026</em>
+          <em>Effective date: 21 April 2026 · Last updated: 24 November 2026</em>
         </p>
 
         <p>
@@ -147,7 +147,7 @@ export default function PrivacyPage() {
         <h2 id="third-party-service-providers">5. Third-party service providers</h2>
         <p>GymLedger uses the following processors to operate the Service. Each provider is bound by its own privacy policy, which we encourage you to review:</p>
         <ul>
-          <li><strong>Supabase, Inc.</strong> — Hosts our database and manages authentication. Stores your account information and workout data. <a href="https://supabase.com/privacy">Privacy policy</a>.</li>
+          <li><strong>Cloudflare, Inc.</strong> — Hosts our servers and database (Cloudflare Workers and D1), runs sign-in, and sends the verification and password-reset emails. Stores your account information, workout data, and meal logs. <a href="https://www.cloudflare.com/privacypolicy/">Privacy policy</a>.</li>
           <li><strong>Google LLC (Google Sign-In)</strong> — Used only when you choose Google as your sign-in method. Google returns your email address, display name, and a unique user ID. <a href="https://policies.google.com/privacy">Privacy policy</a>.</li>
           <li><strong>Apple Inc. (Sign in with Apple)</strong> — Used only when you choose Apple as your sign-in method. Apple returns an Apple-issued user identifier and, on first sign-in, your name and email (you may choose to hide your real email behind Apple's Private Relay). <a href="https://www.apple.com/legal/privacy/">Privacy policy</a>.</li>
           <li><strong>RevenueCat, Inc.</strong> — Processes subscription entitlements and receives a user identifier and your App Store purchase events. <a href="https://www.revenuecat.com/privacy">Privacy policy</a>.</li>
@@ -189,7 +189,7 @@ export default function PrivacyPage() {
 
         <h2 id="international-data-transfers">8. International data transfers</h2>
         <p>
-          GymLedger is operated from India. The providers listed in Section 5 may store and process your information in the United States, the European Union, or other countries where they or their sub-processors operate.
+          GymLedger is operated from India. The providers listed in Section 5 may store and process your information in the United States, the European Union, the Asia-Pacific region, or other countries where they or their sub-processors operate.
         </p>
         <p>
           Where personal data of EEA, UK, or Swiss residents is transferred outside those regions, we rely on the European Commission's Standard Contractual Clauses or other lawful transfer mechanisms adopted by our providers.
