@@ -239,6 +239,7 @@ A rectangle drawn in black marker (3px ink/85, 6px radius) for the PR board and 
 
 ### Navigation
 Barlow 600 at 15px in ink-2, hover to ink; Support hides under 640px. The header is the board itself (board at 85 to 95%), with a hairline below, the app icon and wordmark left, links and the small badge right. Footer: the aluminium tray across the board's foot, then icon, wordmark, links in ink-2 and fine print in ink-3.
+- **Not built yet (finish review open items):** the footer tray holds no marker object, and the header app icon has no magnet. Until they ship, neither is part of the system; do not copy the bare tray or the unmagneted icon as the pattern.
 
 ### Magnet
 30px round, red by default, black (#26282C) or blue variants, a highlight at 34%/30%. Two per phone (top left and top right at 8%), one or two per sheet.

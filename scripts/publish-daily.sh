@@ -43,7 +43,7 @@ fi
 TODAY=$(TZ=Asia/Kolkata date +%F)
 LIVE=$(for f in content/blog/*.md; do
   d=$(sed -n 's/^date: "\(.*\)"$/\1/p' "$f" | head -1)
-  [[ "$d" < "$TODAY" || "$d" == "$TODAY" ]] && basename "$f" .md
+  if [[ "$d" < "$TODAY" || "$d" == "$TODAY" ]]; then basename "$f" .md; fi
 done | sort)
 
 NEW=$(comm -13 <(sort "$STATE" 2>/dev/null || true) <(echo "$LIVE"))
