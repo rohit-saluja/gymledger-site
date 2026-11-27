@@ -546,8 +546,5 @@
       "**Don't** float a sheet or phone with a shadow but nothing holding it."
     ]
   },
-  "notBuilt": [
-    "Footer tray carries no marker object yet (finish review open item).",
-    "Header app icon has no magnet yet (finish review open item)."
-  ]
+  "notBuilt": []
 }
