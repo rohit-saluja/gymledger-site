@@ -1,18 +1,40 @@
 import type { Metadata, Viewport } from "next";
+import { Barlow, Barlow_Condensed, Kalam } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { APP_STORE_ID, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
+// Printed voice: Barlow, drawn from the lettering on road signs and plates.
+const barlow = Barlow({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-barlow",
+  display: "swap",
+});
+const barlowCondensed = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["600"],
+  variable: "--font-barlow-condensed",
+  display: "swap",
+});
+// Marker voice: Kalam, a felt-tip hand that stays legible small.
+const kalam = Kalam({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-kalam",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: "GymLedger",
   title: {
-    default: "GymLedger: Workout Tracker & Gym Log App for iPhone",
+    default: "GymLedger: Workout Tracker, Recovery & Protein for iPhone",
     template: "%s · GymLedger",
   },
   description:
-    "GymLedger is a fast, private workout tracker for iPhone. Build custom splits, log sets in a tap, and track progressive overload with charts for every lift.",
+    "GymLedger is a workout tracker for iPhone. Log sets in a tap, see which muscles have recovered, and hit your protein target. Free trial on the App Store.",
   icons: {
     icon: "/images/favicon.png",
     apple: "/images/app-icon.png",
@@ -24,9 +46,9 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   openGraph: {
-    title: "GymLedger: Workout Tracker & Gym Log App for iPhone",
+    title: "GymLedger: Workout Tracker, Recovery & Protein for iPhone",
     description:
-      "A fast, private workout tracker for iPhone. Build custom splits, log sets in a tap, and track progressive overload with charts for every lift.",
+      "Log sets in a tap, see which muscles have recovered, and hit your protein target. One iPhone app for the whole training loop.",
     type: "website",
     url: SITE_URL,
     siteName: "GymLedger",
@@ -38,26 +60,28 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  colorScheme: "dark",
-  themeColor: "#0a0a0a",
+  colorScheme: "light",
+  themeColor: "#c3c8cc",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body className="min-h-screen bg-background font-sans text-foreground">
+    <html lang="en" className={`${barlow.variable} ${barlowCondensed.variable} ${kalam.variable}`}>
+      <body className="min-h-screen">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-surface focus:px-3 focus:py-2 focus:text-sm focus:text-foreground focus:ring-2 focus:ring-ring"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-paper focus:px-3 focus:py-2 focus:text-sm focus:text-ink"
         >
           Skip to content
         </a>
-        <div className="flex min-h-screen flex-col">
-          <SiteHeader />
-          <main id="main" className="flex-1">
-            {children}
-          </main>
-          <SiteFooter />
+        <div className="board-frame">
+          <div className="board-surface flex flex-col">
+            <SiteHeader />
+            <main id="main" className="flex-1">
+              {children}
+            </main>
+            <SiteFooter />
+          </div>
         </div>
       </body>
     </html>

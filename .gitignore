@@ -7,3 +7,6 @@ next-env.d.ts
 .claude/scheduled_tasks.lock
 .vercel
 .env*
+.impeccable/review/
+.impeccable/build/
+.claude/launch.json

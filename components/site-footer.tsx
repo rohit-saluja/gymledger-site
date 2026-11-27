@@ -1,26 +1,37 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const LINKS = [
+  { href: "/blog", label: "Blog" },
+  { href: "/support", label: "Support" },
+  { href: "/privacy", label: "Privacy" },
+  { href: "/terms", label: "Terms" },
+];
+
 export function SiteFooter() {
   return (
-    <footer className="border-t border-border-subtle/70 bg-bg-subtle/40">
-      <div className="container flex flex-col items-center gap-6 py-10 text-sm text-fg-secondary md:flex-row md:items-center md:justify-between">
+    <footer className="mt-8">
+      {/* The board's bottom ledge */}
+      <div className="tray mx-2 md:mx-4" aria-hidden />
+      <div className="container flex flex-col items-center gap-5 py-9 text-sm text-ink-2 md:flex-row md:justify-between">
         <div className="flex items-center gap-2.5">
-          <span className="grid h-7 w-7 place-items-center overflow-hidden rounded-md bg-surface ring-1 ring-border">
-            <Image src="/images/app-icon-128.webp" alt="" width={28} height={28} className="h-6 w-6 object-cover" />
-          </span>
-          <span className="font-medium text-foreground">GymLedger</span>
+          <Image src="/images/app-icon-128.webp" alt="" width={26} height={26} className="size-[26px] rounded-[7px]" />
+          <span className="font-bold text-ink">GymLedger</span>
+          <span className="text-ink-3">Workout tracker for iPhone</span>
         </div>
 
-        <nav aria-label="Footer" className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-          <Link href="/blog" className="hover:text-foreground transition-colors">Blog</Link>
-          <Link href="/support" className="hover:text-foreground transition-colors">Support</Link>
-          <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
-          <Link href="/terms" className="hover:text-foreground transition-colors">Terms</Link>
-          <a href="mailto:support@getgymledger.com" className="hover:text-foreground transition-colors">Contact</a>
+        <nav aria-label="Footer" className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 font-semibold">
+          {LINKS.map((l) => (
+            <Link key={l.href} href={l.href} className="transition-colors hover:text-ink">
+              {l.label}
+            </Link>
+          ))}
+          <a href="mailto:support@getgymledger.com" className="transition-colors hover:text-ink">
+            Contact
+          </a>
         </nav>
 
-        <p className="text-xs text-fg-muted">© 2026 Rohit Saluja · Jaipur, India</p>
+        <p className="text-xs text-ink-3">© 2026 Rohit Saluja, Jaipur, India</p>
       </div>
     </footer>
   );

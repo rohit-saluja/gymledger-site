@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-27T00:00:00Z",
+  "title": "Design System: GymLedger",
+  "extensions": {
+    "colorMeta": {
+      "board": {
+        "role": "neutral",
+        "displayName": "Glossy Board",
+        "canonical": "rgb(242 244 246)",
+        "cssVar": "--board",
+        "tonalRamp": [
+          "#1F262D",
+          "#36424E",
+          "#4D5E70",
+          "#647A91",
+          "#8699AC",
+          "#ABB8C5",
+          "#CFD6DE",
+          "#F0F2F5"
+        ]
+      },
+      "board-shade": {
+        "role": "neutral",
+        "displayName": "Board Shade",
+        "canonical": "rgb(233 236 239)",
+        "cssVar": "--board-shade",
+        "tonalRamp": [
+          "#20262C",
+          "#38424D",
+          "#4F5E6D",
+          "#677A8E",
+          "#8999A9",
+          "#ACB8C3",
+          "#D0D6DD",
+          "#F0F2F4"
+        ]
+      },
+      "grid": {
+        "role": "neutral",
+        "displayName": "Printed Grid",
+        "canonical": "rgb(224 228 233)",
+        "cssVar": "--grid",
+        "tonalRamp": [
+          "#20262D",
+          "#37414E",
+          "#4E5D6E",
+          "#66788F",
+          "#8897AA",
+          "#ABB6C4",
+          "#CFD5DD",
+          "#F0F2F4"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgb(210 215 221)",
+        "cssVar": "--rule",
+        "tonalRamp": [
+          "#21262C",
+          "#39414C",
+          "#515D6B",
+          "#69798B",
+          "#8B98A7",
+          "#AEB7C2",
+          "#D1D6DC",
+          "#F0F2F4"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Printed Paper",
+        "canonical": "rgb(252 252 250)",
+        "cssVar": "--paper",
+        "tonalRamp": [
+          "#30301D",
+          "#535332",
+          "#767647",
+          "#99995C",
+          "#B3B37F",
+          "#C9C9A6",
+          "#E0E0CC",
+          "#F5F5EF"
+        ]
+      },
+      "ghost": {
+        "role": "neutral",
+        "displayName": "Erased Marker",
+        "canonical": "rgb(203 208 215)",
+        "cssVar": "--ghost",
+        "tonalRamp": [
+          "#21252B",
+          "#3A414B",
+          "#525C6B",
+          "#6A788A",
+          "#8C97A6",
+          "#AEB6C1",
+          "#D1D5DC",
+          "#F1F2F4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Black Marker",
+        "canonical": "rgb(23 24 27)",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#232529",
+          "#3D4048",
+          "#575B66",
+          "#717684",
+          "#9195A1",
+          "#B2B5BD",
+          "#D3D5D9",
+          "#F1F2F3"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Printed Grey",
+        "canonical": "rgb(74 78 84)",
+        "cssVar": "--ink-2",
+        "tonalRamp": [
+          "#242629",
+          "#3E4146",
+          "#585D64",
+          "#737982",
+          "#93989F",
+          "#B3B7BC",
+          "#D4D6D9",
+          "#F1F2F3"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Muted Grey",
+        "canonical": "rgb(102 106 112)",
+        "cssVar": "--ink-3",
+        "tonalRamp": [
+          "#242628",
+          "#3F4245",
+          "#5A5D63",
+          "#757980",
+          "#94989E",
+          "#B4B7BB",
+          "#D4D6D8",
+          "#F2F2F3"
+        ]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "Marker Red",
+        "canonical": "rgb(217 64 64)",
+        "cssVar": "--red",
+        "tonalRamp": [
+          "#400D0D",
+          "#6F1616",
+          "#9D1F1F",
+          "#CC2929",
+          "#DD5555",
+          "#E78888",
+          "#F1BBBB",
+          "#FBEAEA"
+        ]
+      },
+      "red-ink": {
+        "role": "primary",
+        "displayName": "Red Ink",
+        "canonical": "rgb(180 46 44)",
+        "cssVar": "--red-ink",
+        "tonalRamp": [
+          "#3D100F",
+          "#6B1B1A",
+          "#982725",
+          "#C53230",
+          "#D75D5B",
+          "#E38E8C",
+          "#EFBEBD",
+          "#FAEBEB"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Coach's Blue",
+        "canonical": "rgb(36 83 194)",
+        "cssVar": "--blue",
+        "tonalRamp": [
+          "#0C1C41",
+          "#153070",
+          "#1E449F",
+          "#2658CE",
+          "#537DDF",
+          "#87A4E9",
+          "#BACBF2",
+          "#E9EFFB"
+        ]
+      },
+      "green": {
+        "role": "tertiary",
+        "displayName": "Fresh Green",
+        "canonical": "rgb(35 135 74)",
+        "cssVar": "--green",
+        "tonalRamp": [
+          "#103D21",
+          "#1B693A",
+          "#279652",
+          "#32C26B",
+          "#5DD58C",
+          "#8EE2AE",
+          "#BEEED1",
+          "#EBFAF1"
+        ]
+      },
+      "green-ink": {
+        "role": "tertiary",
+        "displayName": "Green Ink",
+        "canonical": "rgb(28 112 64)",
+        "cssVar": "--green-ink",
+        "tonalRamp": [
+          "#0F3D23",
+          "#1B6A3D",
+          "#269756",
+          "#31C470",
+          "#5CD690",
+          "#8DE2B1",
+          "#BEEFD3",
+          "#EBFAF1"
+        ]
+      },
+      "alu": {
+        "role": "neutral",
+        "displayName": "Aluminium",
+        "canonical": "rgb(190 195 199)",
+        "cssVar": "--alu",
+        "tonalRamp": [
+          "#232729",
+          "#3D4347",
+          "#575F65",
+          "#717B84",
+          "#919AA1",
+          "#B2B8BD",
+          "#D3D7D9",
+          "#F1F2F3"
+        ]
+      },
+      "alu-light": {
+        "role": "neutral",
+        "displayName": "Aluminium Light",
+        "canonical": "rgb(230 233 235)",
+        "cssVar": "--alu-light",
+        "tonalRamp": [
+          "#22272A",
+          "#3B444A",
+          "#546069",
+          "#6D7D88",
+          "#8E9BA4",
+          "#B0B9C0",
+          "#D2D7DB",
+          "#F1F3F4"
+        ]
+      },
+      "alu-dark": {
+        "role": "neutral",
+        "displayName": "Aluminium Dark",
+        "canonical": "rgb(135 141 146)",
+        "cssVar": "--alu-dark",
+        "tonalRamp": [
+          "#242628",
+          "#3F4345",
+          "#5A5F63",
+          "#757B80",
+          "#94999E",
+          "#B4B8BB",
+          "#D4D6D8",
+          "#F2F2F3"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Day Word",
+        "purpose": "The day's word in the hero, red marker, uppercase. Never below 120px."
+      },
+      "headline": {
+        "displayName": "Marker Heading",
+        "purpose": "Every section heading; writes on once on first view."
+      },
+      "title": {
+        "displayName": "Printed Title",
+        "purpose": "Hero H1 sentence and article H1s."
+      },
+      "title-sm": {
+        "displayName": "Sheet Title",
+        "purpose": "Guide sheet titles; nav links at 15px/600."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Section copy, 33 to 38rem measure."
+      },
+      "body-article": {
+        "displayName": "Article Body",
+        "purpose": "Blog prose on a printed sheet."
+      },
+      "note": {
+        "displayName": "Marker Note",
+        "purpose": "Annotations, written lists, tallies, the day picker."
+      },
+      "label": {
+        "displayName": "Plate Label",
+        "purpose": "Printed uppercase column heads."
+      }
+    },
+    "shadows": [
+      {
+        "name": "magnet",
+        "value": "inset 0 -3px 5px rgb(0 0 0 / 0.25), 0 3px 4px rgb(40 46 56 / 0.28), 0 8px 14px rgb(40 46 56 / 0.16)",
+        "purpose": "Round magnets."
+      },
+      {
+        "name": "sheet",
+        "value": "0 1px 0 rgb(255 255 255) inset, 0 1px 2px rgb(40 46 56 / 0.08), 0 14px 34px -12px rgb(40 46 56 / 0.22)",
+        "purpose": "Printed paper on the board."
+      },
+      {
+        "name": "phone",
+        "value": "0 1px 0 rgb(255 255 255 / 0.14) inset, 0 0 0 1.5px #3a3c41 inset, 0 2px 4px rgb(40 46 56 / 0.18), 0 28px 56px -18px rgb(40 46 56 / 0.55)",
+        "purpose": "The iPhone frame hung on the board."
+      },
+      {
+        "name": "tray",
+        "value": "0 2px 0 rgb(255 255 255 / 0.75) inset, 0 -1px 0 rgb(40 46 56 / 0.25) inset, 0 7px 10px -4px rgb(40 46 56 / 0.35)",
+        "purpose": "The aluminium ledge (footer, rest timer)."
+      },
+      {
+        "name": "frame",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.9), inset 1px 0 0 rgb(255 255 255 / 0.6), inset 0 -1px 0 rgb(40 46 56 / 0.35), inset -1px 0 0 rgb(40 46 56 / 0.25)",
+        "purpose": "Brushed-aluminium frame bevel over public/textures/brushed-alu.webp."
+      },
+      {
+        "name": "badge",
+        "value": "0 1px 0 rgb(255 255 255 / 0.12) inset, 0 10px 22px -12px rgb(23 24 27 / 0.7)",
+        "purpose": "Large App Store badge."
+      },
+      {
+        "name": "eraser",
+        "value": "drop-shadow(0 6px 8px rgb(40 46 56 / 0.28))",
+        "purpose": "The eraser SVG."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Write-on, press, eraser settle, drag commit."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Full eraser wipe on click or keyboard."
+      },
+      {
+        "name": "write-on",
+        "value": "900ms clip-path inset, left to right, ease-out",
+        "purpose": "Marker headings writing in once on first view."
+      },
+      {
+        "name": "press",
+        "value": "160ms scale(0.97), ease-out",
+        "purpose": "Every pressable: badges, sheets, day picker, logo."
+      },
+      {
+        "name": "wipe",
+        "value": "620ms (260ms after a drag), settle 220ms",
+        "purpose": "Eraser wiping the day word."
+      },
+      {
+        "name": "screen-swap",
+        "value": "300ms opacity and 3px blur, ease-out",
+        "purpose": "Phone screenshot change on a new day."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "instant",
+        "purpose": "No write-on, no press scale, instant swap."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "container",
+        "value": "1216px"
+      }
+    ],
+    "textures": [
+      {
+        "name": "brushed-alu",
+        "value": "/textures/brushed-alu.webp",
+        "purpose": "Procedural brushed aluminium raster for the frame and tray; repeat, over #BFC5CA."
+      }
+    ],
+    "grid": {
+      "size": "32px",
+      "lineColor": "grid",
+      "purpose": "Printed grid on the board surface."
+    }
+  },
+  "components": [
+    {
+      "name": "App Store Badge",
+      "kind": "button",
+      "refersTo": "app-store-badge",
+      "description": "The only filled button: Apple's badge rebuilt in black ink. Every download action.",
+      "html": "<a href=\"#\" class=\"ds-badge\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"currentColor\"><path d=\"M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701\"/></svg><span class=\"ds-badge-t\"><span class=\"ds-badge-s\">Download on the</span><span class=\"ds-badge-l\">App Store</span></span></a>",
+      "css": ".ds-badge{display:inline-flex;align-items:center;gap:12px;height:56px;padding:0 24px 0 16px;border-radius:13px;background:#17181B;color:#FCFCFA;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',Arial,sans-serif;text-decoration:none;box-shadow:0 1px 0 rgb(255 255 255/.12) inset,0 10px 22px -12px rgb(23 24 27/.7);transition:transform 160ms cubic-bezier(.23,1,.32,1),background 150ms}.ds-badge svg{width:30px;height:30px;margin-top:-4px}.ds-badge-t{display:flex;flex-direction:column;line-height:1}.ds-badge-s{font-size:11px;font-weight:500;letter-spacing:.01em}.ds-badge-l{margin-top:3px;font-size:24px;font-weight:600;letter-spacing:-.02em}.ds-badge:hover{background:rgb(23 24 27/.9)}.ds-badge:active{transform:scale(.97)}.ds-badge:focus-visible{outline:2px solid #2453C2;outline-offset:3px}"
+    },
+    {
+      "name": "App Store Badge, small",
+      "kind": "button",
+      "refersTo": "app-store-badge-sm",
+      "description": "One-line Download badge for the header.",
+      "html": "<a href=\"#\" class=\"ds-badge-sm\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"currentColor\"><path d=\"M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701\"/></svg>Download</a>",
+      "css": ".ds-badge-sm{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px 0 14px;border-radius:10px;background:#17181B;color:#FCFCFA;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 1px 0 rgb(255 255 255/.12) inset,0 6px 14px -8px rgb(23 24 27/.6);transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-badge-sm svg{width:17px;height:17px;margin-top:-2px}.ds-badge-sm:hover{background:rgb(23 24 27/.9)}.ds-badge-sm:active{transform:scale(.97)}.ds-badge-sm:focus-visible{outline:2px solid #2453C2;outline-offset:3px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "The top strip of the board: icon and wordmark left, printed links and the small badge right.",
+      "html": "<header class=\"ds-head\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-icon\">G</span>GymLedger</a><nav class=\"ds-nav\"><a href=\"#\">Blog</a><a href=\"#\">Support</a><a class=\"ds-badge-sm\" href=\"#\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"currentColor\"><path d=\"M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701\"/></svg>Download</a></nav></header>",
+      "css": ".ds-head{display:flex;align-items:center;justify-content:space-between;height:68px;padding:0 20px;background:rgb(242 244 246/.95);border-bottom:1px solid rgb(210 215 221/.8);font-family:Barlow,system-ui,sans-serif}.ds-brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:800;letter-spacing:-.025em;color:#17181B;text-decoration:none}.ds-icon{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#D94040;color:#fff;font-weight:800;box-shadow:0 2px 3px rgb(40 46 56/.25),0 6px 12px -4px rgb(40 46 56/.3)}.ds-nav{display:flex;align-items:center;gap:4px}.ds-nav>a:not(.ds-badge-sm){padding:8px 12px;font-size:15px;font-weight:600;color:#4A4E54;text-decoration:none;transition:color 150ms}.ds-nav>a:not(.ds-badge-sm):hover{color:#17181B}.ds-nav a:focus-visible{outline:2px solid #2453C2;outline-offset:3px;border-radius:4px}.ds-badge-sm{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px 0 14px;border-radius:10px;background:#17181B;color:#FCFCFA;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:15px;font-weight:600;text-decoration:none}.ds-badge-sm svg{width:17px;height:17px}"
+    },
+    {
+      "name": "Guide Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "A printed sheet held on the board by a magnet: guide teasers, articles, legal pages.",
+      "html": "<a href=\"#\" class=\"ds-sheet\"><span class=\"ds-mag\"></span><span class=\"ds-photo\"></span><span class=\"ds-sheet-t\">How to Track Progressive Overload</span><span class=\"ds-sheet-m\">Progressive Overload, 8 min read</span></a>",
+      "css": ".ds-sheet{position:relative;display:block;width:280px;padding:12px 12px 20px;background:#FCFCFA;border-radius:4px;text-decoration:none;font-family:Barlow,system-ui,sans-serif;transform:rotate(-1deg);box-shadow:0 1px 0 #fff inset,0 1px 2px rgb(40 46 56/.08),0 14px 34px -12px rgb(40 46 56/.22);transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-sheet:active{transform:rotate(-1deg) scale(.97)}.ds-sheet:focus-visible{outline:2px solid #2453C2;outline-offset:3px}.ds-photo{display:block;aspect-ratio:16/10;border-radius:3px;background:#4A4E54}.ds-sheet-t{display:block;margin-top:16px;padding:0 8px;font-size:18px;font-weight:700;line-height:1.375;color:#17181B}.ds-sheet:hover .ds-sheet-t{text-decoration:underline;text-decoration-color:rgb(217 64 64/.6);text-decoration-thickness:2px;text-underline-offset:4px}.ds-sheet-m{display:block;margin-top:8px;padding:0 8px;font-size:14px;color:#666A70}.ds-mag{position:absolute;top:-10px;left:calc(50% - 15px);width:30px;height:30px;border-radius:999px;background:radial-gradient(circle at 34% 30%,rgb(255 255 255/.55),transparent 42%),#D94040;box-shadow:inset 0 -3px 5px rgb(0 0 0/.25),0 3px 4px rgb(40 46 56/.28),0 8px 14px rgb(40 46 56/.16)}"
+    },
+    {
+      "name": "Board Box",
+      "kind": "card",
+      "refersTo": "board-box",
+      "description": "A rectangle drawn in black marker: the PR board, the in-article app CTA.",
+      "html": "<div class=\"ds-box\"><p class=\"ds-box-h\">PR board</p><table class=\"ds-box-t\"><thead><tr><th>Lift</th><th>Best</th></tr></thead><tbody><tr><td>Squat</td><td>122.5 kg</td></tr><tr><td>Sessions</td><td>42</td></tr></tbody></table></div>",
+      "css": ".ds-box{max-width:420px;padding:20px 24px 28px;border:3px solid rgb(23 24 27/.85);border-radius:6px;background:#F2F4F6}.ds-box-h{margin:0;font-family:Kalam,ui-rounded,cursive;font-weight:700;font-size:36px;line-height:.95;text-transform:uppercase;color:#D94040}.ds-box-t{width:100%;margin-top:16px;border-collapse:collapse;text-align:left}.ds-box-t th{padding-bottom:8px;font-family:'Barlow Condensed',Barlow,system-ui,sans-serif;font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#666A70}.ds-box-t td{padding:12px 0;border-top:2px solid rgb(23 24 27/.15);font-family:Kalam,ui-rounded,cursive;font-weight:700;font-size:26px;color:#17181B}"
+    },
+    {
+      "name": "Day Picker",
+      "kind": "chip",
+      "refersTo": "day-picker",
+      "description": "Days written in note type; the active day is looped in red marker.",
+      "html": "<div class=\"ds-days\"><button class=\"ds-day ds-on\">Pull<svg viewBox=\"0 0 200 84\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M152 12 C 96 0, 22 10, 12 40 C 4 68, 112 82, 172 62 C 204 50, 198 16, 128 9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg></button><button class=\"ds-day\">Legs</button><button class=\"ds-day\">Push</button></div>",
+      "css": ".ds-days{display:flex;gap:4px}.ds-day{position:relative;padding:4px 12px;border:0;background:none;font-family:Kalam,ui-rounded,cursive;font-size:22px;line-height:1.2;color:#666A70;cursor:pointer;transition:color 150ms,transform 160ms cubic-bezier(.23,1,.32,1)}.ds-day:hover{color:#17181B}.ds-day:active{transform:scale(.97)}.ds-day:focus-visible{outline:2px solid #2453C2;outline-offset:3px;border-radius:4px}.ds-on{color:#17181B}.ds-on svg{position:absolute;inset:-6px -4px;width:calc(100% + 8px);height:calc(100% + 12px);color:#D94040;pointer-events:none}"
+    },
+    {
+      "name": "Magnet",
+      "kind": "custom",
+      "refersTo": "magnet",
+      "description": "Round magnet that holds phones and sheets to the board; red, black or blue.",
+      "html": "<div class=\"ds-mags\"><span class=\"ds-m\"></span><span class=\"ds-m ds-m-k\"></span><span class=\"ds-m ds-m-b\"></span></div>",
+      "css": ".ds-mags{display:flex;gap:16px;padding:16px;background:#F2F4F6}.ds-m{width:30px;height:30px;border-radius:999px;background:radial-gradient(circle at 34% 30%,rgb(255 255 255/.55),transparent 42%),var(--mc,#D94040);box-shadow:inset 0 -3px 5px rgb(0 0 0/.25),0 3px 4px rgb(40 46 56/.28),0 8px 14px rgb(40 46 56/.16)}.ds-m-k{--mc:#26282C}.ds-m-b{--mc:#2453C2}"
+    },
+    {
+      "name": "Marker Heading with Note",
+      "kind": "custom",
+      "description": "A section heading in marker with a red underline swipe, and a written countdown list.",
+      "html": "<div class=\"ds-mh\"><h2>Train what's <span class=\"ds-u\">recovered.<svg viewBox=\"0 0 300 22\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M5 12 C 70 6, 160 4, 295 8\" stroke-width=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\"/><path d=\"M38 18 C 120 13, 210 12, 278 14\" stroke-width=\"4\" opacity=\".85\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\"/></svg></span></h2><dl><dt>Shoulders</dt><dd class=\"ds-r\">fresh tomorrow, in 22 h</dd><dt>Legs</dt><dd class=\"ds-g\">fresh now, train today</dd></dl></div>",
+      "css": ".ds-mh{padding:24px;background:#F2F4F6}.ds-mh h2{margin:0;font-family:Kalam,ui-rounded,cursive;font-weight:700;font-size:56px;line-height:.95;letter-spacing:-.01em;color:#17181B}.ds-u{position:relative;display:inline-block}.ds-u svg{position:absolute;left:0;bottom:-12px;width:100%;height:16px;color:#D94040}.ds-mh dl{display:grid;grid-template-columns:8.5rem 1fr;row-gap:12px;margin-top:36px;font-size:24px;line-height:1.2}.ds-mh dt{font-family:Kalam,ui-rounded,cursive;font-weight:700;color:#17181B}.ds-mh dd{margin:0;font-family:Kalam,ui-rounded,cursive}.ds-r{color:#B42E2C}.ds-g{color:#1C7040}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Gym Whiteboard",
+    "overview": "The whole site is one glossy whiteboard bolted to a gym wall. A brushed-aluminium frame runs round every page; inside it, a cool white board carries a faint printed grid. Everything on the board was put there by hand or held up by something physical: big words and numbers written in dry-erase marker, real iPhone screenshots held up by round magnets and hung at a slight tilt, printed sheets (blog posts, legal pages) stuck up the same way, and the faint ghost of yesterday's writing that never wipes clean.\n\nTwo voices share the board. The marker voice (Kalam) writes single words, section headings, numbers, tallies and the coach's notes. The printed voice (Barlow) carries every sentence that has to be read: hero claim, body copy, article text, navigation. Colour is marker colour: black for writing, red (the app's own red) for the day's word and emphasis, blue for the coach's notes, green for \"fresh\". The board is generous and mostly empty; sections sit far apart, and the grid, not boxes, holds them in line.\n\nThe world rejects the category default of a dark page, a centred phone mockup and an icon-card feature grid. States are written as marker notes, never chrome badges.",
+    "keyCharacteristics": [
+      "Brushed-aluminium frame (raster texture) around a glossy grid board on every page.",
+      "Kalam marker for words and numbers; Barlow for sentences; Barlow Condensed for printed labels.",
+      "Four marker colours: black, red, blue, green. No other hues.",
+      "Real app screenshots in a black iPhone frame, tilted 1.5 to 3 degrees, held by two magnets.",
+      "Hand-drawn SVG marks (underlines, loops, arrows, ticks, boxes) in the current marker colour.",
+      "Ghost writing: giant blurred marker words left behind from an erased day.",
+      "One signature control: the eraser that wipes the day's word and writes the next day in."
+    ],
+    "rules": [
+      {
+        "name": "The Marker Box Rule",
+        "body": "Only black, red, blue and green ever write on the board. A fifth hue means something is not marker.",
+        "section": "colors"
+      },
+      {
+        "name": "The Small Red Rule",
+        "body": "Text under 24px that should read red uses red-ink, never red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Marker writes words and numbers; Barlow writes sentences. A paragraph in Kalam, or a heading in Barlow on the board, breaks the world. (Article and legal headings inside a printed sheet are Barlow: they are printed.)",
+        "section": "typography"
+      },
+      {
+        "name": "The Badge Face Rule",
+        "body": "The Apple system face appears only inside the App Store badge and inside simulated iOS screens (Dynamic Island, Lock Screen). It is never site type.",
+        "section": "typography"
+      },
+      {
+        "name": "The Held Up Rule",
+        "body": "Anything lifted off the board (phone, sheet, app icon in a CTA) is held by something: magnets, or it rests on the tray. Text and marks are never shadowed.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Light On Material Rule",
+        "body": "Gradients exist only as light on a material: the board sheen, the magnet's highlight, the eraser handle, simulated iOS wallpaper. Never as a decorative fill or a text effect.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every page inside the aluminium frame and on the gridded board.",
+      "**Do** write section headings in Kalam 700 at the headline size and let them write on once.",
+      "**Do** hold every phone and sheet up with magnets, tilted between 0.5 and 3 degrees.",
+      "**Do** write states and annotations as blue or green marker notes with a drawn arrow or tick.",
+      "**Do** use red-ink for small red text and red for large words and marks.",
+      "**Do** keep sentences in Barlow at 1.125rem with relaxed leading and a 33 to 38rem measure."
+    ],
+    "donts": [
+      "**Don't** add a fifth marker colour or any decorative gradient fill.",
+      "**Don't** use glass panels, icon-card feature grids, chrome status pills, or a dark page.",
+      "**Don't** shrink the day's word below 120px.",
+      "**Don't** set a sentence or paragraph in Kalam.",
+      "**Don't** use the Apple system face outside the App Store badge and simulated iOS screens.",
+      "**Don't** float a sheet or phone with a shadow but nothing holding it."
+    ]
+  },
+  "notBuilt": [
+    "Footer tray carries no marker object yet (finish review open item).",
+    "Header app icon has no magnet yet (finish review open item)."
+  ]
+}

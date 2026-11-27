@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function SupportPage() {
   return (
     <div className="container py-16 md:py-20">
-      <article className="prose-doc">
+      <article className="prose-doc sheet px-6 py-10 md:px-14 md:py-14">
         <h1>Support</h1>
         <p>Need help? You're in the right place.</p>
 

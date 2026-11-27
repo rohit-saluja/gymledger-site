@@ -1,114 +1,59 @@
 import type { Config } from "tailwindcss";
 
+// Colours are space-separated RGB channels in app/globals.css, so every token
+// takes Tailwind's opacity modifier (bg-ink/10, text-red/80).
+const c = (name: string) => `rgb(var(--${name}) / <alpha-value>)`;
+
 const config: Config = {
-  darkMode: "class",
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {
     container: {
       center: true,
-      padding: "1.25rem",
-      screens: {
-        "2xl": "1200px",
-      },
+      padding: { DEFAULT: "1.25rem", md: "2rem" },
+      screens: { "2xl": "1216px" },
     },
     extend: {
       fontFamily: {
-        sans: [
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "system-ui",
-          "\"Segoe UI\"",
-          "Roboto",
-          "\"Helvetica Neue\"",
-          "Arial",
-          "sans-serif",
-        ],
+        sans: ["var(--font-barlow)", "system-ui", "sans-serif"],
+        label: ["var(--font-barlow-condensed)", "var(--font-barlow)", "system-ui", "sans-serif"],
+        marker: ["var(--font-kalam)", "ui-rounded", "cursive"],
+        apple: ["-apple-system", "BlinkMacSystemFont", "\"SF Pro Text\"", "\"Helvetica Neue\"", "Arial", "sans-serif"],
       },
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
-        bg: {
-          DEFAULT: "hsl(var(--bg))",
-          subtle: "hsl(var(--bg-subtle))",
-          elevated: "hsl(var(--bg-elevated))",
-        },
-        surface: {
-          DEFAULT: "hsl(var(--surface))",
-          hover: "hsl(var(--surface-hover))",
-          active: "hsl(var(--surface-active))",
-        },
-        "border-subtle": "hsl(var(--border-subtle))",
-        "border-strong": "hsl(var(--border-strong))",
-        fg: {
-          DEFAULT: "hsl(var(--fg))",
-          secondary: "hsl(var(--fg-secondary))",
-          muted: "hsl(var(--fg-muted))",
-          inverse: "hsl(var(--fg-inverse))",
-        },
-        brand: {
-          DEFAULT: "hsl(var(--brand))",
-          light: "hsl(var(--brand-light))",
-          dark: "hsl(var(--brand-dark))",
-        },
-        success: "hsl(var(--success))",
-        warning: "hsl(var(--warning))",
-        info: "hsl(var(--info))",
+        board: { DEFAULT: c("board"), shade: c("board-shade") },
+        grid: c("grid"),
+        rule: c("rule"),
+        paper: c("paper"),
+        ghost: c("ghost"),
+        ink: { DEFAULT: c("ink"), 2: c("ink-2"), 3: c("ink-3") },
+        red: { DEFAULT: c("red"), ink: c("red-ink") },
+        blue: c("blue"),
+        green: { DEFAULT: c("green"), ink: c("green-ink") },
+        alu: { DEFAULT: c("alu"), light: c("alu-light"), dark: c("alu-dark") },
+
+        // Older names, kept so every page speaks the same system.
+        border: c("rule"),
+        "border-subtle": c("grid"),
+        "border-strong": c("ink-3"),
+        ring: c("blue"),
+        background: c("board"),
+        foreground: c("ink"),
+        bg: { DEFAULT: c("board"), subtle: c("board-shade"), elevated: c("paper") },
+        surface: { DEFAULT: c("paper"), hover: c("board-shade"), active: c("grid") },
+        fg: { DEFAULT: c("ink"), secondary: c("ink-2"), muted: c("ink-3"), inverse: c("paper") },
+        brand: { DEFAULT: c("red"), light: c("red-ink"), dark: c("red") },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        sm: "6px",
+        md: "8px",
+        lg: "10px",
         xl: "14px",
         "2xl": "18px",
         "3xl": "24px",
       },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-      },
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+      transitionTimingFunction: {
+        out: "cubic-bezier(0.23, 1, 0.32, 1)",
+        "in-out": "cubic-bezier(0.77, 0, 0.175, 1)",
       },
     },
   },

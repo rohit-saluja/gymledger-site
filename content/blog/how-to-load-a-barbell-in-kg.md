@@ -1,42 +1,74 @@
 ---
-title: "How to Load a Barbell in kg: Plate Math Made Easy"
-h1: "How to Load a Barbell in Kilograms: Plate Math Made Easy"
-description: "Learn how to load a barbell in kg: bar weights, collars, plate colours and simple per-side plate math, with a 40-200 kg loading table. Get it right first time."
-keyword: "how to load a barbell in kg"
-keywords: "barbell plate math kg, 20 kg Olympic bar, kg plates guide"
+title: "How Much Does a Barbell Weigh in kg? (And How to Load It)"
+h1: "How Much Does a Barbell Weigh in kg? Bar Weights and Plate Math"
+description: "How much does a barbell weigh in kg? 20 kg for a men's Olympic bar, 15 kg for a women's, honest ranges for EZ, trap and Smith bars, and a kg loading table."
+keyword: "how much does a barbell weigh in kg"
+keywords: "how to load a barbell in kg, barbell weight kg, olympic bar weight kg, barbell plate math kg, kg plates guide"
 category: "Equipment"
 date: "2026-10-14"
+updated: "2026-11-27"
+image: "/blog/how-to-load-a-barbell-in-kg/hero.webp"
+imageAlt: "Blue 20 kg plate on a barbell resting in a squat rack, with yellow 15 kg plates behind it"
+imageCredit: "Matthew Jesús"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-loaded-barbell-on-gym-equipment-39193394/"
 ---
 
-Here's **how to load a barbell in kg**: subtract the bar's weight (usually 20 kg) from your target, divide what's left by two, and put that amount on each side using the biggest plates first. For 100 kg (220 lb) on a 20 kg Olympic bar, that's 80 kg of plates, or 40 kg per side: one 25 kg, one 15 kg. If you use competition collars, subtract 5 kg more before you split. The rest of this guide covers bar weights, plate colours, a full loading table, and how to handle lb plates and small jumps.
+How much does a barbell weigh in kg? A standard men's Olympic barbell weighs **20 kg (44 lb)** and a women's Olympic bar weighs **15 kg (33 lb)**. Most other bars aren't standardised: EZ curl bars are usually about 8 to 11 kg, trap bars about 20 to 30 kg, and Smith machine bars depend on the machine. If a bar isn't stamped, find out before you log a single set.
 
-## Step one: know what your bar weighs
+Loading it is simple: subtract the bar from your target, halve what's left, and put that on each side, biggest plates first. For 100 kg (220 lb) on a 20 kg Olympic bar, that's 80 kg of plates, or 40 kg per side: one 25 kg and one 15 kg. If you use competition collars, take off another 5 kg before you split it. Below you'll find every common bar, plate colours, a full loading table, and how to handle lb plates and small jumps.
 
-Every bit of plate math starts with the bar. Get this wrong and every number you log is off by the same amount, which quietly ruins your progress charts.
+## How much does a barbell weigh in kg? Every common bar
+
+Every bit of plate math starts with the bar. Get this wrong and every number you log is off by the same amount, which quietly ruins your progress charts. Here are the bars you're likely to meet, with honest ranges where the weight isn't fixed.
+
+| Bar | Weight in kg | Weight in lb | Standard? |
+|---|---|---|---|
+| Men's Olympic bar (also most power and deadlift bars) | 20 kg | 44 lb | Yes. The bar in most racks |
+| Women's Olympic bar | 15 kg | 33 lb | Yes. Thinner 25 mm grip |
+| Powerlifting squat bar | about 25 kg, some up to 29 kg | about 55 to 64 lb | No. Check the stamp |
+| Technique or youth bar | often 10 kg, some lighter | 22 lb or less | No |
+| Olympic EZ curl bar | about 8 to 11 kg | about 17 to 25 lb | No. Brands differ |
+| Trap (hex) bar | about 20 to 30 kg | about 45 to 66 lb | No. Varies a lot by model |
+| Safety squat bar | about 20 to 30 kg | about 45 to 65 lb | No |
+| Standard 1-inch bar (home sets) | usually 4 to 10 kg | usually 9 to 22 lb | No |
+| Smith machine bar | depends on the machine | depends on the machine | No. Some are counterbalanced |
+| Fixed (pre-loaded) barbell | total printed on the end | total printed on the end | Log the printed number |
+
+The ranges come from manufacturer guides and product listings ([Dumbbells Direct](https://dumbbellsdirect.com/blogs/barbell-basics-education/how-much-does-a-barbell-weigh), [Texas Power Bars](https://texaspowerbars.com/blogs/the-barbell-journal/how-much-do-different-types-of-barbells-weigh)) and [Wikipedia's barbell page](https://en.wikipedia.org/wiki/Barbell). They're there to stop you assuming, not to replace reading the bar in front of you.
 
 ### The 20 kg Olympic bar
 
-The standard men's Olympic bar weighs **20 kg (44 lb)**. Under International Weightlifting Federation specifications it's 2.2 m long, with 50 mm sleeves and a 28 mm grip, according to the summary on [Wikipedia's barbell page](https://en.wikipedia.org/wiki/Barbell). This is the bar you'll find in most squat racks and on most bench presses in a decently equipped gym. Powerlifting federations also use a 20 kg bar.
+The standard men's Olympic bar weighs **20 kg (44 lb)**. Under International Weightlifting Federation specifications it's 2.2 m long, with 50 mm sleeves and a 28 mm grip, according to the summary on Wikipedia's barbell page. This is the bar you'll find in most squat racks and on most bench presses in a decently equipped gym. Powerlifting bars and most deadlift bars are 20 kg too, though their grip and stiffness differ.
 
 ### The 15 kg women's Olympic bar
 
-The women's Olympic bar weighs **15 kg (33 lb)**. It's shorter (about 2.01 m) with a thinner 25 mm grip and no centre knurling. Plenty of lifters of any gender prefer the thinner grip for Olympic lifts.
+The women's Olympic bar weighs **15 kg (33 lb)**. It's shorter (about 2.01 m) with a thinner 25 mm grip and no centre knurling. Plenty of lifters of any gender prefer the thinner grip for Olympic lifts. If your gym has both, the 15 kg bar is usually easy to spot by its shorter length and slimmer handle.
 
-### Technique bars, EZ bars and fixed barbells
+### Why a 20 kg bar gets called a 45 lb bar
 
-This is where people get caught out. Lighter **technique or training bars** exist in a range of weights, often well under 15 kg, and they're not standardised. **EZ curl bars** vary a lot between brands. **Fixed (pre-loaded) barbells** on a rack usually have the total printed on the end, but the bar itself isn't separately labelled.
+20 kg is 44.1 lb. In gyms that work in pounds, the bar is usually sold and spoken of as a 45 lb bar, and some lb-rated bars genuinely weigh 45 lb (about 20.4 kg). The difference is under half a kilo, so it rarely matters at the rack. It does matter for your log: if you count the bar as 45 lb in one gym and 20 kg in another, your totals drift. Pick one and keep it.
 
-The rule is simple: **if you don't know what a bar weighs, check.** Look for a stamp on the sleeve or end cap, ask the staff, or weigh it on a scale. Don't assume an EZ bar is 10 kg just because the last gym's was.
+### EZ bars, technique bars and fixed barbells
 
-| Bar type | Typical weight | Notes |
-|---|---|---|
-| Men's Olympic bar | 20 kg (44 lb) | Standard in most racks; also used in powerlifting |
-| Women's Olympic bar | 15 kg (33 lb) | Thinner 25 mm grip |
-| Technique / training bar | Varies | Check the marking or weigh it |
-| EZ curl bar | Varies | Brands differ; check before logging |
-| Fixed barbell | Total printed on end | Log the printed total |
+This is where people get caught out. **Technique or training bars** are often 10 kg, sometimes less, and they aren't standardised. **EZ curl bars** with Olympic sleeves usually land somewhere around 8 to 11 kg (17 to 25 lb), and thinner standard-sleeve versions can weigh less. **Fixed (pre-loaded) barbells** on a rack have the total printed on the end, which already includes the bar.
 
-## Step two: decide whether collars count
+Don't assume an EZ bar is 10 kg just because the last gym's was. A 2 kg error on a 30 kg curl is nearly 7%, which is bigger than most of the jumps you'll ever make on that lift.
+
+### Trap bars, safety squat bars and Smith machines
+
+Specialty bars are heavier and less predictable. Trap (hex) bars commonly run from about 20 to 30 kg (45 to 66 lb) depending on the model, and safety squat bars sit in a similar range. A Smith machine bar is a different case again: it runs on rails, and many machines use a counterweight so the bar feels lighter than its true weight. There's no standard number, so look for a sticker on the frame or ask the staff.
+
+For your log, the exact figure matters less than using the same figure every session. If nobody knows what the Smith bar weighs, log only the plates and name the exercise "Smith Squat (plates only)" so you remember.
+
+### How to find out what an unmarked bar weighs
+
+Sometimes the honest answer to "how much does a barbell weigh in kg?" is "nobody here knows". Three ways to settle it:
+
+1. **Look at the end caps and sleeves.** Most bars have the weight stamped or printed there.
+2. **Ask the staff or check the frame.** Machines and specialty bars often have a label.
+3. **Weigh it.** Step on a bathroom scale, note the number, then step on again holding the bar. The difference is the bar. A bathroom scale isn't precise, so round to the nearest 0.5 kg and use that number from then on.
+
+## Do collars count toward the weight?
 
 Collars hold the plates on. Whether you include their weight depends on what type you use.
 
@@ -45,7 +77,7 @@ Collars hold the plates on. Whether you include their weight depends on what typ
 
 If you train with competition collars, your starting weight is 25 kg, not 20 kg. The bar alone with collars is already 25 kg (55 lb).
 
-## Step three: learn the kg plate colours
+## kg plate colours and what they mean
 
 Calibrated kg plates follow a colour code set out by the IWF and widely used in powerlifting as well. Wikipedia's barbell page summarises it like this:
 
@@ -61,6 +93,9 @@ Two things to remember:
 
 1. **Colour repeats.** Red is both 25 kg and 2.5 kg. Size tells you which is which, and the plate should be stamped with its weight.
 2. **Your gym may not follow it.** Commercial gyms often use black iron or black bumper plates of every size. IPF-approved sets can use any colour for plates of 10 kg and below. Always read the number on the plate, not just the colour.
+
+![Black 10 kg plate with red number labels loaded on a plate-loaded gym machine](/blog/how-to-load-a-barbell-in-kg/ten-kg-plate.webp)
+*Photo: [KIEU TRUONG](https://www.pexels.com/photo/close-up-of-gym-weight-plate-on-barbell-39100209/) on Pexels*
 
 Most commercial gyms in kg also stock **1.25 kg (2.8 lb)** plates, which are handy for small jumps. Some have fractional plates of 0.5 kg or less.
 
@@ -143,6 +178,11 @@ If you use 2.5 kg competition collars, subtract 2.5 kg from the "per side" colum
 
 Many gyms mix kg bars with lb plates, or the other way round. Here's how to keep the numbers straight.
 
+![Plate tree holding yellow, blue and red bumper plates marked in pounds, with a 35 lb blue plate in the middle](/blog/how-to-load-a-barbell-in-kg/plate-colours.webp)
+*Photo: [Juan Gomez](https://www.pexels.com/photo/hampton-weights-on-gym-15386224/) on Pexels*
+
+Colours won't save you here. On the lb bumper plates in that photo, blue is 35 lb (15.9 kg), not 20 kg. Different sets use colours differently, so read the stamp.
+
 - **1 kg = 2.2046 lb**, so multiply kg by 2.2046 to get lb.
 - **1 lb = 0.4536 kg**, so multiply lb by 0.4536 to get kg.
 
@@ -187,11 +227,14 @@ Fractional plates solve this. Sets commonly include **0.5 kg (1.1 lb)** and **0.
 - Put them on the outside, after your other plates.
 - Track the exact total, such as 41 kg (90.4 lb), not "about 40."
 
-If your gym doesn't have them, you can still progress by adding reps before weight. That's the idea behind [double progression](/blog/double-progression): hit the top of your rep range at one weight, then make the small jump.
+If your gym doesn't have them, you can still progress by adding reps before weight. That's the idea behind [double progression](/blog/double-progression): hit the top of your rep range at one weight, then make the small jump. For week-by-week numbers on the bench press and squat using exactly these 1.25 kg and 2.5 kg steps, see our [progressive overload examples](/blog/progressive-overload-examples).
 
 ## Safe loading and unloading order
 
 Getting the numbers right is only half of how to load a barbell in kg safely. Loading a bar badly is how plates slide off, bars tip off racks, and toes get crushed.
+
+![Lifter sliding a black iron plate onto a barbell set in a rack, with a blue lock collar waiting on the upright](/blog/how-to-load-a-barbell-in-kg/loading-plates.webp)
+*Photo: [Anete Lusina](https://www.pexels.com/photo/man-putting-weight-on-metal-barbell-4793225/) on Pexels*
 
 ### Loading
 
@@ -222,11 +265,11 @@ A few rules that keep your history clean:
 - **Note unusual bars.** If you used an EZ bar or a lighter technique bar, record the total including that bar's weight, once you've checked it.
 - **Stay in one unit per lift.** Switching between kg and lb for the same exercise makes your progress charts jump around.
 
-GymLedger lets you choose kg or lbs as your unit, so you can log in the same units your gym's plates use. Its per-exercise progress charts and personal bests are only as accurate as the totals you enter, which is why consistent logging matters. For more on what to track and why, see our guide on [how to track progressive overload](/blog/how-to-track-progressive-overload).
+GymLedger lets you choose kg or lbs as your unit, so you can log in the same units your gym's plates use. Its strength chart for each exercise is only as accurate as the totals you enter, so a bar counted as 20 kg one week and 15 kg the next shows up as a fake jump. For more on what to track and why, see our guide on [how to track progressive overload](/blog/how-to-track-progressive-overload).
 
 ## Putting it into practice
 
-Knowing how to load a barbell in kg comes down to the same five steps every time. Next time you're at the bar, run the routine:
+Once you know how much a barbell weighs in kg (20 kg for the standard bar, 15 kg for the women's bar, and "check it" for everything else), loading it comes down to the same five steps every time. Next time you're at the bar, run the routine:
 
 1. Check the bar's weight. Assume nothing for unfamiliar bars.
 2. Decide whether collars count.
@@ -244,9 +287,13 @@ If you're new to barbell training and following a structured plan, our [12-week 
 
 ## Frequently asked questions
 
-### How much does an Olympic barbell weigh in kg?
+### How much does a barbell weigh in kg?
 
-A standard men's Olympic barbell weighs 20 kg (44 lb), and a women's Olympic bar weighs 15 kg (33 lb). Many gyms also have lighter technique bars, EZ curl bars and fixed barbells, and their weights vary by brand. If a bar isn't clearly marked, ask staff or weigh it before you start logging, so your totals stay accurate over time.
+A standard men's Olympic barbell weighs 20 kg (44 lb), and a women's Olympic bar weighs 15 kg (33 lb). Most power and deadlift bars are also 20 kg. Other bars vary: technique bars are often 10 kg or less, trap bars run about 20 to 30 kg, and Smith machine bars depend on the machine. If a bar isn't clearly marked, ask staff or weigh it before you start logging.
+
+### How much does an EZ curl bar weigh in kg?
+
+There's no standard. EZ curl bars with Olympic sleeves usually weigh about 8 to 11 kg (17 to 25 lb), and thinner standard-sleeve versions can weigh less. Look for a stamp on the end cap, or weigh yourself with and without the bar on a bathroom scale and round the difference to the nearest 0.5 kg. Then log that same figure every time you use the bar.
 
 ### How do I calculate plates per side in kg?
 

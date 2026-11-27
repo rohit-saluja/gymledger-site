@@ -1,16 +1,21 @@
 ---
-title: "How to Track Progressive Overload: Set-by-Set System"
+title: "How to Track Progressive Overload: Log, Chart, Repeat"
 h1: "How to Track Progressive Overload: A Simple Set-by-Set System"
-description: "Learn how to track progressive overload with a simple set-by-set log: what to record, how to read it weekly, and when to add weight. Worked kg and lb examples."
+description: "How to track progressive overload set by set: what to log, how to read a per-exercise progress chart, and when to add weight. Worked examples in kg and lb."
 keyword: "how to track progressive overload"
-keywords: "progressive overload log, tracking lifts over time, progressive overload tracker app"
+keywords: "progressive overload tracker, progressive overload app, progressive overload chart, progressive overload log, tracking lifts over time"
 category: "Progressive Overload"
 date: "2026-10-14"
+updated: "2026-11-27"
+image: "/blog/how-to-track-progressive-overload/hero.webp"
+imageAlt: "Barbell loaded with a 45 lb weight plate on a gym floor"
+imageCredit: "Luke Miller"
+imageCreditUrl: "https://www.pexels.com/photo/barbell-with-weight-plate-at-gym-15373907/"
 ---
 
 Here is how to track progressive overload: for every working set, write down the exercise, the weight, and the reps. Before each session, look at what you did last time on that exercise and aim to beat it by a small amount. A rep, a little weight, or one more set all count. If you record the same four things every set and compare like with like, the trend shows up on its own within a few weeks.
 
-The rest of this guide is the detail. It covers what progressive overload actually is, which variables you can push, exactly what to write down, how to read the log week to week, and what to do when the numbers stop going up.
+The rest of this guide is the detail: which variables you can push, exactly what to write down, how to read the log and a progress chart, and what to do when the numbers stop going up. If you're after ideas for the overload itself, lift by lift, our [progressive overload examples](/blog/progressive-overload-examples) cover the bench press, squats, dumbbells and push-ups.
 
 ## What progressive overload actually means
 
@@ -52,7 +57,7 @@ Adding reps is the easiest way to progress when the next weight jump is too big.
 
 ### Sets
 
-Adding a set raises the total amount of work. It is a useful lever over a training block, but you cannot add sets forever. Most people run out of time and recovery long before they run out of sets to add. Use it sparingly and on purpose.
+Adding a set raises the total amount of work. It is a useful lever over a training block, but you cannot add sets forever. Most people run out of time and recovery long before they run out of sets to add. Use it sparingly and on purpose. Our guide to [how many sets per muscle group per week](/blog/how-many-sets-per-muscle-group-per-week) covers where the useful range starts and where it tops out.
 
 ### Volume
 
@@ -72,6 +77,9 @@ Lifting the same weight with a fuller range of motion, a slower lowering phase, 
 
 Here is the minimum record that makes progressive overload trackable. You need these four things for every working set.
 
+![Clipboard with a blank sheet next to orange dumbbells, a jump rope and a resistance band](/blog/how-to-track-progressive-overload/workout-log.webp)
+*Photo: [Alesia  Kozik](https://www.pexels.com/photo/a-flatlay-of-gym-equipment-and-papers-8154269/) on Pexels*
+
 1. **Exercise name.** Be specific and consistent. "Incline dumbbell press" and "incline DB bench" should not be two different entries in your log.
 2. **Weight.** In the unit you actually load. If you use kg plates, log kg. If your gym is in pounds, log pounds. Do not convert in your head mid-session.
 3. **Reps completed.** The number you actually did, not the number you planned. If you planned 8 and got 6, write 6.
@@ -87,6 +95,7 @@ And for every session, add:
 These are helpful but not essential. Add them only if you will actually use them.
 
 - **Rest time** between sets, if you are trying to control density.
+- **Effort**, as RPE (rate of perceived exertion) or reps in reserve, if you want to know whether 8 reps were easy or a grind. Our [RPE chart](/blog/rpe-chart) explains the scale and how to rate a set honestly.
 - **Body weight**, recorded a few times a week, so you can link strength changes to a bulk or cut. Our guide on [how often to weigh yourself](/blog/how-often-to-weigh-yourself) covers how to do this without obsessing.
 - **A short comment** on anything unusual, like poor sleep or a sore shoulder, if your log has room for it.
 
@@ -104,7 +113,7 @@ Warm-ups help you prepare, but they should not be compared with working sets. Th
 
 ## A sample progressive overload log
 
-Here is what a clean progressive overload log looks like for one exercise over four weeks. This lifter is doing barbell bench press, 3 sets, aiming for 6 to 8 reps.
+Here is what a clean progressive overload log looks like for one exercise over four weeks. This lifter is doing barbell bench press, 3 sets, aiming for 6 to 8 reps. If you'd rather start from a ready-made sheet, our [workout log template](/blog/workout-log-template) has the columns laid out for paper or a spreadsheet.
 
 ### Kilograms
 
@@ -152,7 +161,58 @@ Individual sessions are noisy. Sleep, stress, food, and even the time of day mov
 
 A useful monthly check is to look at your best set on each main lift over the last four weeks. You can use the heaviest weight lifted for your target reps, or the most reps at a fixed weight. If that number is flat or rising slowly, you are progressing. If it has been flat for three or more weeks, you have a plateau, which is covered below.
 
-A per-exercise chart makes this much easier than scanning rows of numbers. GymLedger, for example, draws a strength progress chart for each exercise and records your personal bests, so a month of training reads as one line instead of 12 tables.
+A per-exercise chart makes this much easier than scanning rows of numbers. The next section covers how to read one.
+
+## How to read a progressive overload chart
+
+A progressive overload chart plots one number for one exercise over time. Dates run along the bottom and the number you chose runs up the side. Each exercise gets its own chart, because a line that mixes bench press and lateral raises tells you nothing.
+
+### Pick one number to plot
+
+Most charts use one of these three:
+
+| What's plotted | Good for | Watch out for |
+|---|---|---|
+| **Top-set weight** (heaviest weight for your target reps) | Compound lifts with a fixed rep target | Hides rep gains at the same weight |
+| **Total reps at a fixed weight** | Double progression, dumbbells, machines | Resets every time you add load |
+| **Session volume** (sets x reps x weight) | Total work across a training block | Rises if you add junk sets, dips after every load jump |
+
+Whichever you choose, stick with it for the whole block. Switching from top-set weight to volume halfway through is how people talk themselves into progress that isn't there, or miss progress that is.
+
+### What a healthy line looks like
+
+On top-set weight, a healthy line is a staircase: flat for a few sessions while reps build, then a step up. On volume it's a sawtooth that climbs, dips when the load goes up, then climbs past the old peak. Both trend up over a month or two. Neither goes up every session, and they don't need to.
+
+Here's a bench press top set over ten weeks, 3 sets of 6 to 8 reps:
+
+| Week | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| kg | 70 | 70 | 70 | 72.5 | 72.5 | 72.5 | 72.5 | 75 | 75 | 75 |
+| lb | 155 | 155 | 155 | 160 | 160 | 160 | 160 | 165 | 165 | 165 |
+
+Plotted, that's three flat steps rising 5 kg (10 lb) in ten weeks. It won't impress anyone at the gym, but for an intermediate bench press it's a very good line.
+
+![Printed line chart with two lines trending upward, lying on a desk](/blog/how-to-track-progressive-overload/progress-chart.webp)
+*Photo: [Lukas Blazek](https://www.pexels.com/photo/graph-and-line-chart-printed-paper-590045/) on Pexels*
+
+### Patterns and what they usually mean
+
+| What the line does | What it usually means | What to do |
+|---|---|---|
+| Steps or sawtooth trending up | Overload is working | Change nothing |
+| Flat for 3+ weeks | A plateau on this lift | Check sleep, food and rest, then change one variable |
+| Several lifts dipping in the same week | Accumulated fatigue | Consider a deload |
+| A spike, then a drop | A jump that was too big, or looser reps | Go back to the smallest increment and a strict rep standard |
+| Gaps in the line | Missed sessions | Fix the schedule before you blame the program |
+| A new line starting from scratch | You renamed the exercise | Use one name so the history stays together |
+
+Two rules keep the chart honest. Log each exercise under the same name every time, and keep your units and conventions fixed (kg or lb, per hand or total on dumbbells). If you don't, the chart ends up plotting your bookkeeping instead of your strength.
+
+### Drawing it yourself vs letting an app do it
+
+On paper you can sketch the chart by hand: one sheet per main lift, weeks along the bottom, top-set weight up the side. Five minutes a month is plenty. In a spreadsheet, a line chart built from the date and weight columns does the same job once you've set it up.
+
+A progressive overload tracker app draws the chart from the sets you've already logged. GymLedger, for example, builds a strength chart for every exercise as you train, so a month of sessions shows up as one line instead of 12 tables. However the chart gets drawn, read it the same way: look at the trend over four or more weeks and ignore any single dot.
 
 ## How fast should you progress? Beginner vs intermediate
 
@@ -172,6 +232,9 @@ These are rough patterns, not rules. Your age, sleep, food, and training history
 As a beginner, you can usually add weight to compound lifts often. A simple approach is to pick a fixed sets-and-reps target, such as 3 sets of 5 or 3 sets of 8, and add the smallest jump each time you hit every rep with good form.
 
 For barbell lifts, that is usually **2.5 kg** (two 1.25 kg plates) or **5 lb** (two 2.5 lb plates). For deadlifts and squats early on, some beginners add 5 kg (10 lb) per session for the first few weeks. Upper-body pressing slows down sooner, so keep those jumps small.
+
+![Lifter carrying a 25 kg weight plate across a gym floor](/blog/how-to-track-progressive-overload/weight-plate.webp)
+*Photo: [Juho Alonen](https://www.pexels.com/photo/man-holding-weight-plate-in-gym-setting-28636773/) on Pexels*
 
 If you are just starting, a structured plan helps. Our [12-week gym workout plan for beginners](/blog/gym-workout-plan-for-beginners-india) builds this progression in from day one. If you train in a kg gym and plate math still trips you up, see [how to load a barbell in kg](/blog/how-to-load-a-barbell-in-kg).
 
@@ -204,9 +267,11 @@ If the basics are fine, change one thing at a time so you can see what worked.
 4. **Change the exercise variation.** Swap flat bench for incline, or back squat for front squat, for a training block. Track the new lift from a fresh baseline.
 5. **Take a deload.** Sometimes fatigue is hiding your progress. More on that next.
 
+If you want other ways to push a stuck lift, our [progressive overload examples](/blog/progressive-overload-examples) work through options for common lifts.
+
 ## Deloads: planned backing off
 
-A deload is a short, planned period of easier training, usually one week. The goal is to let fatigue fall so your strength can show up again. It is not a week off and it is not a sign of weakness.
+A deload is a short, planned period of easier training, usually one week. The goal is to let fatigue fall so your strength can show up again. You still train, just lighter. Our full guide to the [deload week](/blog/deload-week) goes deeper; the short version follows.
 
 ### When to deload
 
@@ -255,9 +320,11 @@ A spreadsheet is powerful if you enjoy building it. You can calculate volume, ma
 
 ### Progressive overload tracker app
 
-A progressive overload tracker app is the lowest-effort option for most people. You enter the weight and reps, and the app handles dates, history, and charts. The trade-offs are cost, and that some apps add social feeds, ads, or data sharing you may not want. If that bothers you, our roundup of [Hevy alternatives without a social feed](/blog/hevy-alternatives-without-social-feed) compares quieter options.
+A progressive overload tracker app is the lowest-effort option for most people. You enter the weight and reps, and the app handles dates, history, and charts. The trade-offs are cost, and that some apps add social feeds, ads, or data sharing you may not want. If that bothers you, our roundup of [Hevy alternatives without a social feed](/blog/hevy-alternatives-without-social-feed) compares quieter options, and our guide to the [best app to track workouts](/blog/best-app-to-track-workouts) covers the wider field.
 
-[GymLedger](/) is one example built around this workflow. You set up templates with your exercises, sets, and rep ranges, log each set's weight and reps quickly, and see per-exercise progress charts and personal bests. It supports kg or lbs and has no ads. Whatever you choose, judge it by one question: does it make it easy to see exactly what you did last time?
+When you compare progressive overload apps, check four things: how many taps it takes to log a set, whether last session's numbers are easy to see, whether every exercise gets its own chart, and whether you can work in your gym's units.
+
+[GymLedger](/) is one example built around this workflow. You set up templates with your exercises, sets, and rep ranges, log each set's weight and reps quickly, and see a strength chart for every exercise. It works in kg or lbs, its rest timer keeps counting on the Lock Screen and in the Dynamic Island, and your training data isn't sold or used for advertising. It's a subscription with a free trial. Whatever you choose, judge it by one question: does it make it easy to see exactly what you did last time?
 
 ## Worked example: a full week in kg and lb
 
@@ -337,11 +404,11 @@ The most common mistake of all. A log you never read is a diary, not a training 
 
 Here is the simplest version of how to track progressive overload, ready for your next workout.
 
-1. **Pick your tool.** Paper, spreadsheet, or an app like GymLedger. Choose the one you will use every session.
+1. **Pick your tool.** Paper, a spreadsheet, or a progressive overload app. Choose the one you will use every session.
 2. **Set rep ranges.** For example, 5 to 8 for heavy compound lifts, 8 to 12 for most accessories, and 10 to 15 for small isolation exercises.
 3. **Record every working set.** Exercise, weight, reps, set order, and date. Nothing more is required.
 4. **Before each exercise, check last time.** Add weight if you hit the top of the range on all sets. Otherwise, aim for one more rep.
-5. **Review monthly.** Look at the trend on each main lift. Flat for three or more weeks means it is time to address a plateau.
+5. **Review monthly.** Look at the chart for each main lift. Flat for three or more weeks means it is time to address a plateau.
 6. **Deload when fatigue builds.** Plan one easier week when your log shows several lifts dropping together.
 
 If you want a program structure to apply this to, our guide to [building your own workout split](/blog/how-to-build-your-own-workout-split) walks through choosing days, exercises, and set targets. Then let your log do the deciding.

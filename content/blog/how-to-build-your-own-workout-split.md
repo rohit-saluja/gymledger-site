@@ -1,20 +1,53 @@
 ---
-title: "How to Create Your Own Workout Split (With Templates)"
-h1: "How to Build Your Own Workout Split (Step-by-Step Template)"
-description: "How to create your own workout split in 7 steps: pick your days, frequency, weekly sets and exercises, plus ready-made 3, 4, 5 and 6-day templates to copy."
-keyword: "how to create your own workout split"
-keywords: "build a custom workout routine, make your own gym program, design a workout plan"
+title: "Gym Splits: How to Build Your Own Workout Split"
+h1: "Gym Splits Explained: How to Build Your Own Workout Split"
+description: "Gym splits compared: full body, PPL, upper/lower and 5-day. Then build your own workout split in 7 steps, with templates for 3 to 6 days a week."
+keyword: "gym splits"
+keywords: "workout split for beginners, best split workout, workout planner, how to create your own workout split, custom workout routine"
 category: "Programs & Splits"
 date: "2026-10-14"
+updated: "2026-11-27"
+image: "/blog/how-to-build-your-own-workout-split/hero.webp"
+imageAlt: "Bright gym floor with rows of weight machines and benches"
+imageCredit: "大 董"
+imageCreditUrl: "https://www.pexels.com/photo/modern-gym-equipment-in-bright-fitness-center-40371850/"
 ---
 
-Here's how to create your own workout split: decide how many days you can realistically train, aim to hit each muscle group about **twice a week**, give each muscle roughly **10-20 hard sets per week**, then choose exercises, order them big-to-small and assign rep ranges. Run the plan for 4-8 weeks, review your logs, and adjust. That's the whole process, and the steps below walk through each part with templates for 3, 4, 5 and 6 days a week.
+Gym splits are the way you divide training across the week: full body, upper/lower, push/pull/legs, or a 5-day mix. The ones that work best for most people hit each muscle group about **twice a week** with roughly **10-20 hard sets per muscle per week**, on a number of days you can keep up. To create your own workout split, count your realistic training days, pick the split that fits, then choose exercises, order them big-to-small and assign rep ranges. Run the plan for 4-8 weeks, review your logs, and adjust.
 
-A premade program is a fine start, but it rarely fits your schedule, equipment and weak points perfectly. Building your own lets you keep the parts that matter and drop the parts that don't.
+Below is a side-by-side comparison of the common gym splits, followed by the seven steps, with templates for 3, 4, 5 and 6 days a week. A premade program is a fine start, but it rarely fits your schedule, equipment and weak points perfectly. Building your own lets you keep the parts that matter and drop the parts that don't.
+
+## Common gym splits compared
+
+Almost every program you'll find online is a variation on one of these five. The table shows how often each trains a muscle, who it suits, and what it costs you.
+
+| Split | Days per week | Each muscle trained | Best for | Trade-off | Full guide |
+|---|---|---|---|---|---|
+| **Full body** | 2-3 | 2-3x a week | Beginners, busy schedules | Sessions get long if you add volume | [3-day workout split](/blog/3-day-workout-split) |
+| **Upper/lower** | 4 | 2x a week | Early intermediates after strength and size | Needs four fixed days; lower days are hard work | [4-day workout split](/blog/4-day-workout-split) |
+| **Push/pull/legs (PPL)** | 3 or 6 | 1x (3 days) or 2x (6 days) | Intermediates with time to train often | Six days is a big commitment; three days trains each muscle once | [PPL routine](/blog/push-pull-legs-routine) |
+| **Upper/lower + PPL** | 5 | About 2x a week | Lifters who want five days without a bro split | Weekly frequency is a little uneven | [5-day workout split](/blog/5-day-workout-split) |
+| **Bro split** (one body part a day) | 5 | 1x a week | Lifters who enjoy one-muscle sessions | Lots of sets crammed into one day per muscle | [5-day workout split](/blog/5-day-workout-split) |
+
+### The best split workout is the one you'll repeat
+
+Among splits that train each muscle about twice a week, none is clearly better than the others. What decides your results is whether you show up for months, so the best split workout is the one that fits your week. Some quick picks:
+
+- **3 days a week:** full body, or a 3-day PPL if you prefer shorter, more focused sessions.
+- **4 days a week:** upper/lower.
+- **5 days a week:** upper/lower + PPL.
+- **6 days a week:** PPL run twice, if your recovery and schedule can take it.
+
+### Workout split for beginners
+
+If you've been lifting for less than six months or so, start with **three full-body sessions a week**. You practise the main lifts three times a week instead of once, and if you miss a session, every muscle still gets trained that week. Move to upper/lower or PPL once your sessions start running long or the weight on the bar stops climbing every week.
 
 ## Step 1: Decide how many days you can actually train
 
-Start with your calendar, not your ambition. The best split is the one you can repeat for months, not the one that looks impressive for two weeks.
+Start with your calendar. A split that looks impressive for two weeks and then falls apart is worth less than a plain one you repeat for months.
+
+![Weekly planner page showing Tuesday, Wednesday and Thursday](/blog/how-to-build-your-own-workout-split/weekly-planner.webp)
+*Photo: [MART  PRODUCTION](https://www.pexels.com/photo/photo-of-a-blank-planner-7718754/) on Pexels*
 
 Ask yourself:
 
@@ -48,11 +81,13 @@ Practical guidelines:
 - **Intermediates:** 2x per week via upper/lower or push/pull/legs twice.
 - **Lagging muscles:** can go to 3x per week if recovery allows.
 
+Frequency only helps if the muscle has recovered between sessions. After a hard session, most lifters need a couple of days before training the same muscle hard again, which is why good splits avoid hitting legs on back-to-back days. Our guide on [how long it takes for muscles to recover](/blog/how-long-does-it-take-for-muscles-to-recover) goes through the timelines. GymLedger's Recovery tab colours a body map by how recovered each muscle is after your logged workouts, which is a quick way to see whether your split spaces sessions sensibly.
+
 ## Step 3: Set weekly sets per muscle
 
 Weekly volume, the number of hard sets per muscle per week, is one of the biggest levers for muscle growth. A 2017 meta-analysis by Schoenfeld, Ogborn and Krieger found a graded dose-response relationship: more weekly sets were associated with greater muscle gain ([PubMed](https://pubmed.ncbi.nlm.nih.gov/27433992/)).
 
-More isn't endlessly better, though. Recovery, time and joint health set a ceiling. A sensible framework:
+More isn't endlessly better, though. Recovery, time and joint health set a ceiling. Our guide to [how many sets per muscle group per week](/blog/how-many-sets-per-muscle-group-per-week) covers the research in more depth; here's a sensible framework:
 
 | Training level | Hard sets per muscle per week |
 |---|---|
@@ -75,6 +110,9 @@ For each muscle, choose one or two exercises per session. Good exercise selectio
 3. **Choose exercises you can load progressively.** You want movements where you can add weight or reps over weeks and track it cleanly.
 4. **Respect your body and gym.** If barbell back squats hurt your hips, a hack squat or leg press is a perfectly good substitute. If your gym has three benches and fifty people, have a dumbbell alternative ready.
 5. **Keep it stable.** Rotating exercises every week makes progress hard to measure. Stick with the same main lifts for at least one 4-8 week block.
+
+![Man pushing a loaded leg press machine in an indoor gym](/blog/how-to-build-your-own-workout-split/leg-press.webp)
+*Photo: [Kong Khawlhring](https://www.pexels.com/photo/a-man-working-out-inside-the-gym-5799855/) on Pexels*
 
 ### Movement patterns cheat sheet
 
@@ -126,7 +164,7 @@ Now combine everything into actual days. Below are templates for 3, 4, 5 and 6 d
 
 ### 3-day full body template
 
-Best for beginners or anyone with limited time. Train on non-consecutive days, like Mon/Wed/Fri.
+Best for beginners or anyone with limited time. Train on non-consecutive days, like Mon/Wed/Fri. Our [3-day workout split](/blog/3-day-workout-split) guide has more 3-day layouts, including upper/lower/full and a once-a-week PPL.
 
 | Day A | Day B | Day C |
 |---|---|---|
@@ -138,7 +176,7 @@ Best for beginners or anyone with limited time. Train on non-consecutive days, l
 
 ### 4-day upper/lower template
 
-The most popular intermediate setup. A common schedule is Mon/Tue/Thu/Fri.
+The most popular intermediate setup. A common schedule is Mon/Tue/Thu/Fri. For more 4-day layouts, see our [4-day workout split](/blog/4-day-workout-split).
 
 | Upper 1 | Lower 1 | Upper 2 | Lower 2 |
 |---|---|---|---|
@@ -151,7 +189,7 @@ The most popular intermediate setup. A common schedule is Mon/Tue/Thu/Fri.
 
 ### 5-day upper/lower + push/pull/legs template
 
-Combines the two styles. Upper and lower early in the week, then push, pull and legs. A schedule could be Mon/Tue/Thu/Fri/Sat.
+Combines the two styles. Upper and lower early in the week, then push, pull and legs. A schedule could be Mon/Tue/Thu/Fri/Sat. Our [5-day workout split](/blog/5-day-workout-split) compares this with the bro split and other 5-day options.
 
 | Upper | Lower | Push | Pull | Legs |
 |---|---|---|---|---|
@@ -163,7 +201,7 @@ Combines the two styles. Upper and lower early in the week, then push, pull and 
 
 ### 6-day push/pull/legs template
 
-For experienced lifters with time and good recovery. Run push, pull, legs, then repeat, with one rest day.
+For experienced lifters with time and good recovery. Run push, pull, legs, then repeat, with one rest day. Our [push/pull/legs routine](/blog/push-pull-legs-routine) guide covers PPL schedules from 3 to 6 days and exercise swaps for each day.
 
 | Push (x2) | Pull (x2) | Legs (x2) |
 |---|---|---|
@@ -174,6 +212,9 @@ For experienced lifters with time and good recovery. Run push, pull, legs, then 
 | Triceps pushdown 3 x 10-12 | Dumbbell curl 3 x 10-12 | Calf raise 3 x 12-15 |
 
 On the second round of the week, you can swap in variations (for example, incline bench instead of flat), but keep the same variations week to week so progress stays measurable.
+
+![Man doing pull-ups on a bar in an indoor gym](/blog/how-to-build-your-own-workout-split/pull-ups.webp)
+*Photo: [cottonbro studio](https://www.pexels.com/photo/man-doing-pull-ups-7672092/) on Pexels*
 
 ### Sanity-check your weekly volume
 
@@ -213,13 +254,13 @@ Change **one or two things at a time**. If you change everything at once, you wo
 
 A custom split only works if you can compare this week to last week. That means logging every working set: exercise, weight and reps. For the details, see our pillar guide on [how to track progressive overload](/blog/how-to-track-progressive-overload).
 
-GymLedger is built around custom templates. You create each workout day with your own exercises, sets and rep ranges, for any split (full body, upper/lower, PPL or something entirely your own), and you can add custom exercises if your gym has unusual equipment. The home screen shows your last workout and today's pick, so starting a session takes one tap, or you can choose a different day if your week shifted. Per-exercise strength charts and personal bests make the 4-8 week review in the section above much faster than flipping through a notebook.
+If you'd rather use a workout planner app than a notebook, GymLedger is built around custom templates. You create each workout day with your own exercises, sets and rep ranges, for any split (full body, upper/lower, PPL or something entirely your own), and you can add custom exercises if your gym has unusual equipment. The dashboard puts today's workout at the top, which is the next one in your rotation, and starts it in one tap. If your week shifted, tap its name to pick a different day. Strength charts for every exercise make the 4-8 week review in the section above much faster than flipping through a notebook.
 
 ## How to create your own workout split: quick checklist
 
 Here's the condensed version you can act on today:
 
-1. **Count your realistic training days** and pick a split from the Step 1 table.
+1. **Count your realistic training days** and pick one of the gym splits from the comparison table.
 2. **Hit each muscle about twice a week.**
 3. **Start at the low end of the weekly sets range** for your level.
 4. **Choose one compound per movement pattern**, then fill gaps with isolation work.
@@ -233,7 +274,7 @@ If you're brand new to the gym and want a fully worked plan rather than building
 
 ### What is the best workout split for building muscle?
 
-There's no single best split. Research suggests training each muscle about twice per week works better than once, so upper/lower, full-body and push/pull/legs run twice a week are all strong choices. The best one is whichever fits the number of days you can consistently train. Pick the split you can follow for months, then focus on adding weight or reps over time.
+There's no single best split. Research suggests training each muscle about twice per week works better than once, so among the common gym splits, upper/lower, full body and push/pull/legs run twice a week are all strong choices. The best one is whichever fits the number of days you can consistently train. Pick the split you can follow for months, then focus on adding weight or reps over time.
 
 ### How many exercises should be in a workout?
 

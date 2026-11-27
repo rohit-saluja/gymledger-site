@@ -1,0 +1,131 @@
+{
+  "title": "Choose the visual world for getgymledger.com",
+  "question": "The roll assigned The Gym Whiteboard. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Gym Whiteboard",
+      "kicker": "THE ROLL",
+      "lineage": "The class board on every gym wall: today's session in marker, PRs listed underneath",
+      "thesis": "The page is the board you read before you lift: today's workout in red marker, erased and rewritten as you scroll.",
+      "palette": ["#f3f4f1", "#16171a", "#d9473f", "#2a5bd7", "#c9cdca"],
+      "materials": ["glossy melamine board", "dry-erase marker", "ghosted erasures", "magnets and aluminium tray"],
+      "viewport": "A full-width board: TODAY: PULL in huge red marker, the four exercises written underneath, a real iPhone held on by magnets showing the dashboard, and the App Store button sitting in the marker tray.",
+      "risk": "Marker lettering turns cute or kid-like if it is set timidly or uses a novelty handwriting font.",
+      "raised": [
+        { "from": "tdr-info-noise-sleeve", "raise": "The day's word (PUSH, PULL, LEGS) is written enormous and never shrinks at any breakpoint." },
+        { "from": "textiles-weave-drape-fashion-drawcord-transforming-cape", "raise": "One gesture rules the page: an eraser swipe that turns one day's board into the next." },
+        { "from": "signals-instruments-phosphor-terminal-midnight", "raise": "States are written on the board as marker notes and tallies, never as chrome badges." },
+        { "from": "medium-native-ascii-live-scene-render", "raise": "The board's faint printed grid governs every alignment on the page." },
+        { "from": "food-fermentation-culinary-theater-pickling-brine-calendar", "raise": "Recovery reads as a dated countdown on the board: 'chest fresh in 22 h', ticked off as it clears." }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "The Anatomy Wall Chart",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "The muscle poster pinned up in every gym",
+      "thesis": "The gym's muscle poster, coloured in by your own training: the recovery map is the hero.",
+      "palette": ["#eef0ec", "#1d1f22", "#c8372f", "#3f9a5b", "#e8d9b5"],
+      "materials": ["printed wall poster", "engraved anatomy", "leader-line labels"],
+      "viewport": "Front and back figures at poster scale, muscles filled fresh, recovering or fatigued, with labelled leader lines out to the features.",
+      "risk": "Familiar territory for a recovery-led fitness app, and it needs a fully authored anatomy illustration to avoid clip-art."
+    },
+    {
+      "id": "pop-culture-shelf-vertical-video-feed-surface",
+      "label": "Vertical Feed",
+      "verdict": "competitive",
+      "lineage": "Gym Reels and Shorts",
+      "thesis": "The training loop as a feed: one full-screen app moment per snap: log, recover, eat.",
+      "palette": ["#000000", "#ffffff", "#e0443c"],
+      "materials": ["full-bleed screen captures", "bottom scrim", "right action rail"],
+      "viewport": "The dashboard fills the viewport at phone scale, caption low left, a rail of actions on the right, the next screen one snap below.",
+      "case": "Lifters live in gym reels, so identification is high; clarity suffers because desktop visitors get a phone-shaped feed with hijacked scroll.",
+      "risk": "Scroll-snap paging fights reading on desktop and can feel like a gimmick.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface.webp"
+    },
+    {
+      "id": "tdr-info-noise-sleeve",
+      "label": "Info-Noise Sleeve",
+      "verdict": "declined",
+      "lineage": "Designers Republic record sleeves",
+      "thesis": "Plate codes, warning glyphs and one shouting word.",
+      "palette": ["#000000", "#ff2a8a", "#ff6a00", "#ffffff"],
+      "materials": ["flat print", "registration marks"],
+      "viewport": "A black field of codes with one condensed word shouting through.",
+      "case": "Lifters don't read design-culture noise, and the noise hides the app.",
+      "risk": "Hostile to the reader the page has to convert.",
+      "kept": "The one enormous word that never shrinks.",
+      "hero": "https://impeccable.style/worlds/cards/tdr-info-noise-sleeve-hero.webp"
+    },
+    {
+      "id": "textiles-weave-drape-fashion-drawcord-transforming-cape",
+      "label": "Drawcord Cape",
+      "verdict": "declined",
+      "lineage": "Transforming fashion garments",
+      "thesis": "One pull turns a flat plane into a shaped volume.",
+      "palette": ["#111111", "#c9a227", "#4a4f55"],
+      "materials": ["matte silk", "gold cord"],
+      "viewport": "A black semicircle that gathers as you pull a cord.",
+      "case": "No link to the gym or to logging; luxury register is wrong for lifters.",
+      "risk": "Reads as a fashion brand.",
+      "kept": "One gesture transforms the whole surface.",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-drawcord-transforming-cape-hero.webp"
+    },
+    {
+      "id": "food-fermentation-culinary-theater-pickling-brine-calendar",
+      "label": "Brine Calendar",
+      "verdict": "declined",
+      "lineage": "Pickling jars on a seasonal shelf",
+      "thesis": "Things mature visibly, day by day.",
+      "palette": ["#e9efe6", "#e2665a", "#8a1f3a", "#6d8f3f", "#a07a4f"],
+      "materials": ["jar glass", "kraft labels"],
+      "viewport": "A shelf of jars, each labelled with a day count.",
+      "case": "Only the recovery countdown fuses; food jars confuse a training app.",
+      "risk": "Reads as a cooking site.",
+      "kept": "State that matures on a visible day count.",
+      "hero": "https://impeccable.style/worlds/cards/food-fermentation-culinary-theater-pickling-brine-calendar-hero.webp"
+    },
+    {
+      "id": "signals-instruments-phosphor-terminal-midnight",
+      "label": "Phosphor Terminal",
+      "verdict": "declined",
+      "lineage": "Green-screen terminals",
+      "thesis": "The log as a live transcript on glass.",
+      "palette": ["#050805", "#33ff66", "#1a7a33"],
+      "materials": ["phosphor glow", "scanlines"],
+      "viewport": "An 80-column transcript printing sets as they are logged.",
+      "case": "Developer nostalgia, not gym culture; hides the real app screens.",
+      "risk": "Reads as a coding tool.",
+      "kept": "System states print themselves instead of appearing as chrome.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight-hero.webp"
+    },
+    {
+      "id": "medium-native-ascii-live-scene-render",
+      "label": "ASCII Render",
+      "verdict": "declined",
+      "lineage": "Typewriter and ASCII art",
+      "thesis": "A lifter rendered in glyph density.",
+      "palette": ["#000000", "#ffb000"],
+      "materials": ["monospace grid", "luminance ramp"],
+      "viewport": "A rotating barbell made of characters.",
+      "case": "Clever, but neither lifters nor the product live in it.",
+      "risk": "Pure novelty.",
+      "kept": "One strict grid as the whole composition.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-ascii-live-scene-render-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code", "toggle": false },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A dark fitness-app site with phone mockups and a feature grid, done at full craft.",
+    "palette": ["#0b0b0c", "#f5f5f5", "#d9473f"],
+    "materials": ["dark UI surfaces", "device mockups", "feature grid"],
+    "viewport": "Headline and App Store button left, two phones right, features in a grid below.",
+    "risk": "Looks like Hevy, Strong and every other tracker by design."
+  },
+  "steer": true
+}

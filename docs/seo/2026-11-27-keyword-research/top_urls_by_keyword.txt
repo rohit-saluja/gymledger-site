@@ -1,0 +1,290 @@
+
+# ppl routine [pass]
+  1          https://www.speediance.com/blogs/fitness/3-day-ppl-workout-for-beginners
+  2 video    https://www.youtube.com/watch?v=lQOAidOej7E
+  3 low_auth https://setgraph.app/articles/ppl-routine-beginner
+  4 forum    https://www.reddit.com/r/naturalbodybuilding/comments/14ss9f4/is_ppl_actually_a_good_routine/
+  5          https://darebee.com/plans/ppl.html
+  6 low_auth https://liftvault.com/programs/strength/reddit-ppl/
+  7          https://steelsupplements.com/blogs/steel-blog/3-day-push-pull-legs-split-workout-routine
+  8 low_auth https://liftvault.com/programs/strength/reddit-ppl/
+
+# push pull legs workout [borderline]
+  1          https://www.aston.ac.uk/sport/news/tips/fitness-exercise/push-pull-legs
+  2 low_auth https://trufitathleticclubs.com/blog/push-pull-legs-workout/
+  3          https://www.muscleandstrength.com/workouts/6-day-powerbuilding-split-meal-plan
+  4 video    https://www.youtube.com/watch?v=qVek72z3F1U
+  5          https://darebee.com/programs/push-pull-legs.html
+  6          https://www.puregym.com/blog/push-pull-legs/
+  7 low_auth https://hevy.com/program/a6ee5477-9976-4b1e-af9f-ccb1d65725e3
+  8 forum    https://www.reddit.com/r/xxfitness/comments/se2otk/can_someone_help_me_understand_pushpulllegs/
+
+# 4 day split workout [pass]
+  1          https://vasafitness.com/blog/the-ultimate-4-day-workout-split/
+  2          https://www.muscleandstrength.com/workouts/4-day-maximum-mass-workout
+  3 forum    https://www.reddit.com/r/naturalbodybuilding/comments/16lr0om/whats_your_favourite_4_day_split_workout_plan/
+  4 low_auth https://trufitathleticclubs.com/blog/4-day-workout-split/
+  5 video    https://www.youtube.com/watch?v=N1ZRYx46ye4
+  6 low_auth https://brickhousegym.club/workout-program-for-women/
+  7          https://www.jefit.com/routines/577322/4-day-split-program-dumbbell-only
+  8 forum    https://www.reddit.com/r/workout/comments/1k5q5op/what_is_the_best_4_day_fullbody_routine/
+
+# 3 day split workout [pass]
+  1          https://www.muscleandstrength.com/workouts/bulldozer-training-3-day-workout-split
+  2 forum    https://www.reddit.com/r/naturalbodybuilding/comments/109wjcq/what_is_the_best_3_day_split_for_building_muscle/
+  3          https://1stphorm.com/blogs/news/the-3-day-workout-split-guide
+  4 video    https://www.youtube.com/watch?v=OHI9RVP5fRE
+  5 low_auth https://loadmuscle.com/blog/3-day-split-guide
+  6          https://www.nourishmovelove.com/3-day-workout-split/
+  7          https://www.bjornborg.com/us/stories/workouts/3-day-workout-split-push-pull-legs-abs/
+  8 forum    https://www.instagram.com/p/DRIJtP6klDH/
+
+# 5 day workout split [pass]
+  1          https://www.muscleandstrength.com/workouts/m-f-workout-routine
+  2          https://1stphorm.com/blogs/news/5-day-workout-split
+  3 forum    https://www.reddit.com/r/naturalbodybuilding/comments/y3ciel/trying_to_find_the_best_5_day_split/
+  4 video    https://www.youtube.com/watch?v=eLqWdDFEyRg
+  5 low_auth https://www.strongermobileapp.com/blog/5-day-workout-split
+  6          https://www.womenshealthmag.com/uk/fitness/strength-training/a37630210/workout-split/
+  7 forum    https://www.facebook.com/FitMediaChannel/videos/a-full-week-of-workouts-5-day-split-to-help-you-build-a-perfect-physique-with-to/2067300477468374/
+  8 ugc      https://www.pinterest.com/pin/574560864985714232/
+
+# pplul split [pass]
+  1 low_auth https://www.strengthlog.com/pplul-split/
+  2          https://legionathletics.com/pplul/
+  3 low_auth https://setgraph.app/articles/pplul-split-push-pull-legs-upper-lower-5-day-routine-explained
+  4          https://www.hevyapp.com/pplul-split/
+  5          https://www.jefit.com/routines/516476/5-day-pplul-split
+  6 low_auth https://hardy.app/articles/pplul-split
+  7 video    https://www.youtube.com/watch?v=nwONqO8avH0
+  8 low_auth https://loadmuscle.com/blog/ppl-upper-lower-split
+
+# best app to track workouts [pass]
+  1 forum    https://www.reddit.com/r/Fitness/comments/128opuh/favorite_gym_tracker_app/
+  2          https://www.hevyapp.com/
+  3 low_auth https://setgraph.app/articles/best-app-to-log-workout-tested-by-lifters
+  4 low_auth https://www.strong.app/
+  5 BIG      https://play.google.com/store/apps/details?id=com.hevy&hl=en_US
+  6 low_auth https://loadmuscle.com/blog/best-workout-tracking-apps-2026
+  7          https://www.jefit.com/
+  8 forum    https://www.facebook.com/groups/471441382102614/posts/897926559454092/
+
+# best weight workout app [pass]
+  1          https://www.garagegymreviews.com/best-weightlifting-app
+  2          https://www.hevyapp.com/
+  3 forum    https://www.reddit.com/r/fitness30plus/comments/1bmhxuf/best_apps_for_lifting/
+  4 low_auth https://www.boostcamp.app/
+  5 low_auth https://www.strong.app/
+  6 BIG      https://www.forbes.com/health/weight-loss/best-fitness-apps/
+  7 BIG      https://play.google.com/store/apps/details?id=fitness.online.app&hl=en_US
+  8          https://www.mensjournal.com/fitness/best-workout-apps
+
+# exercise workout log [pass]
+  1 BIG      https://play.google.com/store/apps/details?id=com.selahsoft.workoutlog&hl=en_US
+  2 low_auth https://www.strengthlog.com/
+  3          https://www.hevyapp.com/
+  4 ugc      https://www.amazon.com/workout-journal/s?k=workout+journal
+  5 ugc      https://www.pinterest.com/ideas/workout-log/943983949828/
+  6          https://exrx.net/WeightTraining/WorkoutLogs
+  7 low_auth https://studentaffairs.indianapolis.iu.edu/doc/health/wellness-programs/workout-log-template.pdf
+  8 BIG      https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes&hl=en_US
+
+# what is a workout log [pass]
+  1 low_auth https://www.simpleworkoutlog.com/
+  2 ugc      https://www.pinterest.com/ideas/workout-log/943983949828/
+  3 low_auth https://www.strengthlog.com/
+  4          https://jamesclear.com/workout-journal
+  5 ugc      https://www.amazon.com/workout-journal/s?k=workout+journal
+  6 low_auth https://studentaffairs.indianapolis.iu.edu/doc/health/wellness-programs/workout-log-template.pdf
+  7          https://www.trainingpeaks.com/blog/workout-logs-track-training/
+  8 low_auth https://www.urmc.rochester.edu/encyclopedia/content?contenttypeid=1&contentid=1037
+
+# progressive overload bench press [pass]
+  1 forum    https://www.reddit.com/r/naturalbodybuilding/comments/148tvsf/progressive_overload_bench_press/
+  2          https://www.muscleandstrength.com/workouts/boost-your-bench-press
+  3 ugc      https://medium.com/@fitbesideshealth/the-one-progressive-overload-method-that-changed-everything-for-me-0d94c4a765d0
+  4 forum    https://www.facebook.com/groups/1421826601760909/posts/1913369109273320/
+  5 low_auth https://programme.app/resources/how-to-successfully-progressive-overload-the-bench-press
+  6 forum    https://www.quora.com/How-can-I-progressive-overload-when-benching-I-just-started-lifting-a-month-ago-and-I-can-only-bench-105-While-I-only-weigh-140-lbs-it-s-something-I-want-to-improve-in
+  7 forum    https://www.instagram.com/reel/DW-CADckdsD/
+  8 low_auth https://gymaware.com/progressive-overload-the-ultimate-guide/
+
+# rpe chart [pass]
+  1 low_auth https://rpetraining.com/rpe-to-percent
+  2 low_auth https://www.rpecalculator.com/
+  3          https://my.clevelandclinic.org/health/articles/17450-rated-perceived-exertion-rpe-scale
+  4          https://fitnessvolt.com/rpe-training/rpe-chart/
+  5 low_auth https://www.progressiverehabandstrength.com/articles/rpe-in-powerlifting-what-is-rpe
+  6 low_auth https://store.reactivetrainingsystems.com/blogs/advanced-concepts/customizing-your-rpe-chart
+  7 low_auth https://barriefht.ca/wp-content/uploads/2019/10/9.-Rate-of-Perceived-Exertion-Chart.pdf
+  8 ugc      https://www.pinterest.com/pin/539728336596554065/
+
+# how many sets per muscle group per week [pass]
+  1 forum    https://www.reddit.com/r/bodyweightfitness/comments/15hjjh6/1020_sets_per_week_per_muscle_group/
+  2 low_auth https://jeffnippard.com/blogs/news/how-many-sets-do-you-need
+  3          https://rpstrength.com/blogs/podcasts/training-frequency-decoded-the-11-set-rule-every-lifter-should-know
+  4          https://www.spartan.com/en/blog/hypertrophy-training
+  5          https://www.goldsgym.com/blog/common-questions-how-many-exercises-should-i-do-per-week-to-build-muscle/
+  6 BIG      https://pmc.ncbi.nlm.nih.gov/articles/PMC5684266/
+  7 video    https://www.youtube.com/watch?v=PQWw0BJc5LQ
+  8 low_auth https://www.bodyspec.com/blog/post/how_many_sets_per_muscle_group_weekly_volume_guide
+
+# what is a deload week in lifting [pass]
+  1 forum    https://www.reddit.com/r/workout/comments/1oapxks/what_are_the_actual_benefits_of_a_deload_week/
+  2 low_auth https://hevycoach.com/glossary/deload-week/
+  3          https://www.muscleandstrength.com/articles/how-to-deload
+  4          https://health.clevelandclinic.org/deload-week
+  5 low_auth https://www.prosourcefit.com/blogs/news/signs-you-need-a-deload-week-avoiding-burnout-and-overtraining
+  6          https://www.gymshark.com/blog/article/deload-week
+  7          https://sweat.com/blogs/fitness/deload-week
+  8 low_auth https://www.ladies-who-lift.com/training-glossary/deload-week
+
+# how long does it take for muscles to recover [pass]
+  1 low_auth https://www.danoneresearch.com/nutrition-for-all-needs/sports-nutrition/post-workout-recovery/
+  2          https://www.healthline.com/health/muscle-recovery
+  3          https://www.fitness19.com/how-long-does-it-take-for-muscles-to-recover/
+  4 forum    https://www.reddit.com/r/GYM/comments/1cmus1s/how_long_are_normal_recovery_times_for_different/
+  5 video    https://www.youtube.com/watch?v=H3B0UMgXik0
+  6          https://www.polar.com/en/guide/muscle-recovery
+  7 low_auth https://www.sportsbalm.com/en/how-does-muscle-recovery-work/
+  8 low_auth https://www.smjrscorp.com/blog/muscle-tear-recovery-time-how-long-does-it-take-to-heal
+
+# sore muscles after workout [pass]
+  1          https://my.clevelandclinic.org/health/diseases/delayed-onset-muscle-soreness
+  2          https://www.henryford.com/Blog/2025/02/8-Ways-To-Ease-Post-Workout-Muscle-Pain
+  3          https://www.uvahealth.com/healthy-balance/avoiding-post-workout-soreness-rhabdomyolysis
+  4 low_auth https://www.carrellclinic.com/about-us/our-blog/cold-or-hot-best-method-muscle-recovery
+  5 low_auth https://livehealthy.muhealth.org/stories/starting-new-workout-6-things-know-about-muscle-soreness
+  6          https://www.houstonmethodist.org/blog/articles/2024/aug/should-you-take-pain-relievers-for-sore-muscles-after-workouts/
+  7 low_auth https://gobeyondpt.net/post/7-best-recovery-tips-for-sore-muscles-after-workout/
+  8          https://www.physio-pedia.com/Delayed_Onset_Muscle_Soreness
+
+# how much protein to build muscle [borderline]
+  1          https://hartfordhospital.org/services/bone-joint-institute/news/news-detail?articleid=65418
+  2 low_auth https://learn.athleanx.com/calculators/protein-calculator
+  3          https://www.goldsgym.com/blog/how-much-protein-to-build-muscle/
+  4          https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/protein
+  5          https://examine.com/guides/protein-intake/
+  6 BIG      https://www.massgeneralbrigham.org/en/health-wellness/how-much-protein-when-working-out
+  7 low_auth https://www.health.harvard.edu/diet-and-nutrition/are-you-eating-enough-protein
+  8 forum    https://www.reddit.com/r/workout/comments/1hxfz4m/how_many_grams_of_protein_should_i_eat_in_a_day/
+
+# protein how much is too much [pass]
+  1          https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/high-protein-diets/faq-20058207
+  2          https://intermountainhealthcare.org/blogs/article/how-much-protein-is-simply-too-much
+  3 low_auth https://www.health.harvard.edu/blog/extra-protein-is-a-decent-dietary-choice-but-dont-overdo-it-201305016145
+  4 low_auth https://americasbestcareplus.com/much-protein-much/
+  5          https://examine.com/guides/protein-intake/
+  6          https://mcpress.mayoclinic.org/nutrition-fitness/debunking-the-protein-propaganda-how-much-is-too-much/
+  7 low_auth https://drinkkoia.com/es/blogs/blog/how-much-protein-is-too-much
+  8 low_auth https://simplyprotein.ca/blogs/news/is-there-such-a-thing-as-too-much-protein
+
+# cutting vs bulking [pass]
+  1 forum    https://www.reddit.com/r/bodyweightfitness/comments/8rck5f/beginners_guide_cut_or_bulk/
+  2          https://www.healthline.com/nutrition/bulking-vs-cutting
+  3 low_auth https://carbonperformance.com/bulk-and-cut-what-it-is-and-how-to-do-it/
+  4 low_auth https://www.fit19.com/blog/bulking-vs-cutting
+  5 low_auth https://rippedbody.com/cut-or-bulk/
+  6 video    https://www.youtube.com/watch?v=xV7rLNC17LA
+  7          https://macrofactor.com/bulk-or-cut/
+  8          https://health.clevelandclinic.org/bulking-vs-cutting
+
+# protein intake for body recomposition [pass]
+  1 BIG      https://pmc.ncbi.nlm.nih.gov/articles/PMC11405322/
+  2 low_auth https://www.bodyspec.com/blog/post/body_recomposition_calculator_and_guide
+  3 forum    https://www.reddit.com/r/fitness30plus/comments/1eo62v2/body_recomp_whats_more_important_hitting_your/
+  4          https://examine.com/guides/protein-intake/
+  5          https://www.healthline.com/nutrition/body-recomposition
+  6          https://julielohre.com/how-much-protein-do-i-need-to-body-recomp/
+  7 low_auth https://bodyrecomposition.com/nutrition/protein-requirements-growth
+  8 low_auth https://www.gymstreak.com/blog/is-more-protein-always-better-in-body-recomposition
+
+# ai calorie counter [pass]
+  1 low_auth https://www.caloriemama.ai/
+  2 BIG      https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616
+  3 BIG      https://play.google.com/store/apps/details?id=com.viraldevelopment.calai&hl=en_US
+  4 forum    https://www.reddit.com/r/apps/comments/1gcqgmb/what_is_the_best_ai_calorie_counter/
+  5 low_auth https://geteatai.app/
+  6 low_auth https://bitepal.app/
+  7 BIG      https://play.google.com/store/apps/details?id=com.fitatu.tracker&hl=en_US
+  8 low_auth https://calfix.app/
+
+# how to track progressive overload [pass]
+  1 forum    https://www.reddit.com/r/naturalbodybuilding/comments/1ldtte2/workout_app_with_progressive_overload/
+  2          https://www.hevyapp.com/progressive-overload/
+  3 BIG      https://apps.apple.com/us/app/progress-progressive-overload/id6450831926
+  4 low_auth https://overloadworkout.com/
+  5 forum    https://www.facebook.com/groups/238620256823178/posts/1815571572461364/
+  6          https://www.planetfitness.com/blog/articles/progressive-overload-beginners-guide
+  7 BIG      https://play.google.com/store/apps/details?id=com.expofedir.POT&hl=en_US
+  8 low_auth https://www.shred.app/thinking/progressive-overload-techniques-maximize-muscle-growth-safely-and-effectively
+
+# double progression method [pass]
+  1 low_auth https://hevycoach.com/glossary/double-progression/
+  2 forum    https://www.reddit.com/r/naturalbodybuilding/comments/178az7y/whats_your_double_progression_like/
+  3 low_auth https://mesostrength.com/blog/double-progression
+  4 low_auth https://verse.fit/blogs/news/mastering-strength-the-power-of-double-triple-progression
+  5 forum    https://www.facebook.com/redefiningstrength/videos/how-to-build-muscle-using-double-progression/767189449613357/
+  6 video    https://www.youtube.com/watch?v=Rs3LLwY8idk
+  7 low_auth https://evolvedtrainingsystems.com/overload-utilization-of-dynamic-double-progression/
+  8          https://legionathletics.com/double-progression/
+
+# how long of a rest between sets [drop-strong-serp]
+  1 forum    https://www.reddit.com/r/Fitness/comments/9p7487/how_much_rest_between_sets_is_ideal_for_muscle/
+  2 BIG      https://pubmed.ncbi.nlm.nih.gov/19691365/
+  3          https://www.healthline.com/health/fitness/rest-between-sets
+  4          https://www.goldsgym.com/blog/how-long-to-rest-between-sets/
+  5          https://www.gwrymca.org/blog/importance-resting-between-sets
+  6          https://www.onepeloton.com/blog/how-long-to-rest-in-between-sets
+  7          https://www.barbellmedicine.com/blog/rest-periods-during-training/
+  8          https://www.polar.com/us-en/guide/rest-time-between-sets
+
+# gym splits [borderline]
+  1          https://www.gymshark.com/blog/article/the-best-workout-splits-for-every-goal
+  2          https://www.hevyapp.com/workout-splits/
+  3 low_auth https://hohfitness.com/the-best-workout-splits-for-different-fitness-goals/
+  4 video    https://www.youtube.com/watch?v=GRZhpHKZqOA
+  5 BIG      https://en.wikipedia.org/wiki/Split_weight_training
+  6 forum    https://www.reddit.com/r/weightroom/comments/wek3c3/comparing_5_proven_training_splits/
+  7          https://www.healthline.com/health/fitness/split-workout-schedule
+  8 low_auth https://trufitathleticclubs.com/blog/4-day-workout-split/
+
+# how often should you weigh yourself [drop-strong-serp]
+  1 video    https://www.youtube.com/shorts/nYlAfXqd1Lc
+  2          https://www.heart.org/en/news/2019/01/02/the-pros-and-cons-of-weighing-yourself-every-day
+  3 forum    https://www.reddit.com/r/loseit/comments/1575nnd/how_often_do_you_weigh_yourself_and_why/
+  4          https://www.healthline.com/health/weight-loss/weigh-yourself-guidelines
+  5          https://www.goodrx.com/conditions/weight-loss/how-often-weigh-yourself
+  6 BIG      https://pmc.ncbi.nlm.nih.gov/articles/PMC4380831/
+  7          https://www.weightwatchers.com/us/blog/how-often-to-weigh-yourself
+  8          https://www.uhhospitals.org/blog/articles/2026/10/how-often-should-you-weigh-yourself
+
+# how much does a barbell weigh in kg [pass]
+  1 forum    https://www.reddit.com/r/Fitness/comments/1uhbsc/moronic_question_how_much_does_the_bar_weigh_at/
+  2 low_auth https://dumbbellsdirect.com/blogs/barbell-basics-education/how-much-does-a-barbell-weigh
+  3 low_auth https://texaspowerbars.com/blogs/the-barbell-journal/how-much-do-different-types-of-barbells-weigh
+  4 forum    https://www.tiktok.com/@nobsapp/video/7283957265466494240?lang=en
+  5          https://ironbullstrength.com/blogs/equipment/how-much-does-a-barbell-weigh
+  6 forum    https://fitness.stackexchange.com/questions/8179/how-much-do-empty-barbells-weigh
+  7 low_auth https://homegymsupply.co.uk/blogs/guides/how-much-does-a-barbell-weigh
+  8 BIG      https://en.wikipedia.org/wiki/Barbell
+
+# hevy vs strong [pass]
+  1 forum    https://www.reddit.com/r/Hevy/comments/1m6c6in/hevy_vs_strong/
+  2 low_auth https://www.sensai.fit/blog/hevy-vs-strong-2026
+  3 low_auth https://setgraph.app/ai-blog/hevy-vs-strong-app-comparison-2026
+  4 low_auth https://www.strongermobileapp.com/compare/hevy
+  5 low_auth https://www.sensai.fit/blog/hevy-vs-strong-vs-fitbod
+  6 low_auth https://www.pontefuerteai.com/blog/hevy-vs-strong-vs-pontefuerteai-workout-app-comparison
+  7          https://www.hevyapp.com/
+  8 low_auth https://www.gymnoteplus.com/blog/hevy-vs-strong
+
+# workout split for beginners [borderline]
+  1          https://www.gymshark.com/blog/article/the-best-workout-splits-for-every-goal
+  2 low_auth https://gym-mikolo.com/blogs/home-gym/the-best-4-day-split-workout-for-beginners-a-complete-guide-to-getting-started
+  3 forum    https://www.reddit.com/r/beginnerfitness/comments/1fz0v71/whats_the_best_workout_split_for_a_beginner/
+  4 low_auth https://hygearfit.com/blogs/news/5-day-workout-split-for-beginners
+  5          https://www.muscleandstrength.com/workouts/beginner
+  6          https://www.planetfitness.com/blog/articles/beginner-workout-plan-your-first-week-gym
+  7          https://fitbod.me/blog/2-day-workout-split-for-beginners/
+  8          https://www.hevyapp.com/3-day-split-workout-complete-guide/

@@ -1,20 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  Apple,
-  ArrowRight,
-  BarChart3,
-  CalendarDays,
-  Dumbbell,
-  Moon,
-  Scale,
-  ShieldCheck,
-  Timer,
-  Trophy,
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { AppStoreButton } from "@/components/app-store-button";
 import { PhoneFrame } from "@/components/phone-frame";
+import { WhiteboardHero } from "@/components/home/whiteboard-hero";
+import { RestTimer } from "@/components/home/rest-timer";
+import { WriteOn } from "@/components/board/write-on";
+import { ArrowRight, CheckBox, Tick, Underline } from "@/components/board/marks";
 import { APP_STORE_URL, SITE_NAME, SITE_URL } from "@/lib/site";
 import { getAllPosts } from "@/lib/blog";
 import { JsonLd } from "@/components/blog/json-ld";
@@ -23,61 +14,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-const SHOTS = [
-  { src: "/screenshots/01.webp", alt: "GymLedger home", title: "Home", caption: "Your next session, one tap away." },
-  { src: "/screenshots/02.webp", alt: "Workout logging", title: "Log a set", caption: "Weight, reps, done." },
-  { src: "/screenshots/03.webp", alt: "Exercise list", title: "Your split", caption: "Every lift, in order." },
-  { src: "/screenshots/04.webp", alt: "Session complete", title: "Finish strong", caption: "Close the session, keep the streak." },
-  { src: "/screenshots/05.webp", alt: "Progress chart", title: "Progress", caption: "Watch the numbers climb." },
-  { src: "/screenshots/06.webp", alt: "PR milestones", title: "Milestones", caption: "Every PR, stamped with a date." },
-  { src: "/screenshots/07.webp", alt: "Weekly schedule", title: "Weekly plan", caption: "Show up ready." },
-  { src: "/screenshots/08.webp", alt: "Exercise detail", title: "Exercise", caption: "History and notes, all in one place." },
-  { src: "/screenshots/09.webp", alt: "Settings", title: "Preferences", caption: "kg · lbs · your rules." },
-  { src: "/screenshots/10.webp", alt: "Body weight log", title: "Body log", caption: "Track weight, not macros." },
+const ALSO = [
+  ["Custom workouts and exercises", "Any split: PPL, upper/lower, full body", "kg or lbs", "Syncs across your iPhones"],
+  ["Available in 12 languages, including Hindi", "Sign in with Apple, Google or email", "Your data isn't sold or used for ads", "Delete your account inside the app"],
 ];
 
-const FEATURES = [
-  {
-    icon: Dumbbell,
-    title: "Quick set logging",
-    desc: "Tap the weight, tap the reps, move on. No menus, no modals, no friction.",
-  },
-  {
-    icon: Timer,
-    title: "Rest timer built-in",
-    desc: "Auto-starts the moment a set is done. Haptic tap when it's time to lift again.",
-  },
-  {
-    icon: BarChart3,
-    title: "Progress you can see",
-    desc: "Personal bests, volume, and monthly gains — all charted, all at a glance.",
-  },
-  {
-    icon: CalendarDays,
-    title: "Custom splits",
-    desc: "Push/pull/legs, upper/lower, full-body — or build your own. The app adapts.",
-  },
-  {
-    icon: Trophy,
-    title: "PR milestones",
-    desc: "Every new personal best is stamped with the date you earned it.",
-  },
-  {
-    icon: Scale,
-    title: "kg or lbs. Your call.",
-    desc: "Switch units any time. Bodyweight tracking supports both too.",
-  },
-  {
-    icon: Moon,
-    title: "Dark by default",
-    desc: "Designed for gym lighting. Easy on the eyes between sets.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Private by design",
-    desc: "No ads. No trackers. Your workouts are yours — synced only to your account.",
-  },
-];
+const heading = "marker text-[clamp(2.5rem,5.2vw,4.25rem)] text-ink";
 
 export default function Home() {
   const posts = getAllPosts().slice(0, 3);
@@ -93,11 +35,24 @@ export default function Home() {
             operatingSystem: "iOS",
             applicationCategory: "HealthApplication",
             description:
-              "A fast, private workout tracker for iPhone with custom splits, a Lock Screen rest timer, and progress charts for every lift.",
+              "A workout tracker for iPhone: custom splits, fast set logging, a rest timer on the Lock Screen and Dynamic Island, a recovery body map, AI meal logging with a protein target, and progress charts.",
             url: SITE_URL,
             installUrl: APP_STORE_URL,
             downloadUrl: APP_STORE_URL,
             image: `${SITE_URL}/images/app-icon.png`,
+            screenshot: ["home", "session", "recovery", "diet", "progress"].map((s) => `${SITE_URL}/app/${s}@1.5x.webp`),
+            featureList: [
+              "Custom workout templates for any split",
+              "Fast set, rep and weight logging",
+              "Rest timer on the Lock Screen and in the Dynamic Island",
+              "Recovery body map with a daily workout pick",
+              "AI meal logging with calories, protein, carbs and fat",
+              "Strength and body-weight progress charts",
+            ],
+            offers: [
+              { "@type": "Offer", name: "Monthly", price: "2.99", priceCurrency: "USD" },
+              { "@type": "Offer", name: "Yearly", price: "29.99", priceCurrency: "USD" },
+            ],
             publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
           },
           {
@@ -109,149 +64,262 @@ export default function Home() {
             email: "support@getgymledger.com",
             sameAs: [APP_STORE_URL],
           },
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: SITE_NAME,
-            url: SITE_URL,
-          },
+          { "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
         ]}
       />
-      <section className="relative overflow-hidden">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-x-0 -top-32 h-[40rem] bg-[radial-gradient(60%_50%_at_50%_0%,hsl(var(--brand)/0.18),transparent_70%)]"
-        />
-        <div className="container relative pt-16 pb-20 md:pt-24 md:pb-28">
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs font-medium text-fg-secondary">
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-75" />
-                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-brand" />
-              </span>
-              Now on the App Store
-            </span>
 
-            <h1 className="mt-6 text-balance text-5xl font-extrabold tracking-tight text-foreground md:text-7xl">
-              Log every lift.
-              <br />
-              <em className="not-italic text-brand">Own every gain.</em>
-            </h1>
-
-            <p className="mx-auto mt-6 max-w-xl text-pretty text-base text-fg-secondary md:text-lg">
-              GymLedger is a workout tracker for lifters who'd rather train than tap.
-              Quick to log, ruthless about tracking progress, and dark by default.
-            </p>
-
-            <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Button asChild size="lg" variant="primary">
-                <a href={APP_STORE_URL}>
-                  <Apple className="size-4" />
-                  Download for iOS
-                </a>
-              </Button>
-              <Button asChild size="lg" variant="ghost">
-                <Link href="#features">
-                  See features
-                  <ArrowRight className="size-4" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-
-          <div className="relative mx-auto mt-14 max-w-md md:mt-20">
-            <PhoneFrame src="/screenshots/01.webp" alt="GymLedger home screen" priority />
-          </div>
-        </div>
-      </section>
-
-      <section id="screens" aria-labelledby="shots-heading" className="border-t border-border-subtle/60 py-20 md:py-24">
-        <div className="container">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 id="shots-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
-              See it in the gym
-            </h2>
-            <p className="mt-3 text-fg-secondary">Ten taps from warm-up set to PR. Scroll for a tour.</p>
-          </div>
-
-          <div
-            role="region"
-            aria-label="App screenshots"
-            tabIndex={0}
-            className="mt-12 -mx-5 overflow-x-auto px-5 pb-6 [scrollbar-width:thin] focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-xl"
-          >
-            <div className="flex w-max gap-6 md:gap-8">
-              {SHOTS.map((shot) => (
-                <figure key={shot.src} className="w-[220px] shrink-0 md:w-[260px]">
-                  <PhoneFrame src={shot.src} alt={shot.alt} />
-                  <figcaption className="mt-4 text-center text-sm leading-tight">
-                    <strong className="block font-semibold text-foreground">{shot.title}</strong>
-                    <span className="text-fg-muted">{shot.caption}</span>
-                  </figcaption>
-                </figure>
-              ))}
-            </div>
-          </div>
-
-          <p aria-hidden className="mt-4 flex items-center justify-center gap-2 text-xs text-fg-muted">
-            <ArrowRight className="size-3.5" />
-            Scroll to see more
+      <WhiteboardHero>
+        <h1 id="hero-title" className="text-balance text-[clamp(2.125rem,3.6vw,3.25rem)] font-extrabold leading-[1.03] tracking-[-0.025em] text-ink">
+          The workout tracker that knows what to train today.
+        </h1>
+        <p className="mt-4 max-w-[33rem] text-pretty text-lg leading-relaxed text-ink-2 md:text-[1.1875rem]">
+          Log sets in a tap, see which muscles have recovered, and keep your protein on target. Built for iPhone.
+        </p>
+        <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
+          <AppStoreButton />
+          <p className="note text-[1.1875rem] leading-tight text-blue">
+            free trial: 3 days monthly,
+            <br />7 days yearly
           </p>
         </div>
+      </WhiteboardHero>
+
+      {/* Recovery: the body map and a countdown written beside it */}
+      <section aria-labelledby="recovery-title" className="relative pb-24 pt-16 md:py-32">
+        <span aria-hidden className="ghost-writing marker absolute right-[6%] top-10 hidden -rotate-6 text-[9rem] lg:block">
+          5×5
+        </span>
+        <div className="container grid items-center gap-x-8 gap-y-14 lg:grid-cols-12">
+          <div className="order-2 lg:order-1 lg:col-span-5">
+            <PhoneFrame
+              screen="recovery"
+              alt="GymLedger's Recovery tab: a front and back body map with shoulders fatigued, chest recovering and legs fresh, and 'Legs fits best today'"
+              magnets={["blue", "red"]}
+              className="w-[min(72vw,290px)] -rotate-2"
+            />
+          </div>
+          <div className="order-1 lg:order-2 lg:col-span-6 lg:col-start-7">
+            <WriteOn as="h2" className={heading}>
+              <span id="recovery-title">
+                Train what&apos;s{" "}
+                <span className="relative inline-block">
+                  recovered.
+                  <Underline className="absolute -bottom-3 left-0 h-4 w-full text-red" />
+                </span>
+              </span>
+            </WriteOn>
+            <p className="mt-7 max-w-[34rem] text-lg leading-relaxed text-ink-2">
+              The Recovery tab colours every muscle fresh, recovering or fatigued from your logged workouts, then suggests the workout that fits best today.
+            </p>
+            <dl className="mt-9 max-w-md space-y-3 text-[1.25rem] leading-tight sm:text-[1.5rem]">
+              <div className="grid grid-cols-[6.75rem_1fr] items-baseline sm:grid-cols-[8.5rem_1fr]">
+                <dt className="marker text-ink">Shoulders</dt>
+                <dd className="note text-red-ink">fresh tomorrow, in 22 h</dd>
+              </div>
+              <div className="grid grid-cols-[6.75rem_1fr] items-baseline sm:grid-cols-[8.5rem_1fr]">
+                <dt className="marker text-ink">Chest</dt>
+                <dd className="note text-ink-2">recovering, give it a day</dd>
+              </div>
+              <div className="grid grid-cols-[6.75rem_1fr] items-baseline sm:grid-cols-[8.5rem_1fr]">
+                <dt className="marker text-ink">Legs</dt>
+                <dd className="note flex items-center gap-2 text-green-ink">
+                  fresh now, train today <Tick className="w-7 text-green" />
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
       </section>
 
-      <section id="features" className="border-t border-border-subtle/60 py-20 md:py-24">
-        <div className="container">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-              Made for the set between the sets
-            </h2>
-            <p className="mt-3 text-fg-secondary">
-              Everything a lifter needs. Nothing a lifter doesn't.
-            </p>
+      {/* Rest timer: the Live Activity counting down */}
+      <section aria-labelledby="rest-title" className="relative overflow-hidden pt-20 md:pt-24">
+        <div className="container text-center">
+          <WriteOn as="h2" className={heading}>
+            <span id="rest-title">Rest, then lift.</span>
+          </WriteOn>
+          <p className="mx-auto mt-6 max-w-[36rem] text-lg leading-relaxed text-ink-2">
+            The rest timer buzzes when it&apos;s time, and keeps counting on your Lock Screen and in the Dynamic Island while your phone is in your pocket.
+          </p>
+          <div className="mt-12">
+            <RestTimer />
           </div>
+        </div>
+      </section>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {FEATURES.map(({ icon: Icon, title, desc }) => (
-              <Card key={title} className="hover:bg-surface-hover">
-                <CardHeader>
-                  <span className="inline-grid h-10 w-10 place-items-center rounded-xl border border-border bg-bg-subtle text-brand-light">
-                    <Icon className="size-5" />
-                  </span>
-                  <CardTitle className="mt-3">{title}</CardTitle>
-                  <CardDescription>{desc}</CardDescription>
-                </CardHeader>
-              </Card>
+      {/* Protein: a meal typed in plain words, and the day's tally */}
+      <section aria-labelledby="protein-title" className="relative pb-24 pt-12 md:pb-32 md:pt-16">
+        <div className="container grid items-center gap-x-8 gap-y-14 lg:grid-cols-12">
+          <div className="lg:col-span-7">
+            <WriteOn as="h2" className={heading}>
+              <span id="protein-title">Protein, in plain words.</span>
+            </WriteOn>
+            <p className="mt-7 max-w-[34rem] text-lg leading-relaxed text-ink-2">
+              Type what you ate, like &ldquo;2 eggs and toast&rdquo;. AI estimates the calories, protein, carbs and fat. Your daily protein target comes from your body weight.
+            </p>
+
+            <div className="mt-10 max-w-xl">
+              <p className="note text-[1.5rem] leading-snug text-blue md:text-[1.75rem]">&ldquo;Greek yogurt with berries and granola&rdquo;</p>
+              <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
+                <ArrowRight className="w-16 text-blue" />
+                <span className="marker text-[2.5rem] text-ink">410 kcal</span>
+                <span className="note flex gap-4 text-[1.375rem] text-ink-2">
+                  <span>P 28 g</span>
+                  <span>C 52 g</span>
+                  <span>F 9 g</span>
+                </span>
+              </div>
+              <ol className="note mt-10 max-w-md text-[1.375rem] leading-snug text-ink" aria-label="Today's meals, an example from the Diet screen">
+                <li className="flex justify-between gap-4 border-b-2 border-ink/10 py-1.5"><span>Greek yogurt bowl</span><span className="marker">28 g</span></li>
+                <li className="flex justify-between gap-4 border-b-2 border-ink/10 py-1.5"><span>Chicken burrito bowl</span><span className="text-ink-3">+</span></li>
+                <li className="flex justify-between gap-4 border-b-[3px] border-ink/70 py-1.5"><span>Whey shake with a banana</span><span className="text-ink-3">+</span></li>
+                <li className="flex items-baseline justify-between gap-4 pt-2">
+                  <span className="marker text-[1.75rem]">so far</span>
+                  <span className="marker text-[clamp(2.75rem,6vw,3.5rem)] text-red">106 g</span>
+                </li>
+              </ol>
+              <p className="note mt-1 max-w-md text-right text-[1.25rem] text-blue">of 135 g, 29 g to go (1.6 g per kg)</p>
+            </div>
+          </div>
+          <div className="lg:col-span-4 lg:col-start-9">
+            <PhoneFrame
+              screen="diet"
+              alt="GymLedger's Diet tab: 1,355 kcal today with 106 g of 135 g protein, and meals like Greek yogurt with berries and granola"
+              magnets={["black", "blue"]}
+              className="w-[min(72vw,290px)] rotate-[1.5deg]"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Progress: a PR board with the progress screen held over its corner */}
+      <section aria-labelledby="progress-title" className="relative pb-24 md:pb-32">
+        <div className="container">
+          <WriteOn as="h2" className={heading}>
+            <span id="progress-title">Watch the numbers climb.</span>
+          </WriteOn>
+          <p className="mt-7 max-w-[36rem] text-lg leading-relaxed text-ink-2">
+            Strength charts for every exercise and a body-weight chart, so you can spot a stall weeks before it costs you a month.
+          </p>
+
+          <div className="relative mt-12 lg:mt-16">
+            <div className="max-w-[44rem] rounded-[6px] border-[3px] border-ink/85 px-6 pb-7 pt-5 md:px-10 md:pb-10 md:pt-7 lg:mr-[18rem]">
+              <p className="marker text-[2.25rem] uppercase text-red md:text-[2.75rem]">PR board</p>
+              <table className="mt-4 w-full text-left">
+                <caption className="sr-only">Example numbers from the progress screen</caption>
+                <thead>
+                  <tr className="plate-label text-[0.8125rem] text-ink-3">
+                    <th className="pb-2 font-semibold">Lift</th>
+                    <th className="pb-2 font-semibold">Best</th>
+                    <th className="hidden pb-2 font-semibold sm:table-cell">Note</th>
+                  </tr>
+                </thead>
+                <tbody className="text-[1.625rem] md:text-[2rem]">
+                  <tr className="border-t-2 border-ink/15">
+                    <td className="marker py-3 text-ink">Squat</td>
+                    <td className="marker py-3 text-ink">122.5 kg</td>
+                    <td className="note hidden py-3 text-[1.25rem] text-green-ink sm:table-cell">new PR</td>
+                  </tr>
+                  <tr className="border-t-2 border-ink/15">
+                    <td className="marker py-3 text-ink">Body weight</td>
+                    <td className="marker py-3 text-ink">83 kg</td>
+                    <td className="note hidden py-3 text-[1.25rem] text-ink-2 sm:table-cell">+1.2 kg</td>
+                  </tr>
+                  <tr className="border-t-2 border-ink/15">
+                    <td className="marker py-3 text-ink">Sessions</td>
+                    <td className="marker py-3 text-ink">42</td>
+                    <td className="note hidden py-3 text-[1.25rem] text-ink-2 sm:table-cell">since July</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-12 lg:absolute lg:right-6 lg:top-[-4.5rem] lg:mt-0 xl:right-14">
+              <PhoneFrame
+                screen="progress"
+                alt="GymLedger's progress screen: body weight at 83 kg, up 1.2 kg, and a squat chart climbing to 122.5 kg"
+                magnets={["red", "black"]}
+                className="w-[min(72vw,280px)] rotate-[3deg]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Everything else, as a ticked list */}
+      <section aria-labelledby="also-title" className="relative py-24 md:py-28">
+        <div className="container">
+          <WriteOn as="h2" className={heading}>
+            <span id="also-title">Also in the app.</span>
+          </WriteOn>
+          <div className="mt-10 grid max-w-4xl gap-x-16 gap-y-5 md:grid-cols-2">
+            {ALSO.map((col, i) => (
+              <ul key={i} className="space-y-5">
+                {col.map((item) => (
+                  <li key={item} className="flex items-center gap-4">
+                    <CheckBox className="size-9 shrink-0 text-ink" />
+                    <span className="note text-[1.5rem] leading-tight text-ink">{item}</span>
+                  </li>
+                ))}
+              </ul>
             ))}
           </div>
         </div>
       </section>
 
+      {/* Prices, written up large */}
+      <section aria-labelledby="price-title" className="relative py-24 md:py-32">
+        <span aria-hidden className="ghost-writing marker absolute left-[52%] top-16 hidden rotate-3 text-[11rem] uppercase lg:block">
+          Legs
+        </span>
+        <div className="container">
+          <WriteOn as="h2" className={heading}>
+            <span id="price-title">What it costs.</span>
+          </WriteOn>
+          <div className="mt-12 grid max-w-3xl gap-12 sm:grid-cols-2">
+            <div>
+              <p className="marker text-[clamp(3.5rem,7vw,5.25rem)] text-ink">US$2.99</p>
+              <p className="mt-2 text-xl font-semibold text-ink">a month</p>
+              <p className="note mt-1 text-[1.375rem] text-blue">3-day free trial</p>
+            </div>
+            <div>
+              <p className="marker text-[clamp(3.5rem,7vw,5.25rem)] text-ink">US$29.99</p>
+              <p className="mt-2 text-xl font-semibold text-ink">a year</p>
+              <p className="note mt-1 text-[1.375rem] text-blue">7-day free trial</p>
+            </div>
+          </div>
+          <p className="mt-10 max-w-[38rem] text-[0.9375rem] leading-relaxed text-ink-3">
+            Prices are in US dollars. The App Store shows your local price before you buy. Free trials are for new subscribers, and you can cancel any time in your App Store settings.
+          </p>
+          <AppStoreButton className="mt-8" />
+        </div>
+      </section>
+
+      {/* Guides: printed sheets held up by magnets */}
       {posts.length > 0 && (
-        <section aria-labelledby="blog-heading" className="border-t border-border-subtle/60 py-20 md:py-24">
+        <section aria-labelledby="guides-title" className="relative py-24 md:py-28">
           <div className="container">
-            <div className="mx-auto flex max-w-5xl flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
-              <div>
-                <h2 id="blog-heading" className="text-3xl font-bold tracking-tight md:text-4xl">
-                  Guides for lifters
-                </h2>
-                <p className="mt-3 text-fg-secondary">Progressive overload, splits, rest times and more.</p>
-              </div>
-              <Link href="/blog" className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-light">
+            <div className="flex flex-wrap items-end justify-between gap-6">
+              <WriteOn as="h2" className={heading}>
+                <span id="guides-title">Lifting guides.</span>
+              </WriteOn>
+              <Link href="/blog" className="link-ink mb-2 text-lg">
                 All guides
-                <ArrowRight className="size-4" />
               </Link>
             </div>
-            <ul className="mx-auto mt-10 grid max-w-5xl gap-5 md:grid-cols-3">
-              {posts.map((post) => (
-                <li key={post.slug}>
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    className="flex h-full flex-col rounded-2xl border border-border bg-surface p-6 transition-colors hover:border-border-strong hover:bg-surface-hover"
-                  >
-                    <p className="text-xs font-semibold uppercase tracking-widest text-brand-light">{post.category}</p>
-                    <h3 className="mt-3 font-bold leading-snug text-foreground">{post.h1}</h3>
-                    <p className="mt-auto pt-4 text-xs text-fg-muted">{post.readingMinutes} min read</p>
+            <ul className="mt-12 grid gap-10 md:grid-cols-3 md:gap-8">
+              {posts.map((post, i) => (
+                <li key={post.slug} className={["md:-rotate-1", "md:rotate-[0.8deg] md:translate-y-4", "md:-rotate-[0.5deg]"][i]}>
+                  <Link href={`/blog/${post.slug}`} className="sheet press group block h-full p-3 pb-5">
+                    <span aria-hidden className={i % 2 ? "magnet magnet--blue" : "magnet"} style={{ top: -10, left: "calc(50% - 15px)" }} />
+                    {post.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={post.image} alt="" width={1600} height={1000} loading="lazy" decoding="async" className="aspect-[16/10] w-full rounded-[3px] object-cover" />
+                    )}
+                    <span className="mt-4 block px-2 text-lg font-bold leading-snug text-ink group-hover:underline group-hover:decoration-red/60 group-hover:decoration-2 group-hover:underline-offset-4">
+                      {post.h1}
+                    </span>
+                    <span className="mt-2 block px-2 text-sm text-ink-3">
+                      {post.category}, {post.readingMinutes} min read
+                    </span>
                   </Link>
                 </li>
               ))}
@@ -260,23 +328,22 @@ export default function Home() {
         </section>
       )}
 
-      <section className="border-t border-border-subtle/60 py-20 md:py-24">
-        <div className="container">
-          <div className="mx-auto max-w-2xl rounded-3xl border border-border bg-bg-subtle/60 p-8 text-center md:p-12">
-            <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-              Start the next session the right way
-            </h2>
-            <p className="mt-3 text-fg-secondary">
-              Try it free for 7 days on the monthly plan, or buy once for life. Sign in with Apple or Google and you're logging in under a minute.
-            </p>
-            <div className="mt-7 flex justify-center">
-              <Button asChild size="lg" variant="primary">
-                <a href={APP_STORE_URL}>
-                  <Apple className="size-4" />
-                  Download GymLedger
-                </a>
-              </Button>
-            </div>
+      {/* The close */}
+      <section aria-labelledby="close-title" className="relative overflow-hidden py-28 md:py-36">
+        <span aria-hidden className="ghost-writing marker absolute left-[8%] top-12 hidden -rotate-3 text-[10rem] uppercase md:block">
+          Push
+        </span>
+        <div className="container relative text-center">
+          <WriteOn as="h2" className="marker text-[clamp(3rem,8vw,6.5rem)] text-ink">
+            <span id="close-title">
+              See you at the <span className="text-red">gym.</span>
+            </span>
+          </WriteOn>
+          <p className="mx-auto mt-6 max-w-[30rem] text-lg text-ink-2">
+            Open GymLedger and today&apos;s workout is already on top. Free trial for new subscribers.
+          </p>
+          <div className="mt-9 flex justify-center">
+            <AppStoreButton />
           </div>
         </div>
       </section>

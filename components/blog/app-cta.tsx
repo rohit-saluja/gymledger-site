@@ -1,33 +1,23 @@
 import Image from "next/image";
-import { Apple } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { APP_STORE_URL } from "@/lib/site";
+import { AppStoreButton } from "@/components/app-store-button";
 
 export function AppCta({ heading = "Log every set. Watch the numbers climb." }: { heading?: string }) {
   return (
     <aside
       aria-label="Get GymLedger"
-      className="not-prose my-12 flex flex-col items-center gap-5 rounded-3xl border border-border bg-bg-subtle/70 p-6 text-center sm:flex-row sm:p-8 sm:text-left"
+      className="not-prose relative my-14 rounded-[6px] border-[3px] border-ink/85 bg-board px-6 py-8 sm:px-9"
     >
-      <Image
-        src="/images/app-icon-128.webp"
-        alt=""
-        width={64}
-        height={64}
-        className="h-16 w-16 shrink-0 rounded-2xl ring-1 ring-border"
-      />
-      <div className="flex-1">
-        <p className="text-lg font-bold tracking-tight text-foreground">{heading}</p>
-        <p className="mt-1 text-sm text-fg-secondary">
-          GymLedger is a fast, private workout tracker for iPhone: custom splits, a Lock Screen rest timer, and progress charts for every lift.
-        </p>
+      <span aria-hidden className="magnet" style={{ top: -14, right: 28 }} />
+      <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
+        <Image src="/images/app-icon-128.webp" alt="" width={64} height={64} className="size-16 shrink-0 rounded-[16px] shadow-[0_6px_14px_-6px_rgb(40_46_56/0.45)]" />
+        <div className="flex-1">
+          <p className="marker text-[1.875rem] leading-tight text-ink">{heading}</p>
+          <p className="mt-2 text-[0.9375rem] leading-relaxed text-ink-2">
+            GymLedger is a workout tracker for iPhone: custom splits, a rest timer on your Lock Screen, a recovery body map and protein tracking in plain words.
+          </p>
+        </div>
       </div>
-      <Button asChild size="md" variant="primary" className="shrink-0">
-        <a href={APP_STORE_URL}>
-          <Apple className="size-4" />
-          Get the app
-        </a>
-      </Button>
+      <AppStoreButton className="mt-6" />
     </aside>
   );
 }

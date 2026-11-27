@@ -1,53 +1,41 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Apple } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { APP_STORE_URL } from "@/lib/site";
+import { AppStoreButton } from "@/components/app-store-button";
+
+const NAV = [
+  { href: "/blog", label: "Blog" },
+  { href: "/support", label: "Support" },
+];
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border-subtle/70 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5" aria-label="GymLedger home">
-          <span className="grid h-8 w-8 place-items-center overflow-hidden rounded-lg bg-surface ring-1 ring-border">
-            <Image
-              src="/images/app-icon-128.webp"
-              alt=""
-              width={32}
-              height={32}
-              priority
-              className="h-7 w-7 object-cover"
-            />
-          </span>
-          <span className="text-base font-semibold tracking-tight text-foreground">
-            GymLedger
-          </span>
+    <header className="sticky top-0 z-40 w-full rounded-t-[inherit] border-b border-rule/80 bg-board/95 supports-[backdrop-filter]:bg-board/85 supports-[backdrop-filter]:backdrop-blur-sm">
+      <div className="container flex h-[68px] items-center justify-between">
+        <Link href="/" className="press flex items-center gap-2.5" aria-label="GymLedger home">
+          <Image
+            src="/images/app-icon-128.webp"
+            alt=""
+            width={34}
+            height={34}
+            priority
+            className="size-[34px] rounded-[9px] shadow-[0_2px_3px_rgb(40_46_56/0.25),0_6px_12px_-4px_rgb(40_46_56/0.3)]"
+          />
+          <span className="text-[1.1875rem] font-extrabold tracking-tight text-ink">GymLedger</span>
         </Link>
 
-        <div className="flex items-center gap-1.5 md:gap-4">
-          <nav aria-label="Primary" className="hidden items-center gap-5 text-sm md:flex">
-            <Link href="/blog" className="text-fg-secondary transition-colors hover:text-foreground">
-              Blog
-            </Link>
-            <Link href="/support" className="text-fg-secondary transition-colors hover:text-foreground">
-              Support
-            </Link>
-            <Link href="/privacy" className="text-fg-secondary transition-colors hover:text-foreground">
-              Privacy
-            </Link>
-            <Link href="/terms" className="text-fg-secondary transition-colors hover:text-foreground">
-              Terms
-            </Link>
+        <div className="flex items-center gap-1 sm:gap-3">
+          <nav aria-label="Primary" className="flex items-center">
+            {NAV.map((item, i) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`${i > 0 ? "hidden sm:inline-block" : ""} rounded-md px-2.5 py-2 text-[0.9375rem] font-semibold text-ink-2 transition-colors hover:text-ink sm:px-3`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
-          <Link href="/blog" className="px-2 text-sm text-fg-secondary transition-colors hover:text-foreground md:hidden">
-            Blog
-          </Link>
-          <Button asChild size="sm" variant="primary">
-            <a href={APP_STORE_URL}>
-              <Apple className="size-4" />
-              Download
-            </a>
-          </Button>
+          <AppStoreButton size="sm" />
         </div>
       </div>
     </header>

@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Use",
   alternates: { canonical: "/terms" },
-  description: "The agreement between you and GymLedger when you use the app.",
+  description: "The terms of use for GymLedger, the iPhone workout tracker: your account, subscriptions and free trials, acceptable use, and your data.",
   openGraph: {
     title: "Terms of Use · GymLedger",
-    description: "The agreement between you and GymLedger when you use the app.",
+    description: "The terms of use for GymLedger, the iPhone workout tracker: your account, subscriptions and free trials, acceptable use, and your data.",
     type: "article",
   },
 };
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="container py-16 md:py-20">
-      <article className="prose-doc">
+      <article className="prose-doc sheet px-6 py-10 md:px-14 md:py-14">
         <h1>Terms of Use &amp; End-User License Agreement</h1>
 
         <p><em>Last updated: 21 April 2026</em></p>

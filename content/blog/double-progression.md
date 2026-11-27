@@ -1,16 +1,21 @@
 ---
 title: "Double Progression Method Explained (With Examples)"
 h1: "Double Progression: The Easiest Way to Keep Getting Stronger (With Examples)"
-description: "The double progression method explained simply: pick a rep range, add reps, then add weight. See multi-week kg and lb examples and fix stalls on dumbbells."
-keyword: "double progression method explained"
-keywords: "double progression rep range, how to add weight with double progression, double progression example"
+description: "The double progression method in plain steps: pick a rep range, add reps, then add weight. 8-week kg and lb examples, the dynamic version, and fixes for stalls."
+keyword: "double progression method"
+keywords: "double progression rep range, double progression example, dynamic double progression, how to add weight with double progression"
 category: "Progressive Overload"
 date: "2026-10-14"
+updated: "2026-11-27"
+image: "/blog/double-progression/hero.webp"
+imageAlt: "Man pressing a pair of dumbbells on a flat bench in a gym"
+imageCredit: "Alesia  Kozik"
+imageCreditUrl: "https://www.pexels.com/photo/a-man-doing-a-dumbbell-chest-press-7289250/"
 ---
 
 Here is the double progression method explained in one line: pick a rep range, keep the weight the same until you hit the top of the range on every set, then add a small amount of weight and start again from the bottom. You progress reps first and weight second, which is why it is called "double" progression. It works for almost any exercise and needs nothing more than an honest log.
 
-This guide covers how the method works, how to choose a double progression rep range, a full multi-week example in kg and lb, how to handle big dumbbell jumps, and when it is time to switch to something else.
+This guide covers how the method works, how hard each set should be, how to choose a double progression rep range, a full multi-week example in kg and lb, the faster "dynamic" version, how to handle big dumbbell jumps, and when it is time to switch to something else. It all depends on keeping an honest record, which our pillar guide on [how to track progressive overload](/blog/how-to-track-progressive-overload) covers set by set.
 
 ## What is double progression?
 
@@ -40,6 +45,8 @@ Let's walk through the decision you make for each exercise, every session. This 
 
 Example: dumbbell bench press, **3 sets of 8 to 12 reps**.
 
+Two to four working sets per exercise is the usual range. Keep an eye on the weekly total for each muscle as well. If chest already gets 12 hard sets a week from three exercises, you'll usually get more from adding reps and weight to those sets than from adding a fourth set of dumbbell press. Our guide on [how many sets per muscle group per week](/blog/how-many-sets-per-muscle-group-per-week) helps you set that total.
+
 ### Step 2: Pick a starting weight
 
 Choose a weight where you can get **at least 8 reps on every set** with good form, but not much more than 10 on the first set. If you get 12 or more on the first set, the weight is too light. If you cannot get 8, it is too heavy.
@@ -58,9 +65,20 @@ When you earn a weight increase, use the smallest jump your equipment allows. Fo
 
 Then go back to Step 3. You will likely land near the bottom of the range, and the climb begins again.
 
+### How hard should each set be?
+
+Double progression only works if "one more rep" means something. Stop every set with five easy reps left and you can add reps for weeks without getting any stronger, because you were never near your limit. Grind every set to failure and the opposite happens: set 1 hits 10, then sets 2 and 3 collapse to 7 and 6, and you never earn the jump.
+
+A practical middle is to end most working sets with **1 to 3 reps in reserve**, roughly RPE 7 to 9. That's close enough to failure to build muscle and strength, with enough left to keep later sets inside the range. Isolation exercises can go a little closer, since a missed curl rep costs you very little. Keep heavy squats and deadlifts at the conservative end. If the scale is new to you, our [RPE chart](/blog/rpe-chart) explains how to rate a set.
+
+Whatever target you pick, keep it the same from week to week. If last week's 10 reps were at RPE 7 and this week's 11 were at RPE 10, the extra rep came from trying harder, and your log can't tell that apart from getting stronger.
+
 ## Double progression example: 8 weeks in kg and lb
 
 Here is a realistic double progression example for a barbell bench press, 3 sets of **6 to 10 reps**, trained once per week. The lifter adds 2.5 kg (5 lb) when all three sets reach 10.
+
+![Lifter pressing a loaded barbell on a flat bench in a gym](/blog/double-progression/bench-press.webp)
+*Photo: [Andrea Piacquadio](https://www.pexels.com/photo/strong-sportsman-doing-bench-press-during-workout-in-modern-gym-3837743/) on Pexels*
 
 ### Kilograms
 
@@ -147,13 +165,34 @@ The cleanest trigger is **all sets at the top of the range, with good form**. So
 
 Always use the smallest jump you have, especially on upper-body lifts. If plate math in a kg gym is new to you, our guide on [how to load a barbell in kg](/blog/how-to-load-a-barbell-in-kg) covers the common plate combinations.
 
-### Different sets, different weights
+## Dynamic double progression: one set at a time
 
-Some lifters handle a weight jump one set at a time. For example, after hitting 3 x 10 at 60 kg, they do set 1 at 62.5 kg and sets 2 and 3 at 60 kg. Over the next sessions, more sets move to the heavier weight. This smooths out the jump and works well for lifters who find a full reset frustrating. Just log each set's weight accurately.
+The version above is sometimes called basic or standard double progression: every set has to reach the top of the range before any of them gets heavier. Dynamic double progression treats each set on its own. When a set hits the top of the range, that set gets heavier next session, while the other sets stay where they are until they earn it too.
+
+Here it is on a cable row, 3 sets of 8 to 12, with a 5 kg (10 lb) pin jump:
+
+| Session | kg | lb | What changed |
+|---|---|---|---|
+| 1 | 50 x 12, 50 x 11, 50 x 10 | 110 x 12, 110 x 11, 110 x 10 | Set 1 hit 12 |
+| 2 | 55 x 9, 50 x 12, 50 x 11 | 120 x 9, 110 x 12, 110 x 11 | Set 1 heavier; set 2 hit 12 |
+| 3 | 55 x 10, 55 x 8, 50 x 12 | 120 x 10, 120 x 8, 110 x 12 | Set 2 heavier; set 3 hit 12 |
+| 4 | 55 x 11, 55 x 9, 55 x 8 | 120 x 11, 120 x 9, 120 x 8 | All sets on the new weight |
+
+Under basic double progression, this lifter would still be waiting for 12, 12, 12 at 50 kg (110 lb). Dynamic progression gets every set onto the heavier weight sooner, and no set ever drops below the bottom of the range.
+
+### Which version should you use?
+
+- **Basic** is simpler to run and read, and it's the safer pick for heavy barbell compounds, where a set that's too heavy costs more than a few reps.
+- **Dynamic** suits machines, cables and dumbbells, where jumps are large and sets 2 and 3 tend to lag well behind set 1.
+
+The cost of the dynamic version is bookkeeping. One exercise can have two different weights in the same session, so log each set's weight on its own line rather than writing "3 x 10 at 60 kg".
 
 ## The small-increment problem with dumbbells
 
 Dumbbells are where double progression gets tricky. Many gyms jump in 2 kg or 2.5 kg steps per hand, or 5 lb steps in pound gyms. On light exercises, that is a huge relative increase.
+
+![Rack of black rubber dumbbells in a gym, lighter pairs at the front](/blog/double-progression/dumbbell-rack.webp)
+*Photo: [Jason Morrison](https://www.pexels.com/photo/a-row-of-dumbbells-in-a-gym-19025674/) on Pexels*
 
 ### Why the jump hurts
 
@@ -168,8 +207,8 @@ If you were doing 3 x 15 at 8 kg, you might only manage 8 or 9 reps at 10 kg. Wi
 
 1. **Widen the range.** Use 12 to 20 or even 15 to 25 on small isolation lifts. A wide range means the rep drop after a jump still lands inside it.
 2. **Go past the top before jumping.** On isolation work, it is fine to push to 18 or 20 reps before moving up, even if your nominal range is 12 to 15.
-3. **Add a set before adding weight.** Move from 3 sets to 4 at the same weight, then jump and drop back to 3.
-4. **Move one set up at a time.** Do your first set with the heavier dumbbell and the rest with the lighter one until all sets reach the bottom of the range.
+3. **Add a set before adding weight.** Move from 3 sets to 4 at the same weight, then jump and drop back to 3. Some coaches call this triple progression, since sets become a third variable.
+4. **Move one set up at a time.** This is the dynamic version from the previous section: do your first set with the heavier dumbbell and the rest with the lighter one until all sets reach the bottom of the range.
 5. **Use add-on weights if your gym has them.** Small magnetic add-on plates for dumbbells exist and help a lot, but not every gym stocks them.
 6. **Switch to a cable or machine** for that muscle if the stack has finer steps.
 
@@ -177,7 +216,7 @@ Also decide once whether you record dumbbells per hand or as a total, and keep i
 
 ### Dumbbell example: incline press in kg and lb
 
-Here is a double progression example on a dumbbell incline press, 3 sets of 8 to 12, with a 2 kg (5 lb) per-hand jump and a "one set at a time" approach.
+Here is a double progression example on a dumbbell incline press, 3 sets of 8 to 12, with a 2 kg (5 lb) per-hand jump, run one set at a time.
 
 | Session | kg (per hand) | lb (per hand) | Decision |
 |---|---|---|---|
@@ -227,10 +266,12 @@ Double progression can carry most lifters a long way. Still, there are signs it 
 
 ### What to try instead
 
-1. **Take a deload first.** A lighter week often restarts progress without changing anything else. Many apparent plateaus are just accumulated fatigue.
+1. **Take a deload first.** A lighter week often restarts progress without changing anything else. Many apparent plateaus are just accumulated fatigue. Our [deload week](/blog/deload-week) guide covers how to run one.
 2. **Change the rep range.** Moving a lift from 6 to 10 to 4 to 6, or the reverse, gives a new stimulus and a fresh set of rep targets.
 3. **Change the exercise variation** for a training block and run double progression on the new lift.
 4. **Add a structured program.** Intermediates sometimes move to programs with planned weekly changes in load and reps (often called periodization). Double progression can still run on accessory lifts inside those programs.
+
+Double progression is one way to overload among several. For others, applied to the bench press, squats, dumbbells and push-ups, see our [progressive overload examples](/blog/progressive-overload-examples).
 
 If your plateau is tied to your schedule, the issue may be your split rather than the method. Our guide to [building your own workout split](/blog/how-to-build-your-own-workout-split) helps you rebalance frequency and volume.
 
@@ -240,12 +281,12 @@ With the double progression method explained, here is how to start it in your ne
 
 1. **Assign a rep range to each exercise.** Use 5 to 8 for heavy compounds, 8 to 12 for secondary compounds, and 12 to 20 for isolation.
 2. **Pick a starting weight** that gets you into the middle of the range on your first set.
-3. **Log every working set.** Weight and reps, every time.
+3. **Log every working set.** Weight and reps, every time, with most sets ending 1 to 3 reps short of failure.
 4. **Apply the rule.** All sets at the top of the range means add the smallest jump. Otherwise, same weight and aim for one more rep.
 5. **Fix dumbbell jumps** with wider ranges, extra sets, or moving one set up at a time.
 6. **Review every month.** If the weight on a lift has not moved in three or four weeks, deload or change one variable.
 
-The method is simple enough to run from a notebook, and an app like [GymLedger](/) makes the history easier to check between sets. Either way, the double progression method only asks one thing of you: beat last time by a little.
+The method is simple enough to run from a notebook, and an app like [GymLedger](/) makes the history easier to check between sets. Either way, the double progression method asks one thing of you: beat last time by a little.
 
 ## Frequently asked questions
 
@@ -264,6 +305,10 @@ Add the smallest increment your equipment allows. On a barbell, that is usually 
 ### Is double progression good for beginners?
 
 Yes, although many complete beginners can simply add weight every session for the first few months. Double progression becomes most useful once those simple weight increases start causing missed reps. It is also a good choice for beginners training with dumbbells or machines, where weight jumps are large. The rules are simple, which makes it easy to follow from a basic training log.
+
+### What is dynamic double progression?
+
+Dynamic double progression applies the same rule to each set separately. When one set reaches the top of the rep range, only that set gets heavier next session, while the other sets keep building reps at the old weight. It moves you onto heavier loads sooner than waiting for every set to max out, and it works especially well on dumbbells, cables and machines, where weight jumps are large.
 
 ### What should I do if I stall on double progression?
 

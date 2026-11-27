@@ -1,16 +1,21 @@
 ---
 title: "How to Log Dumbbell Weight Per Hand or Total"
 h1: "Log Dumbbells Per Hand or Total? A Consistent Rule for Your Workout Log"
-description: "How to log dumbbell weight per hand or total, plus single-arm sets, cables, machines and bodyweight moves. One simple rule keeps your progress charts honest."
+description: "How to log dumbbell weight per hand or total, plus lunges, single-arm sets, cables and bodyweight moves. One rule that keeps your exercise workout log honest."
 keyword: "how to log dumbbell weight per hand or total"
-keywords: "log dumbbell exercises, dumbbell weight tracking, single-arm exercises log"
+keywords: "log dumbbells per hand or total, dumbbell weight per hand, exercise workout log, log dumbbell exercises, single-arm exercises log"
 category: "Equipment"
 date: "2026-10-14"
+updated: "2026-11-27"
+image: "/blog/log-dumbbells-per-hand-or-total/hero.webp"
+imageAlt: "Pair of black hex dumbbells resting on a wooden plyo box in a dark gym"
+imageCredit: "Paulina Kłys"
+imageCreditUrl: "https://www.pexels.com/photo/dumbbells-on-wooden-box-in-fitness-gym-36090935/"
 ---
 
 If you are wondering how to log dumbbell weight per hand or total, the short answer is: **log the weight of one dumbbell**. If you press a pair of 24 kg (50 lb) dumbbells, write 24 kg (50 lb), not 48 kg (100 lb). It matches the number stamped on the dumbbell, it works the same for one-arm and two-arm exercises, and it is what most lifters and coaches mean when they say "I pressed the 24s."
 
-The bigger rule behind it matters more than the choice itself: pick one convention, apply it to every dumbbell exercise, and never switch mid-history. A workout log is only useful if today's number can be compared with last month's.
+The bigger rule behind it matters more than the choice itself: pick one convention, apply it to every dumbbell exercise, and never switch mid-history. An exercise workout log is only useful if today's number can be compared with last month's.
 
 ## Why consistency matters more than the convention
 
@@ -36,6 +41,9 @@ Here is the case for per hand as your default for dumbbell weight tracking.
 
 Say you are doing dumbbell shoulder press with a pair of 20 kg (45 lb) dumbbells for 3 sets of 10.
 
+![Two lifters doing dumbbell presses side by side on adjustable benches in a gym](/blog/log-dumbbells-per-hand-or-total/dumbbell-press.webp)
+*Photo: [Fernando Capetillo](https://www.pexels.com/photo/people-weight-training-in-modern-gym-setting-38576478/) on Pexels*
+
 | What you log | Per hand (recommended) | Total |
 |---|---|---|
 | Weight | 20 kg (45 lb) | 40 kg (90 lb) |
@@ -54,6 +62,23 @@ There are a few situations where total load is the more natural number.
 
 If you go with total for any exercise, make it obvious. A custom exercise called "DB Bench Press (total)" removes any chance of confusion when you look back a year later.
 
+## What workout apps tell you to do
+
+App makers don't agree on how to log dumbbell weight per hand or total either, which is part of why lifters get confused. A few examples from their own help pages:
+
+- [StrengthLog](https://help.strengthlog.com/?p=1085) asks for the weight of one dumbbell on upper-body moves like the dumbbell chest press, but the **combined** weight of both dumbbells on lunges, because each working leg carries both. You log one side's reps, and the app doubles the volume itself so dumbbell and barbell work stay comparable.
+- [Moves](https://intercom.help/moves-app/en/articles/9627435-do-i-log-weight-per-hand-or-combined-weight-for-an-exercise) treats per hand and combined as equally valid and asks you to pick one and stick to it.
+
+So before you settle on a rule, check two things in the app you use: what number its exercise screen expects, and whether it doubles anything behind the scenes. If it already doubles dumbbell volume and you also log totals, every dumbbell exercise gets counted twice over. If you're still choosing an app, our roundup of the [best apps to track workouts](/blog/best-app-to-track-workouts) compares the main options.
+
+### What your choice does to volume
+
+Volume is weight × reps × sets. Logging per hand means your dumbbell volume is half the iron you actually moved. Three sets of 10 with a pair of 20 kg dumbbells is 600 kg (1,350 lb) of logged volume per hand, against 1,200 kg (2,700 lb) if you log the total.
+
+That's fine as long as you compare dumbbell bench with dumbbell bench. It only misleads when you add dumbbell and barbell volume together, for example when you count weekly chest volume across both. If that comparison matters to you, either log totals for dumbbell presses (and name them that way) or compare sets instead of kilograms. Counting hard sets per muscle is how most coaches judge training volume anyway; our guide to [how many sets per muscle group per week](/blog/how-many-sets-per-muscle-group-per-week) works that way.
+
+GymLedger's dashboard shows your weekly volume. Like any app's volume figure, it's built from the numbers you enter, so one rule applied everywhere keeps it comparable from week to week.
+
 ## Unilateral exercises: weight and reps per side
 
 Single-arm and single-leg exercises are where most logs get messy. A clean single-arm exercises log needs two decisions: how to record the weight and how to record the reps.
@@ -61,6 +86,15 @@ Single-arm and single-leg exercises are where most logs get messy. A clean singl
 ### Weight on unilateral exercises
 
 Log the weight of the dumbbell in your working hand. For a one-arm dumbbell row with a 32 kg (70 lb) dumbbell, log 32 kg (70 lb). For Bulgarian split squats holding two 16 kg (35 lb) dumbbells, log 16 kg (35 lb), because you are still following the per-hand rule.
+
+![Lifter doing a one-arm dumbbell row with one knee and one hand braced on a flat bench](/blog/log-dumbbells-per-hand-or-total/single-arm.webp)
+*Photo: [Connor Scott McManus](https://www.pexels.com/photo/woman-in-sportswear-lifting-dumbbell-inside-a-gym-12890887/) on Pexels*
+
+### The lunge exception
+
+Lunges and split squats are the one place where logging the total has a real argument behind it. Your front leg carries both dumbbells, so the load on that leg is 32 kg (70 lb), not 16 kg. That's StrengthLog's reasoning for asking for the combined weight on lunges.
+
+Both rules work. Per hand keeps one rule for every dumbbell exercise, which is easier to remember at the rack. Total describes the load on the working leg more honestly and lines up with a barbell lunge, where you'd log the whole bar. Pick one for all your lunge and split-squat variations and put it in the exercise name if it's the exception, such as "DB Walking Lunge (total)".
 
 ### Reps on unilateral exercises
 
@@ -76,8 +110,8 @@ If your sides do not match, log the weaker side's reps. If your left arm gets 8 
 |---|---|---|
 | One-arm dumbbell row | Weight of the one dumbbell | Reps per arm |
 | Single-arm dumbbell press | Weight of the one dumbbell | Reps per arm |
-| Bulgarian split squat (two DBs) | Weight of one dumbbell | Reps per leg |
-| Walking lunge (two DBs) | Weight of one dumbbell | Reps per leg (or steps per leg) |
+| Bulgarian split squat (two DBs) | Weight of one dumbbell (or the total, if that's your lunge rule) | Reps per leg |
+| Walking lunge (two DBs) | Weight of one dumbbell (or the total, if that's your lunge rule) | Reps per leg (or steps per leg) |
 | Alternating dumbbell curl | Weight of one dumbbell | Reps per arm |
 | Single-arm cable row | Stack number | Reps per arm |
 
@@ -90,6 +124,11 @@ Cable stacks and selectorized machines raise a different problem: the number on 
 ### Log the number you select
 
 For cables and machines, log exactly what the stack says, whether that is kg, lb, or a plate number like "7". You are tracking progress on that machine, and the stack number is the only thing you can reproduce next session.
+
+![Selectorized weight stack with each plate marked in both pounds and kilograms, pin set at 45 kg](/blog/log-dumbbells-per-hand-or-total/weight-stack.webp)
+*Photo: [大 董](https://www.pexels.com/photo/close-up-of-gym-weight-stack-in-fitness-center-40371839/) on Pexels*
+
+Stacks like this one print both units on every plate. Pick the one that matches the rest of your log and ignore the other.
 
 Don't try to convert stack numbers to "real" kilograms. Pulley ratios, friction, and machine design mean a "50 kg" lat pulldown on one brand can feel very different on another. Converting adds false precision.
 
@@ -160,7 +199,7 @@ On a lateral raise, moving from 8 kg to 10 kg (about 17.5 lb to 22.5 lb) is a 25
 
 Pound values are the nearest standard lb dumbbell, not exact conversions.
 
-The practical fix is to work across a wider rep range before you jump. If your target is 8-12 reps, build up to 12 or even 15 clean reps with the current dumbbell, then move up and accept starting at the bottom of the range. This is exactly the logic behind [double progression](/blog/double-progression).
+The practical fix is to work across a wider rep range before you jump. If your target is 8-12 reps, build up to 12 or even 15 clean reps with the current dumbbell, then move up and accept starting at the bottom of the range. This is exactly the logic behind [double progression](/blog/double-progression), and our [progressive overload examples](/blog/progressive-overload-examples) walk through more week-by-week progressions, dumbbell lifts included.
 
 ### Don't mix units in one exercise
 
@@ -180,7 +219,7 @@ GymLedger lets you create custom exercises, which is useful precisely because yo
 4. **Include the machine or location when it matters.** "Leg Press (plates per side)", "Chest Press (office gym)".
 5. **Never rename an exercise to mean something different.** If you change convention, create a new exercise rather than redefining the old one.
 
-A short naming system like this takes five minutes to set up and saves you from ever wondering what a number in your log meant.
+A short naming system like this takes five minutes to set up and saves you from ever wondering what a number in your log meant. The same rules work on paper or in a spreadsheet; see [how to keep a workout log](/blog/workout-log-template) for a template you can copy.
 
 ## Keeping your progress charts accurate
 
@@ -191,7 +230,7 @@ A per-exercise strength chart is only as good as the data in it. Here is how to 
 - **Change exercises, not definitions.** If you switch from flat to a slight incline, that's a new exercise with its own chart.
 - **Watch for sudden spikes.** A one-session doubling of weight on a dumbbell exercise almost always means a per-hand/total mix-up. Fix it straight away while you remember.
 
-GymLedger shows per-exercise strength progress charts and personal bests, which makes this easy to spot: a jump that looks too good to be true on a dumbbell exercise usually is a logging error. For the bigger picture on tracking progress, see [how to track progressive overload](/blog/how-to-track-progressive-overload).
+GymLedger draws a strength chart for every exercise, which makes this easy to spot: a jump that looks too good to be true on a dumbbell exercise usually is a logging error. For the bigger picture on tracking progress, see [how to track progressive overload](/blog/how-to-track-progressive-overload).
 
 ## How to fix old, inconsistent logs
 
@@ -217,7 +256,7 @@ Here is the full rule set in one place, so you can apply it to every way you log
 
 1. **Dumbbells:** log the weight of one dumbbell (per hand).
 2. **Single dumbbell, two hands:** log that dumbbell's weight.
-3. **Unilateral exercises:** log the dumbbell in the working hand and reps per side; if sides differ, log the weaker side.
+3. **Unilateral exercises:** log the dumbbell in the working hand and reps per side; if sides differ, log the weaker side. For lunges and split squats, per hand or total both work, as long as every lunge variation uses the same one.
 4. **Cables and machines:** log the stack number exactly as shown; for double cables, one side.
 5. **Plate-loaded machines:** log plates per side (or total), but always the same way.
 6. **Bodyweight:** log 0 or blank; for weighted versions, log only the added load.
@@ -245,9 +284,9 @@ No. Log zero or leave the weight blank for bodyweight sets, and track reps. For 
 
 Log the number on the stack exactly as shown, whether it is kilograms, pounds, or a plain plate number. Do not try to convert it to a true weight, because pulley ratios and machine design vary between brands. For two-handle cable exercises, log one side's stack setting. Keep using the same machine for that exercise so the numbers stay comparable.
 
-### Why do dumbbell jumps feel so much harder than barbell jumps?
+### Should I log the total weight for dumbbell lunges?
 
-Because the percentage increase is much larger. Moving from an 8 kg to a 10 kg dumbbell (about 17.5 lb to 22.5 lb) is a 25% jump, while adding 2.5 kg to a 100 kg barbell is only 2.5%. Build up more reps with your current dumbbell before moving up, and expect to start the heavier weight at the bottom of your rep range.
+You can. On lunges and split squats your front leg carries both dumbbells, so the total (32 kg for a pair of 16s) describes the load on that leg better, and some apps such as StrengthLog ask for it. Logging one dumbbell also works and keeps a single rule for all dumbbell work. Pick one for every lunge variation and note it in the exercise name if it's your exception.
 
 ### What should I do if my old dumbbell logs mix per hand and total?
 
