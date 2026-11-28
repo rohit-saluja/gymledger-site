@@ -60,7 +60,24 @@ fi
 
 rm -rf out
 npx next build
-npx wrangler deploy
+
+# The Mac can still be getting its network back when the job starts after
+# sleep, so retry the deploy a few times (waits of 1, 2, 4 and 8 minutes)
+# before giving up. A run that still fails leaves the state file alone, so
+# the next run retries the same posts.
+DEPLOY_ATTEMPTS=${GYMLEDGER_DEPLOY_ATTEMPTS:-5}
+attempt=1
+wait_s=60
+until npx wrangler deploy; do
+  if [ "$attempt" -ge "$DEPLOY_ATTEMPTS" ]; then
+    log "wrangler deploy failed $attempt times; giving up until the next run"
+    exit 1
+  fi
+  log "wrangler deploy failed (attempt $attempt of $DEPLOY_ATTEMPTS); retrying in $((wait_s / 60)) min"
+  sleep "$wait_s"
+  attempt=$((attempt + 1))
+  wait_s=$((wait_s * 2))
+done
 
 # Tell Bing and other IndexNow engines about the new pages and the updated lists.
 KEY=$(sed -n 's/.*INDEXNOW_KEY = "\([a-f0-9]*\)".*/\1/p' lib/site.ts)
